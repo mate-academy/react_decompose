@@ -2,6 +2,11 @@
 
 ## Task
 
+There are `App.js` with some content.
+Split it to several components. CSS should be split too.
+Create separate folder in `components` folder for each component, there should be `js` and `css` files.
+Finally you should have 3 - 5 new components.
+
 ## Workflow
 
 - Fork the repository with task
