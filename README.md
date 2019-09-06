@@ -58,4 +58,5 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: `[DEMO LINK](https://igaryok.github.io/react_decompose/)`
+-[DEMO LINK](https://igaryok.github.io/react_decompose/)
+-[PR](https://github.com/mate-academy/react_decompose/pull/9)
