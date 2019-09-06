@@ -6,11 +6,11 @@ import Article from './components/article/article';
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Welcome />
       <Header />
       <Article />
-    </React.Fragment>
+    </>
   );
 }
 
