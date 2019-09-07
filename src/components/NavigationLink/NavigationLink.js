@@ -3,9 +3,13 @@ import './NavigationLink.scss';
 
 const NavigationLink = (props) => {
   return (
-    props.navItem.map(item => (
-      <a className="navigation__link" href={item.href}>{item.name}</a>
-    ));
+    props.navItem
+      .map(item => (
+        <a className="navigation__link" href={item.href}>
+          {item.name}
+        </a>
+      ))
+  );
 };
 
 export default NavigationLink;
