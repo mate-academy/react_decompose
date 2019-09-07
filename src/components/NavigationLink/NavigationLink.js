@@ -1,21 +1,9 @@
 import React from 'react';
 import './NavigationLink.scss';
 
-const navigationList = [
-  {
-    name: 'About', href: '#',
-  },
-  {
-    name: 'Services', href: '#',
-  },
-  {
-    name: 'Contact', href: '#',
-  },
-];
-
-const NavigationLink = () => {
+const NavigationLink = (props) => {
   return (
-    navigationList
+    props.navItem
       .map(item =>
         <a className="navigation__link" href={item.href}>{item.name}</a>)
   );
