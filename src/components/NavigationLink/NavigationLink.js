@@ -2,15 +2,22 @@ import React from 'react';
 import './NavigationLink.scss';
 
 const navigationList = [
-  'About',
-  'Services',
-  'Contact',
+  {
+    name: 'About', href: '#',
+  },
+  {
+    name: 'Services', href: '#',
+  },
+  {
+    name: 'Contact', href: '#',
+  },
 ];
 
 const NavigationLink = () => {
   return (
     navigationList
-      .map(item => <a className="navigation__link" href="#">{item}</a>)
+      .map(item =>
+        <a className="navigation__link" href={item.href}>{item.name}</a>)
   );
 };
 
