@@ -1,5 +1,5 @@
-import React from 'react';
-import './header.css';
+import React from './node_modules/react';
+import './Header.css';
 
 const linkText = ['About', 'Services', 'Contact'];
 
