@@ -13,7 +13,7 @@
 }
 
 .article__paragraph:not(:first-child) {
-  margin-top: 1em;
+  margin-top: .7em;
 }
 
 @media (min-width: 500px) {
