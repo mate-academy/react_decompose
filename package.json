@@ -1,11 +1,11 @@
 {
+  "homepage": "http://Rafler.github.io/react_decompose",
   "name": "react_task-boilerplate-ci",
   "version": "0.1.0",
   "private": true,
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
-  "homepage": ".",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
