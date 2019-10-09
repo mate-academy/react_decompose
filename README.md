@@ -42,7 +42,7 @@ Finally you should have 3 - 5 new components.
 - Execute `npm run deploy`. This command will push the `/build` folder to branch
   `gh-pages` in your remote repository. 
 - Add links to your demo in readme.md.
-  - `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)` - this will be a 
+  - `[DEMO LINK](https://OlegSemko.github.io/react_decompose/)` - this will be a 
   link to your index.html
 - Commit and push all recent changes again.
 - Create `Pull Request` from forked repo `(<branch_name>)` to original repo 
@@ -58,4 +58,4 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)`
+Add link here: [DEMO LINK](https://OlegSemko.github.io/react_decompose/)
