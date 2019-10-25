@@ -1,5 +1,7 @@
 # Base template for React
 
+- [LINK](https://dsrtf0x-git.github.io/react_decompose/)
+
 ## Task
 
 There are `App.js` with some content.
@@ -58,4 +60,4 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: `[DEMO LINK](https://<your_account>.github.io/<repo_name>/)`
+- [LINK](https://dsrtf0x-git.github.io/react_decompose/)
