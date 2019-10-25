@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react_decompose/static/css/main.474d1e22.chunk.css",
+    "main.js": "/react_decompose/static/js/main.7557e88c.chunk.js",
+    "main.js.map": "/react_decompose/static/js/main.7557e88c.chunk.js.map",
+    "runtime~main.js": "/react_decompose/static/js/runtime~main.f15862fb.js",
+    "runtime~main.js.map": "/react_decompose/static/js/runtime~main.f15862fb.js.map",
+    "static/js/2.fdcae455.chunk.js": "/react_decompose/static/js/2.fdcae455.chunk.js",
+    "static/js/2.fdcae455.chunk.js.map": "/react_decompose/static/js/2.fdcae455.chunk.js.map",
+    "index.html": "/react_decompose/index.html",
+    "precache-manifest.dc23bfe6e30d0846f1f02dbb40bf20cf.js": "/react_decompose/precache-manifest.dc23bfe6e30d0846f1f02dbb40bf20cf.js",
+    "service-worker.js": "/react_decompose/service-worker.js",
+    "static/css/main.474d1e22.chunk.css.map": "/react_decompose/static/css/main.474d1e22.chunk.css.map"
+  }
+}
