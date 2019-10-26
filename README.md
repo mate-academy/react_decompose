@@ -58,4 +58,4 @@ You should be writing code in `src/` directory.
 
 **Result**
 
-- [DEMO LINK](https://crazynoodl.github.io/react_decompose/build/index.html/)
+- [DEMO LINK](https://crazynoodl.github.io/react_decompose/build/index.html)
