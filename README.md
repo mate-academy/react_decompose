@@ -56,6 +56,6 @@ Finally you should have 3 - 5 new components.
 
 You should be writing code in `src/` directory.
 
-### Demo link
+**Result**
 
-Add link here: `[DEMO LINK](https://crazynoodl.github.io/react_decompose/build/index.html/)`
+- [DEMO LINK](https://crazynoodl.github.io/react_decompose/build/index.html/)
