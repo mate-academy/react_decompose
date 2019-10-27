@@ -58,4 +58,4 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: `[LINK](https://nikakarelets.github.io/react_decompose/)`
+[LINK](https://nikakarelets.github.io/react_decompose/)
