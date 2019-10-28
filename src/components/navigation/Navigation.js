@@ -3,13 +3,11 @@ import './Navigation.css';
 
 function Navigation(props) {
   return (
-    <>
-      <nav className="navigation">
-        <a className="navigation__link" href="#">About</a>
-        <a className="navigation__link" href="#">Services</a>
-        <a className="navigation__link" href="#">Contact</a>
-      </nav >
-    </>
+    <nav className="navigation">
+      <a className="navigation__link" href="#">About</a>
+      <a className="navigation__link" href="#">Services</a>
+      <a className="navigation__link" href="#">Contact</a>
+    </nav>
   );
 }
 
