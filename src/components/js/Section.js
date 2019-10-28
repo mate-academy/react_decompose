@@ -6,7 +6,6 @@ function Section(props) {
       <section className="welcome">
         <span className="welcome__text">Sticky Header!</span>
       </section>
-    </>
   );
 }
 
