@@ -1,7 +1,7 @@
 import React from 'react';
 import './main.css';
 
-function Nav() {
+function Main() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -14,4 +14,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Main;
