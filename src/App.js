@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Section from './components/Section';
 import Article from './components/Article';
 
-
 function App() {
   return (
     <>
