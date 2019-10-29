@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACP,MAAM,EAAE,KAAK;EACb,UAAU,EAAE,KAAK;CAClB;;AAED,AAAA,cAAc,CAAC;EACb,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,CAAC;EACd,WAAW,EAAE,iBAAiB;EAC9B,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,GAAG;CACjB",
+    "sources": [
+        "greeting.scss"
+    ],
+    "names": [],
+    "file": "greeting.css"
+}
