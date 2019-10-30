@@ -5,7 +5,7 @@
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
-  "homepage": ".",
+  "homepage": "https://FeelineKing.github.io/react_static-list-of-posts",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git subtree push --prefix build origin gh-pages"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
