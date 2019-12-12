@@ -37,7 +37,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  transition: opacity .2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   text-align: center;
 }
 
@@ -53,10 +53,10 @@ body {
   display: inline-block;
   outline: none;
   text-decoration: none;
-  opacity: .7;
-  padding: 0 .5em;
+  opacity: 0.7;
+  padding: 0 0.5em;
   color: black;
-  transition: opacity .2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .navigation__link:hover,
@@ -70,7 +70,7 @@ body {
   font-size: 140%;
   max-width: 800px;
   background: white;
-  box-shadow: rgba(0,0,0,.05) 0 3px 15px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
 }
 
 .article__paragraph {
@@ -79,7 +79,7 @@ body {
 }
 
 .article__paragraph:not(:first-child) {
-  margin-top: .7em;
+  margin-top: 0.7em;
 }
 
 @media (min-width: 500px) {
