@@ -1,7 +1,7 @@
 import React from 'react';
-import SectionWelcome from './sectionWelcome/sectionWelcome';
-import Header from './Header/header';
-import Article from './Article/article';
+import SectionWelcome from './sectionWelcome/WelcomeSection';
+import Header from './Header/Header';
+import Article from './Article/Article';
 
 function Main() {
   return (
