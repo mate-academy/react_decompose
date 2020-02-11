@@ -8,11 +8,9 @@ import Article from './components/Article/Article';
 function App() {
   return (
     <main className="app">
-      <>
-        <Section />
-        <Header />
-        <Article />
-      </>
+      <Section />
+      <Header />
+      <Article />
     </main>
   );
 }
