@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Welcome from './components/Welcome-page/Welcome-page';
+import Welcome from './components/WelcomePage/WelcomePage';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
 
