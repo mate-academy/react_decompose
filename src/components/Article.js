@@ -1,7 +1,7 @@
 import React from 'react';
-import './artical.css';
+import './Article.css';
 
-function artical() {
+function article() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -65,4 +65,4 @@ function artical() {
   );
 }
 
-export default artical;
+export default article;
