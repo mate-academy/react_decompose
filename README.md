@@ -1,7 +1,7 @@
 # Base template for React
 
 ## Demo link
-Add link here: `[DEMO LINK](https://<your_account>.github.io/react_decompose/)`
+Add link here: `[DEMO LINK](https://MaxLabliuk.github.io/react_decompose/)`
 
 ## Task
 Split the `App.js` into smaller components basing on CSS blocks. CSS should be split too.
