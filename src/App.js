@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './components/header/Header';
-import Welcome from './components/welcome/Welcome';
-import Article from './components/article/Article';
+import Header from './components/Header/Header';
+import Welcome from './components/Welcome/Welcome';
+import Article from './components/Article/Article';
 import './App.css';
 
 function App() {
