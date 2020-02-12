@@ -1,7 +1,7 @@
 import React from 'react';
-import './Section.css';
+import './WelcomeSection.css';
 
-function SectionWelcome() {
+function WelcomeSection() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -9,4 +9,4 @@ function SectionWelcome() {
   );
 }
 
-export default SectionWelcome;
+export default WelcomeSection;
