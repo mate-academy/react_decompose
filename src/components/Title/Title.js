@@ -1,9 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Title(props) {
-  const { classTitle, text } = props;
-
+function Title({ classTitle, text }) {
   return (
     <h1 className={classTitle}>{text}</h1>
   );

@@ -1,12 +1,12 @@
 import React from 'react';
 import Title from '../Title/Title';
-import s from './Article.module.css';
+import style from './Article.module.css';
 
 function Article() {
   return (
-    <article className={s.article}>
+    <article className={style.article}>
       <Title classTitle="article__title" text="Headline" />
-      <p className={s.article__paragraph}>
+      <p className={style.article__paragraph}>
           In elementum lorem eget est euismod ornare. Phasellus sit amet
           pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
           nibh. Mauris molestie, urna accumsan ornare semper, augue nibh
@@ -20,7 +20,7 @@ function Article() {
           nibh, bibendum gravida felis. Vivamus ut nunc id mauris posuere
           pellentesque. Praesent tincidunt id odio id feugiat.
       </p>
-      <p className={s.article__paragraph}>
+      <p className={style.article__paragraph}>
           In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
           fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
           cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
@@ -28,7 +28,7 @@ function Article() {
           hendrerit molestie. Morbi lacinia, sapien eu dictum dignissim, tellus
           tortor congue magna, sit amet bibendum libero nisi id massa.
       </p>
-      <p className={s.article__paragraph}>
+      <p className={style.article__paragraph}>
           Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
           Cras congue, massa nec sagittis mollis, dui felis ultrices magna,
           tincidunt finibus lorem quam in sem. Morbi odio turpis, pulvinar sit
@@ -39,7 +39,7 @@ function Article() {
           velit dignissim consectetur. Fusce placerat ac ipsum ac eleifend.
           Aenean quis faucibus ex.
       </p>
-      <p className={s.article__paragraph}>
+      <p className={style.article__paragraph}>
           Cras egestas tempor nibh, a fermentum lorem sollicitudin non. Nulla
           facilisi. In at elit id leo tristique condimentum. Donec at est
           nulla. Mauris egestas magna ut laoreet pretium. Sed ultrices suscipit
@@ -48,7 +48,7 @@ function Article() {
           nibh, blandit a vulputate at, vehicula non nulla. Aenean ut nulla
           leo. Praesent in ullamcorper est.
       </p>
-      <p className={s.article__paragraph}>
+      <p className={style.article__paragraph}>
           Pellentesque habitant morbi tristique senectus et netus et malesuada
           fames ac turpis egestas. Phasellus bibendum nec arcu eu lobortis.
           Nam convallis faucibus ante sed porta. Nullam ut convallis elit, quis

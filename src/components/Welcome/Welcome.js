@@ -1,27 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import s from './Welcome.module.css';
+import style from './Welcome.module.css';
 
-function Welcome(props) {
-  const { classWrapper, classText, text } = props;
-
+function Welcome() {
   return (
-    <section className={s[`${classWrapper}`]}>
-      <span className={s[`${classText}`]}>{text}</span>
+    <section className={style.welcome}>
+      <span className={style.welcome__text}>Sticky Header!</span>
     </section>
   );
 }
-
-Welcome.propTypes = {
-  classWrapper: PropTypes.string,
-  classText: PropTypes.string,
-  text: PropTypes.string,
-};
-
-Welcome.defaultProps = {
-  classWrapper: '',
-  classText: '',
-  text: '',
-};
 
 export default Welcome;

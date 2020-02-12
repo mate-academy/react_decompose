@@ -8,11 +8,7 @@ import './App.css';
 function App() {
   return (
     <main className="app">
-      <Welcome
-        classWrapper="welcome"
-        classText="welcome__text"
-        text="Sticky Header!"
-      />
+      <Welcome />
       <Header />
       <Article />
     </main>

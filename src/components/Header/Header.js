@@ -1,12 +1,12 @@
 import React from 'react';
 import Title from '../Title/Title';
 import Nav from '../Nav/Nav';
-import s from './Header.module.css';
+import style from './Header.module.css';
 
 function Header() {
   return (
-    <header className={s.header}>
-      <Title classTitle={s.header__title} text="Site Name" />
+    <header className={style.header}>
+      <Title classTitle={style.header__title} text="Site Name" />
       <Nav />
     </header>
   );
