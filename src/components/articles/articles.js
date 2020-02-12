@@ -1,5 +1,5 @@
 import React from 'react';
-import './articles.css';
+import './Articles.css';
 
 function Articles() {
   return (
