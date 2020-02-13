@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 import Paragraph from '../Paragraph/Paragraph';
 import Caption from '../Caption/Caption';
 

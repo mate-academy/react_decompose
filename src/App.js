@@ -1,8 +1,8 @@
 import React from 'react';
-import Article from './components/Article/Article';
-import Header from './components/Header/Header';
-import './App.css';
 import Section from './components/Section/Section';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
+import './App.css';
 
 function App() {
   return (

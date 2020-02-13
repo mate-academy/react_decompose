@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 
 const paragraphes = [
   `In elementum lorem eget est euismod ornare. Phasellus sit amet

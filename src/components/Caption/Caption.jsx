@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 import PropTypes from 'prop-types';
 
 export default function Caption(props) {

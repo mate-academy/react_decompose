@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../App.css';
 import Caption from '../Caption/Caption';
 
 export default function Header() {
