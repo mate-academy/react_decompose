@@ -5,7 +5,7 @@ function App() {
   return (
     <main className="app">
       <section className="welcome">
-        <span className="welcome__text">Sticky Header!</span>
+        <span className="welcome__text">test_test_test</span>
       </section>
       <header className="header">
         <h1 className="header__title">Site Name</h1>
