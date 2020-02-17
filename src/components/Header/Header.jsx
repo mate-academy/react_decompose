@@ -1,10 +1,9 @@
 import React from 'react';
-import Caption from '../Caption/Caption';
 
 export default function Header() {
   return (
     <header className="header">
-      <Caption className="header__title" text="Site Name" />
+      <h1 className="header__title">Site Name</h1>
       <nav className="navigation">
         <a className="navigation__link" href="#about">About</a>
         <a className="navigation__link" href="#services">Services</a>
