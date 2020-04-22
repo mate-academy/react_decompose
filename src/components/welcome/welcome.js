@@ -1,7 +1,7 @@
 import React from 'react';
-import './welcome.css';
+import './Welcome.css';
 
-export default function welcome() {
+export default function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
