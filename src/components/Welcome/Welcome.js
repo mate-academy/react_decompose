@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './Welcome.module.css';
+import './Welcome.css';
 
 const Welcome = () => (
-  <section className={styles.welcome}>
-    <span className={styles.welcome__text}>Sticky Header!</span>
+  <section className="welcome">
+    <span className="welcome__text">Sticky Header!</span>
   </section>
 );
 
