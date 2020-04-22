@@ -1,5 +1,9 @@
 # Rect decompose
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://<your_account>.github.io/react_decompose/)
+- Replace `<your_account>` with your Github username in the links
+
+    - [DEMO LINK](https://andreas-just.github.io/js-task-move-spider-DOM/)
+    - [PULL REQUEST](https://github.com/mate-academy/js-task-move-spider-DOM/pull/55)
+
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
