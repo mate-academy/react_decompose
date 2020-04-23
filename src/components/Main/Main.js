@@ -6,8 +6,8 @@ import Header from '../Header/Header';
 function Main() {
   return (
     <main className="app">
-      <Header />
       <Section />
+      <Header />
       <Article />
     </main>
   );
