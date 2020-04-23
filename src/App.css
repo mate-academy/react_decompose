@@ -1,5 +1,5 @@
-@import "./components/css-components/article.css";
-@import "./components/css-components/header.css";
+@import "./components/Article/Article.css";
+@import "./components/Header/Header.css";
 @import "./components/css-components/welcome.css";
 @import "./components/css-components/navi.css";
 @import "./components/css-components/media-min-width500px.css" (min-width: 500px);

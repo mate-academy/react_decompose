@@ -1,6 +1,6 @@
 import React from 'react';
-import Article from './article';
-import Header from './header';
+import Article from './components/Article/Article';
+import Header from './components/Header/Header';
 
 function Main() {
   return (
