@@ -1,0 +1,52 @@
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 300px;
+  width: 500px;
+  border: 1px solid rgba(72,149,163,0.85);
+  border-radius: 300px;
+  &__header {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  &__displays {
+    width: 80%;
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  &__display {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: darkslategray;
+    color: white;
+    border: 1px solid white;
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.slider {
+  &__thumb {
+    margin: 0;
+    -webkit-appearance: none;
+    outline: none;
+    background: none;
+    position: relative;
+    bottom: 10px;
+  }
+
+  &__bar {
+    height: 5px;
+    width: 327px;
+    background-color: navy;
+    border-radius: 2px;
+    position: relative;
+  }
+}
