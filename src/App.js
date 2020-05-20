@@ -5,8 +5,8 @@ class App extends React.PureComponent {
   state = {
     minSliderValue: 50,
     maxSliderValue: 51,
-    max1: 50,
-    min2: 51,
+    minInputMaxValue: 50,
+    maxInputMinValue: 51,
   }
 
   minThumbMovement = (event) => {
@@ -33,20 +33,25 @@ class App extends React.PureComponent {
 
   handleMouseDownMinSlider = () => {
     this.setState(state => ({
-      max1: state.maxSliderValue - 1,
-      min2: state.maxSliderValue,
+      minInputMaxValue: state.maxSliderValue - 1,
+      maxInputMinValue: state.maxSliderValue,
     }));
   }
 
   handleMouseDownMaxSlider = () => {
     this.setState(state => ({
-      min2: state.minSliderValue + 1,
-      max1: state.minSliderValue,
+      maxInputMinValue: state.minSliderValue + 1,
+      minInputMaxValue: state.minSliderValue,
     }));
   }
 
   render() {
-    const { minSliderValue, maxSliderValue } = this.state;
+    const {
+      minSliderValue,
+      maxSliderValue,
+      minInputMaxValue,
+      maxInputMinValue,
+    } = this.state;
 
     return (
       <div className="control">
@@ -60,18 +65,18 @@ class App extends React.PureComponent {
           <div className="">
             <input
               className="slider__thumb"
-              style={{ width: `${(this.state.max1 * 3) + 15}px` }}
+              style={{ width: `${(minInputMaxValue * 3) + 15}px` }}
               type="range"
               min="0"
-              max={this.state.max1}
+              max={minInputMaxValue}
               onChange={this.minThumbMovement}
               onMouseDown={this.handleMouseDownMinSlider}
             />
             <input
-              style={{ width: `${((100 - this.state.min2) * 3) + 15}px` }}
+              style={{ width: `${((100 - maxInputMinValue) * 3) + 15}px` }}
               className="slider__thumb"
               type="range"
-              min={this.state.min2}
+              min={maxInputMinValue}
               max="100"
               onChange={this.maxThumbMovement}
               onMouseDown={this.handleMouseDownMaxSlider}
