@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './welcome.css';
 
-const Welcome = props => (
+const Welcome = ({ welcome }) => (
   <section className="welcome">
-    <span className="welcome__text">{props.welcome}</span>
+    <span className="welcome__text">{welcome}</span>
   </section>
 );
 

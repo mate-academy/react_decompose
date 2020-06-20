@@ -4,11 +4,11 @@ import { Welcome } from './welcome/welcome';
 import { Header } from './header/header';
 import { Article } from './article/article';
 
-const Main = props => (
+const Main = ({ welcome, header, navigation, article }) => (
   <main className="app">
-    <Welcome welcome={props.welcome} />
-    <Header header={props.header} nav={props.navigation} />
-    <Article {...props.article} />
+    <Welcome welcome={welcome} />
+    <Header header={header} nav={navigation} />
+    <Article {...article} />
   </main>
 );
 

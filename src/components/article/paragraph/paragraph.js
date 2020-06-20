@@ -2,8 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './paragraph.css';
 
-const Paragraph = props => (
-  <p className="article__paragraph">{props.text}</p>
+const Paragraph = ({ text }) => (
+  <p className="article__paragraph">{text}</p>
 );
 
 Paragraph.propTypes = {

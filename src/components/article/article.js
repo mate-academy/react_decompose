@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { Paragraph } from './paragraph/paragraph';
 import './article.css';
 
-const Article = props => (
+const Article = ({ title, items }) => (
   <article className="article">
-    <h1 className="article__title">{props.title}</h1>
-    {props.paragraphs.items.map((el, i) => (
+    <h1 className="article__title">{title}</h1>
+    {items.map((el, i) => (
       <Paragraph text={el} key={i.toString()} />
     ))}
   </article>
@@ -14,7 +14,7 @@ const Article = props => (
 
 Article.propTypes = {
   title: PropTypes.string.isRequired,
-  paragraphs: PropTypes.objectOf(Object).isRequired,
+  items: PropTypes.objectOf(Object).isRequired,
 };
 
 export { Article };

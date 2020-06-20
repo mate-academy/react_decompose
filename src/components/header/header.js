@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { Nav } from './navigation/navigation';
 import './header.css';
 
-const Header = props => (
+const Header = ({ header, nav }) => (
   <header className="header">
-    <h1 className="header__title">{props.header}</h1>
-    <Nav {...props.nav} />
+    <h1 className="header__title">{header}</h1>
+    <Nav {...nav} />
   </header>
 );
 

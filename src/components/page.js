@@ -57,9 +57,7 @@ const page = {
   },
   article: {
     title: 'Headline',
-    paragraphs: {
-      items: paragraphsList,
-    },
+    items: paragraphsList,
   },
 };
 
