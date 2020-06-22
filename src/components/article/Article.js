@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes, { object } from 'prop-types';
+import PropTypes from 'prop-types';
 import './Article.css';
 import ArticleParagraph from '../articleParagraph/ArticleParagraph';
 
@@ -19,7 +19,10 @@ const Article = ({ title, paragraphs }) => (
 
 Article.propTypes = {
   title: PropTypes.string,
-  paragraphs: PropTypes.arrayOf(object),
+  paragraphs: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.number,
+    text: PropTypes.string,
+  })),
 };
 
 Article.defaultProps = {
