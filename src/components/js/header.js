@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../App.css';
 import '../css/header.css';
 import '../css/navigation.css';
 
