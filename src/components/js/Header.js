@@ -8,6 +8,7 @@ function Header({ headerClass, headerText, navClass, navLinks }) {
       linkClass={`${navClass}__link`}
       linkHref={`#${link.toLowerCase()}`}
       linkText={link}
+      key={link}
     />
   ));
 
