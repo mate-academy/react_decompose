@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Welcome.module.css';
 
-function Welcome(props) {
-  return (
-    <section className="welcome">
-      <span className="welcome__text">{props.text}</span>
-    </section>
-  );
-}
+const Welcome = ({ text }) => (
+  <section className={styles.welcome}>
+    <span className={styles.welcome__text}>{text}</span>
+  </section>
+);
 
 Welcome.propTypes = {
   text: PropTypes.string.isRequired,
