@@ -3,9 +3,6 @@ import Header from './Header/Header';
 import Article from './Article/Article';
 import Section from './Section/Section';
 import './App.css';
-import './Section/Section.css';
-import './Header/Header.css';
-import './Article/Article.css';
 
 function App() {
   return (
