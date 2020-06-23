@@ -7,6 +7,7 @@ function Article({ articleClass, articleText, paragraphText }) {
     <Paragraph
       paragraphClass={`${articleClass}__paragraph`}
       paragraphText={paragraph}
+      key={paragraph}
     />
   ));
 
