@@ -14,4 +14,4 @@ Section.propTypes = {
   sectionText: PropTypes.string.isRequired,
 };
 
-export default Section;
+export { Section };

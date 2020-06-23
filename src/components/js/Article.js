@@ -2,22 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Paragraph from './Paragraph';
 
-function Article({ articleClass, articleText, paragraphText }) {
-  const paragraphs = paragraphText.map(paragraph => (
-    <Paragraph
-      paragraphClass={`${articleClass}__paragraph`}
-      paragraphText={paragraph}
-      key={paragraph}
-    />
-  ));
-
-  return (
-    <article className={articleClass}>
-      <h2 className={`${articleClass}__title`}>{articleText}</h2>
-      {paragraphs}
-    </article>
-  );
-}
+const Article = ({ articleClass, articleText, paragraphText }) => (
+  <article className={articleClass}>
+    <h2 className={`${articleClass}__title`}>{articleText}</h2>
+    {paragraphText.map(paragraph => (
+      <Paragraph
+        paragraphClass={`${articleClass}__paragraph`}
+        paragraphText={paragraph}
+        key={paragraph}
+      />
+    ))}
+  </article>
+);
 
 Article.propTypes = {
   articleClass: PropTypes.string.isRequired,
@@ -25,4 +21,4 @@ Article.propTypes = {
   paragraphText: PropTypes.isRequired,
 };
 
-export default Article;
+export { Article };
