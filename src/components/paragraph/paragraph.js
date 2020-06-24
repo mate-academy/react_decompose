@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Article.module.css';
+import styles from '../article/Article.module.css';
 
 const Paragraph = ({ text }) => (
   <p className={styles.article__paragraph}>

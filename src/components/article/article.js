@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Paragraph from './paragraph';
+import Paragraph from '../paragraph/paragraph';
 import styles from './Article.module.css';
 
 const Article = ({ headline }) => (
