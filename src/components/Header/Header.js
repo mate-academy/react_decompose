@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Navigation from '../navigation/navigation';
+import Navigation from '../Navigation/Navigation';
 import styles from './Header.module.css';
 
 const Header = ({ siteName }) => (
