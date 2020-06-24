@@ -1,11 +1,8 @@
 import React from 'react';
 import './App.css';
-import './components/css/section.css';
-import './components/css/header.css';
-import './components/css/article.css';
-import { Section } from './components/js/Section';
-import { Header } from './components/js/Header';
-import { Article } from './components/js/Article';
+import { Section } from './components/Section/Section';
+import { Header } from './components/Header/Header';
+import { Article } from './components/Article/Article';
 import { links, paragraps } from './data';
 
 function App() {
