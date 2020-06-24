@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/Paragraph.css';
+import './Paragraph.css';
 import PropTypes from 'prop-types';
 
 const Paragraph = ({ text }) => (

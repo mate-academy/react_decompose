@@ -1,7 +1,7 @@
 import React from 'react';
-import './styles/Article.css';
-import './styles/article-media.css';
-import Paragraph from './Paragraph';
+import './Article.css';
+import './article-media.css';
+import Paragraph from '../Paragraph/Paragraph';
 
 const Article = () => (
   <article className="article">
