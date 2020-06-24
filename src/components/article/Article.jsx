@@ -1,6 +1,6 @@
 import React from 'react';
 import './Article.css';
-import Paragraph from './paragraph/Paragraph';
+import { Paragraph } from './Paragraph/Paragraph';
 
 const paragraphList = [
   ` In elementum lorem eget est euismod ornare. Phasellus sit amet
@@ -51,7 +51,7 @@ const paragraphList = [
   lacus eu diam.`,
 ];
 
-const Article = () => (
+export const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     {paragraphList.map((item, index) => (
@@ -59,5 +59,3 @@ const Article = () => (
     ))}
   </article>
 );
-
-export default Article;
