@@ -5,11 +5,14 @@ import './Article.css';
 const Article = ({ className, title, paragraphs }) => (
   <article className={className}>
     <h1 className={`${className}__title`}>{title}</h1>
-    <p className={`${className}__paragraph`}>{paragraphs[0]}</p>
-    <p className={`${className}__paragraph`}>{paragraphs[1]}</p>
-    <p className={`${className}__paragraph`}>{paragraphs[2]}</p>
-    <p className={`${className}__paragraph`}>{paragraphs[3]}</p>
-    <p className={`${className}__paragraph`}>{paragraphs[4]}</p>
+    {paragraphs.map(paragraph => (
+      <p
+        key={paragraph.slice(0, 5)}
+        className={`${className}__paragraph`}
+      >
+        {paragraph}
+      </p>
+    ))}
   </article>
 );
 
