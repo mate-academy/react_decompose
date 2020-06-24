@@ -7,10 +7,9 @@ const Header = ({ headerClass, headerText, navClass, navLinks }) => (
     <h1 className={`${headerClass}__title`}>{headerText}</h1>
     <nav className={navClass}>
       {navLinks.map(link => (
-        // eslint-disable-next-line jsx-a11y/anchor-is-valid
         <Link
           linkClass={`${navClass}__link`}
-          linkHref={`#${link.toLowerCase()}`}
+          href={`#${link.toLowerCase()}`}
           linkText={link}
           key={link}
         />
