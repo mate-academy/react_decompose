@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Section from './components/Section/Section';
 import Article from './components/Article/Article';
+import Header from './components/Header/Header';
 
 const text = [
   `In elementum lorem eget est euismod ornare. Phasellus sit amet
@@ -56,14 +57,7 @@ function App() {
   return (
     <main className="app">
       <Section className="welcome" text="Sticky Header!" />
-      <header className="header">
-        <h1 className="header__title">Site Name</h1>
-        <nav className="navigation">
-          <a className="navigation__link" href="#about">About</a>
-          <a className="navigation__link" href="#services">Services</a>
-          <a className="navigation__link" href="#contact">Contact</a>
-        </nav>
-      </header>
+      <Header className="header" title="Site Name" />
       <Article className="article" title="Headline" paragraphs={text} />
     </main>
   );
