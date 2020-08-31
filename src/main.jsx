@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header';
 import Article from './article';
+import './welcome.css';
 
 const Main = () => (
   <main className="app">
