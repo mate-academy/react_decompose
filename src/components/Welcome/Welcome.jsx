@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Welcome.css';
 
-const Header = () => (
+const Welcome = () => (
   <>
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -10,4 +10,4 @@ const Header = () => (
   </>
 );
 
-export default Header;
+export default Welcome;

@@ -1,7 +1,10 @@
 import React from 'react';
 
-const Content = () => (
-  <>
+import './Article.css';
+
+const Article = () => (
+  <article className="article">
+    <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
       pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
@@ -58,7 +61,7 @@ const Content = () => (
       iaculis interdum vulputate, dui eros vehicula nisi, at interdum enim
       lacus eu diam.
     </p>
-  </>
+  </article>
 );
 
-export default Content;
+export default Article;
