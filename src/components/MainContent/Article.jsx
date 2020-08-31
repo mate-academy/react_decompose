@@ -2,7 +2,7 @@ import React from 'react';
 import Head from './head/Head';
 import Content from './content/Content';
 
-import './MainContent.css';
+import './Article.css';
 
 const MainContent = () => (
   <article className="article">

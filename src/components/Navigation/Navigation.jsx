@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ContentHeader.css';
+import './Navigation.css';
 
 const ContentHeader = () => (
   <>
