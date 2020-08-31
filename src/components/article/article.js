@@ -1,5 +1,5 @@
 import React from 'react';
-import Paragraph from '../paragraph/paragraph';
+import Paragraph from '../paragraph/Paragraph';
 import './article.css';
 
 const Article = () => (
