@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './ContentHeader.css';
+
 const ContentHeader = () => (
   <>
     <header className="header">
