@@ -8,11 +8,8 @@ function App() {
   return (
     <main className="app">
       <Section />
-      ,
       <Header />
-      ,
       <Article />
-      ,
     </main>
   );
 }
