@@ -1,6 +1,6 @@
-import React from 'react';
-import Header from './header';
-import Article from './article';
+import React from '../../../node_modules/react';
+import Header from '../Header/header';
+import Article from '../Article/article';
 import './welcome.css';
 
 const Main = () => (
