@@ -1,7 +1,5 @@
 import React from 'react';
-
-import '../styles/content.css';
-
+import '../components/styles/content.css';
 
 const Content = () => (
   <article className="article">

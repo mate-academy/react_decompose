@@ -1,6 +1,5 @@
 import React  from 'react';
-
-import '../styles/welcome.css';
+import '../components/styles/welcome.css';
 
 const Welcome = () => (
   <section className="welcome">
@@ -8,4 +7,4 @@ const Welcome = () => (
   </section>
 )
 
-export default Welcome; 
+export default Welcome;
