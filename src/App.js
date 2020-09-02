@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Article from './components/Article';
-import Welcome from './components/Welcome';
+import Navigation from './components/Navigation';
+import Main from './components/Main';
+import Title from './components/Title';
 
 function App() {
   return (
     <main className="app">
-      <Welcome />
-      <Header />
-      <Article />
+      <Title />
+      <Navigation />
+      <Main />
     </main>
   );
 }
