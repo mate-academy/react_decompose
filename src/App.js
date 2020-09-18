@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CreateMain from './components/CreateMain';
 
 function App() {
   return (
@@ -74,6 +75,7 @@ function App() {
           lacus eu diam.
         </p>
       </article>
+      <CreateMain />
     </main>
   );
 }
