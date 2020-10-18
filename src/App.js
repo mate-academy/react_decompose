@@ -1,10 +1,10 @@
 import React from 'react';
 
-import General from './components/general/general';
+import Main from './components/main/main';
 
 function App() {
   return (
-    <General />
+    <Main />
   );
 }
 

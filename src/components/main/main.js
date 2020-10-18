@@ -3,9 +3,9 @@ import WelcomePage from '../welcome/welcome';
 import Header from '../header/header';
 import Article from '../article/article';
 
-import './general.css';
+import './main.css';
 
-const General = () => (
+const Main = () => (
   <main className="app">
     <WelcomePage />
     <Header />
@@ -13,4 +13,4 @@ const General = () => (
   </main>
 );
 
-export default General;
+export default Main;
