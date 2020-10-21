@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 
 import Navigation from '../navigation/navigation';
 import '../navigation/navigation.css';
