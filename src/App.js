@@ -1,81 +1,107 @@
+/* eslint-disable no-nested-ternary */
 import React from 'react';
+import 'bulma';
 import './App.css';
+import className from 'classnames';
 
-function App() {
-  return (
-    <main className="app">
-      <section className="welcome">
-        <span className="welcome__text">Sticky Header!</span>
-      </section>
-      <header className="header">
-        <h1 className="header__title">Site Name</h1>
-        <nav className="navigation">
-          <a className="navigation__link" href="#about">About</a>
-          <a className="navigation__link" href="#services">Services</a>
-          <a className="navigation__link" href="#contact">Contact</a>
-        </nav>
-      </header>
-      <article className="article">
-        <h1 className="article__title">Headline</h1>
-        <p className="article__paragraph">
-          In elementum lorem eget est euismod ornare. Phasellus sit amet
-          pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
-          nibh. Mauris molestie, urna accumsan ornare semper, augue nibh
-          posuere lorem, vitae feugiat sem magna eget massa. Vivamus quis
-          tincidunt dolor. Fusce efficitur, orci non vestibulum consequat,
-          lectus turpis bibendum odio, in efficitur leo felis sed justo. Fusce
-          commodo iaculis orci, quis imperdiet urna. Sed mollis facilisis lacus
-          non condimentum. Nunc efficitur massa non neque elementum semper.
-          Vestibulum lorem arcu, tincidunt in quam et, feugiat venenatis augue.
-          Donec sed tincidunt tellus, a facilisis magna. Proin sit amet viverra
-          nibh, bibendum gravida felis. Vivamus ut nunc id mauris posuere
-          pellentesque. Praesent tincidunt id odio id feugiat.
-        </p>
-        <p className="article__paragraph">
-          In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
-          fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
-          cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
-          ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut
-          hendrerit molestie. Morbi lacinia, sapien eu dictum dignissim, tellus
-          tortor congue magna, sit amet bibendum libero nisi id massa.
-        </p>
-        <p className="article__paragraph">
-          Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
-          Cras congue, massa nec sagittis mollis, dui felis ultrices magna,
-          tincidunt finibus lorem quam in sem. Morbi odio turpis, pulvinar sit
-          amet vulputate quis, ultricies eu libero. Donec ac maximus neque, nec
-          maximus nibh. Morbi rhoncus convallis urna, accumsan porta lorem
-          hendrerit in. Cras eget nisl dui. Morbi faucibus nisi eget ipsum
-          semper vulputate. Mauris nec tincidunt lectus. Aenean ac mi consequat
-          velit dignissim consectetur. Fusce placerat ac ipsum ac eleifend.
-          Aenean quis faucibus ex.
-        </p>
-        <p className="article__paragraph">
-          Cras egestas tempor nibh, a fermentum lorem sollicitudin non. Nulla
-          facilisi. In at elit id leo tristique condimentum. Donec at est
-          nulla. Mauris egestas magna ut laoreet pretium. Sed ultrices suscipit
-          vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Fusce id sapien eros. Vivamus viverra ultricies gravida. Nam urna
-          nibh, blandit a vulputate at, vehicula non nulla. Aenean ut nulla
-          leo. Praesent in ullamcorper est.
-        </p>
-        <p className="article__paragraph">
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas. Phasellus bibendum nec arcu eu lobortis.
-          Nam convallis faucibus ante sed porta. Nullam ut convallis elit, quis
-          venenatis nunc. Curabitur sed sem eget velit condimentum rutrum in et
-          orci. Nunc non suscipit eros. Suspendisse porta sem vel justo commodo
-          dictum. Aliquam erat ligula, fringilla nec suscipit sed, porta vitae
-          turpis. Vestibulum rhoncus placerat nulla vitae suscipit. Curabitur
-          consectetur ex ut odio tristique vehicula. Ut ligula tortor,
-          tincidunt quis sodales vitae, ornare a turpis. Proin sit amet finibus
-          enim. Fusce tempus a neque vitae tempor. Aenean rutrum, libero
-          iaculis interdum vulputate, dui eros vehicula nisi, at interdum enim
-          lacus eu diam.
-        </p>
-      </article>
-    </main>
-  );
+import Article from './components/article/article';
+import Header from './components/header/header';
+import Welcome from './components/welcome/welcome';
+import { UsersTable } from './components/UsersTable/UsersTable';
+import { getUsers } from './api/users';
+import { UserInfo } from './components/UserInfo/UserInfo';
+import { LoadingError } from './components/LoadingError/LoadingError';
+
+class App extends React.PureComponent {
+  state = {
+    users: [],
+    userId: 0,
+    loading: false,
+    isLoadingError: false,
+    isInitialized: false,
+  };
+
+  loadUsers = async() => {
+    this.setState({
+      loading: true,
+      isLoadingError: false,
+    });
+
+    try {
+      const users = await getUsers();
+
+      this.setState({
+        users,
+        loading: false,
+        isInitialized: true,
+      });
+    } catch (error) {
+      this.setState({
+        isLoadingError: true,
+        loading: false,
+      });
+    }
+
+    /* getUsers()
+      .then(users => {
+        this.setState({ users });
+      }); */
+  }
+
+  render() {
+    const {
+      users,
+      userId,
+      loading,
+      isLoadingError,
+      isInitialized,
+    } = this.state;
+
+    return (
+      <main className="app">
+        <Welcome />
+        <Header />
+        <Article />
+        <section className="section">
+          <div className="container">
+            <h1 className="title">Mate Academy</h1>
+
+            <div className="columns is-mobile">
+              <div className="column">
+                {!isInitialized ? (
+                  <button
+                    type="button"
+                    className={className('button is-link',
+                      { 'is-loading': loading })}
+                    onClick={this.loadUsers}
+                  >
+                    LoadUsers
+                  </button>
+                ) : (
+                  users.length > 0 ? (
+                    <UsersTable
+                      users={this.state.users}
+                      selectedUserId={userId}
+                      selectUser={(selectedUserId) => {
+                        this.setState({ userId: selectedUserId });
+                      }}
+                    />
+                  ) : 'No users yet'
+                )}
+              </div>
+
+              {userId !== 0 && (
+                <div className="column">
+                  <UserInfo userId={userId} />
+                </div>
+              )}
+            </div>
+            { isLoadingError && <LoadingError /> }
+          </div>
+        </section>
+      </main>
+    );
+  }
 }
 
 export default App;
