@@ -15,6 +15,7 @@
   "devDependencies": {
     "@mate-academy/eslint-config-react": "*",
     "@mate-academy/stylelint-config": "*",
+    "cypress": "^5.6.0",
     "eslint": "^6.8.0",
     "gh-pages": "^2.2.0",
     "husky": "^4.0.10",
