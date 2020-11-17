@@ -52,5 +52,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "devDependencies": {
+    "cypress": "^5.6.0"
   }
 }
