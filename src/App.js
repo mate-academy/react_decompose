@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import StickyHeader from './components/sticky-header/sticky-header';
+import Welcome from './components/welcome/welcome';
 import Header from './components/header/header';
 import Article from './components/article/article';
 
 function App() {
   return (
     <main className="app">
-      <StickyHeader />
+      <Welcome />
       <Header />
       <Article />
     </main>
