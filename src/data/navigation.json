@@ -1,0 +1,5 @@
+[
+  {"id": "about", "link": "#about", "name": "About"},
+  {"id": "services", "link": "#services", "name": "Services"},
+  {"id": "contact", "link": "#contact", "name": "Contact"}
+]
