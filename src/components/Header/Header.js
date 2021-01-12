@@ -14,10 +14,6 @@ function Header({ title }) {
   );
 }
 
-Header.defaultProps = {
-
-};
-
 Header.propTypes = {
   title: PropTypes.string.isRequired,
 };

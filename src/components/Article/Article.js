@@ -1,16 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Article.css';
 
-function Article() {
-  // eslint-disable-next-line global-require
-  const data = require('../../lib/article1');
-
+function Article({ content }) {
   return (
     <article className="article">
       <h1 className="article__title">
-        {data.title}
+        {content.title}
       </h1>
-      {data.paragraphs.map(text => (
+      {content.paragraphs.map(text => (
         <p
           className="article__paragraph"
           key={text}
@@ -21,5 +19,12 @@ function Article() {
     </article>
   );
 }
+
+Article.propTypes = {
+  content: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    paragraphs: PropTypes.arrayOf(PropTypes.string).isRequired,
+  }).isRequired,
+};
 
 export default Article;
