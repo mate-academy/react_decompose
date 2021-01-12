@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './components/Navigation/Navigation';
+import Header from './components/Header/Header';
 import Article from './components/Article/Article';
 import './App.css';
 
@@ -9,10 +9,7 @@ function App() {
       <section className="welcome">
         <span className="welcome__text">Sticky Header!</span>
       </section>
-      <header className="header">
-        <h1 className="header__title">Site Name</h1>
-        <Navigation />
-      </header>
+      <Header />
       <Article />
     </main>
   );
