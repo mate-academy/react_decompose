@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Header from './components/js/header';
-import Article from './components/js/article';
-import Section from './components/js/section';
+import Header from './components/js/Header';
+import Article from './components/js/Article';
+import Welcome from './components/js/Welcome';
 
 function App() {
   return (
     <main className="app">
-      <Section />
+      <Welcome />
       <Header />
       <Article />
     </main>
