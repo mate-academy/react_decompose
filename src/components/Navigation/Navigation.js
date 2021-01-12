@@ -1,5 +1,5 @@
 import React from 'react';
-import Link from '../link/link';
+import Link from '../Link/Link';
 
 function Navigation() {
   return (
