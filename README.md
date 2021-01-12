@@ -1,4 +1,4 @@
-# Rect decompose
+# React decompose
 - [DEMO LINK](https://MaximZhuravlov.github.io/react_decompose/)
 
 ## Task
