@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Section from './components/section/Section';
+import WelcomeBlock from './components/welcomeBlock/WelcomeBlock';
 import Header from './components/header/Header';
 import Article from './components/article/Article';
 
 function App() {
   return (
     <main className="app">
-      <Section />
+      <WelcomeBlock />
       <Header />
       <Article />
     </main>
