@@ -1,7 +1,9 @@
 import React from 'react';
 
+import './title.css';
+
 export const Title = () => (
-  <section className="welcome">
-    <span className="welcome__text">Sticky Header!</span>
+  <section className="title">
+    <span className="title__text">Sticky Header!</span>
   </section>
 );
