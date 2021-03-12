@@ -1,6 +1,6 @@
 import React from 'react';
-import './article.css';
-import './media.css';
+import './components/styles/article.css';
+import './components/styles/media.css';
 
 function Article() {
   return (

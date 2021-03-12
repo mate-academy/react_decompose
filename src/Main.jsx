@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Section from './Section';
 import Article from './Article';
-import './App.css';
+import './components/styles/main.css';
 
 function Main() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './section.css';
+import './components/styles/section.css';
 
 function Section() {
   return (
