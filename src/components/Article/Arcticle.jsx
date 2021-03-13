@@ -1,5 +1,5 @@
 import React from 'react';
-import './arcticle.css';
+import './Arcticle.css';
 
 function Arcticle() {
   return (
