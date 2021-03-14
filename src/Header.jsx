@@ -1,0 +1,15 @@
+import React from 'react';
+import Navigation from './Navigation';
+import './components/styles/Header.css';
+import './components/styles/Media.css';
+
+function Header() {
+  return (
+    <header className="header">
+      <h1 className="header__title">Site Name</h1>
+      <Navigation />
+    </header>
+  );
+}
+
+export default Header;
