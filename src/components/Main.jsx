@@ -1,6 +1,6 @@
 import React from 'react';
 import Section from './Section';
-import Header from './Header';
+import Header from './Header/Header';
 import Article from './Article';
 
 const Main = () => (
