@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
-import './components/styles/header.css';
-import './components/styles/media.css';
+import './components/styles/Header.css';
+import './components/styles/Media.css';
 
 function Header() {
   return (
