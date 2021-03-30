@@ -1,7 +1,7 @@
 import React from 'react';
-import Welcom from './components/Welcome/welcome';
-import Header from './components/Header/header';
-import Article from './components/Article/article';
+import Welcom from './components/Welcome/Welcome';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
 
 import './App.scss';
 
