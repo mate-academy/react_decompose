@@ -1,7 +1,7 @@
 import React from 'react';
-import Welcome from '../welcome/welcome';
-import Header from '../header/header';
-import Article from '../article/article';
+import Welcome from '../welcome/Welcome';
+import Header from '../header/Header';
+import Article from '../article/Article';
 
 const Main = () => (
   <main className="app">
