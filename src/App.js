@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import WelcomeSection from './components/WelcomeSection';
-import Header from './components/Header';
-import ArticleSection from './components/ArticleSection';
+import { Welcome } from './components/welcome/Welcome';
+import { Header } from './components/header/Header';
+import { Article } from './components/article/Article';
 
 function App() {
   return (
     <main className="app">
-      <WelcomeSection />
+      <Welcome />
       <Header />
-      <ArticleSection />
+      <Article />
     </main>
   );
 }
