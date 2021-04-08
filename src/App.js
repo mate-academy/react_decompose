@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import Welcome from './components/Welcome';
 import Header from './components/Header';
-import ArticleTitle from './components/Article_title';
-import ArticleParagraph from './components/Article_paragraph';
+import ArticleTitle from './components/ArticleTitle';
+import ArticleParagraph from './components/ArticleParagraph';
 
 function App() {
   return (
