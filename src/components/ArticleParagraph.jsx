@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './ArticleParagraph.css';
+
 function ArticleParagraph() {
   return (
     <>
