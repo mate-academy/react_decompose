@@ -1,8 +1,8 @@
 import React from 'react';
 
-let about = 'About';
-let services = 'Secrvices';
-let contact = 'Contact';
+const about = 'About';
+const services = 'Secrvices';
+const contact = 'Contact';
 
 function Navigator() {
   return (
@@ -11,9 +11,7 @@ function Navigator() {
       <a className="navigation__link" href="#services">{services}</a>
       <a className="navigation__link" href="#contact">{contact}</a>
     </nav>
-  )
+  );
 }
-
-
 
 export default Navigator;

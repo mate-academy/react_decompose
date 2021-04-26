@@ -1,27 +1,8 @@
-@import "./styles/blocks/welcome.scss";
-@import "./styles/blocks/header/header.scss";
-@import "./styles/blocks/article.scss";
-@import "./styles/blocks/body.scss";
+@import "./styles/blocks/Welcome.scss";
+@import "./styles/blocks/Header/header.scss";
+@import "./styles/blocks/Article.scss";
+@import "./styles/blocks/Body.scss";
 
 * {
   box-sizing: border-box;
-}
-
-@media (min-width: 500px) {
-  .header {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .article {
-    margin: 3.5em auto 0;
-    padding: 2em;
-  }
-}
-
-@media (min-width: 800px) {
-  .article {
-    margin: 3.5em auto;
-  }
 }

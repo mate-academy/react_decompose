@@ -1,4 +1,4 @@
-@import './navigation.scss';
+@import "./Navigation.scss";
 
 .header {
   width: 100%;
@@ -17,5 +17,14 @@
     margin: 0;
     padding: 0;
     font-size: inherit;
+  }
+}
+
+
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
   }
 }

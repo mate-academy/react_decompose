@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-let articleTitle = 'Headline';
+const articleTitle = 'Headline';
 
 function Article() {
   return (
@@ -64,6 +64,6 @@ function Article() {
       </p>
     </article>
   );
-};
+}
 
 export default Article;
