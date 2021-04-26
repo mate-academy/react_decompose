@@ -1,3 +1,5 @@
+@import './navigation.scss';
+
 .header {
   width: 100%;
   padding: 1em;
@@ -15,20 +17,5 @@
     margin: 0;
     padding: 0;
     font-size: inherit;
-  }
-
-  .navigation__link {
-    display: inline-block;
-    outline: none;
-    text-decoration: none;
-    opacity: 0.7;
-    padding: 0 0.5em;
-    color: black;
-    transition: opacity 0.2s ease-in-out;
-  
-    &__link:hover,
-    &__link:focus {
-      opacity: 1;
-    }
   }
 }
