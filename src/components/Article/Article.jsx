@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Article-styles.css';
+import './Article.css';
 
 function Article() {
   return (

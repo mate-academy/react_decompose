@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './SectionWelcome-styles.css';
+import './SectionWelcome.css';
 
 function SectionWelcome() {
   return (
