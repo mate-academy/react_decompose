@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Navigation.css';
+import '../styles/Navigation.scss';
 
 const Navigation = () => (
   <>
