@@ -1,12 +1,12 @@
 import React from 'react';
-import TitlePage from './components/TitlePage/TitlePage';
+import Welcome from './components/Welcome/Welcome';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
 
 function App() {
   return (
     <main className="app">
-      <TitlePage />
+      <Welcome />
       <Header />
       <Article />
     </main>

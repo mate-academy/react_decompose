@@ -1,10 +1,10 @@
 import React from 'react';
-import './TitlePage.css';
+import './Welcome.css';
 
-const TitlePage = () => (
+const Welcome = () => (
   <section className="welcome">
     <span className="welcome__text">Sticky Header!</span>
   </section>
 );
 
-export default TitlePage;
+export default Welcome;
