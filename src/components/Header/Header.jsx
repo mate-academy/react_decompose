@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.scss';
-import Navigation from './Navigation';
+import { Navigation } from '../Navigation';
 
-function Header() {
+export function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -10,5 +10,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

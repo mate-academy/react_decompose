@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navigation.scss';
 
-function Navigation() {
+export function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">About</a>
@@ -10,5 +10,3 @@ function Navigation() {
     </nav>
   );
 }
-
-export default Navigation;
