@@ -1,5 +1,5 @@
 @import "./styles/normalize";
-@import "./styles/welcome.scss";
-@import "./styles/header.scss";
-@import "./styles/navigation.scss";
-@import "./styles/articles.scss";
+@import "./components/Welcome/welcome.scss";
+@import "./components/Navigation/navigation.scss";
+@import "./components/Header/header.scss";
+@import "./components/Articles/articles.scss";
