@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/Section.scss';
+import './Welcome.scss';
 
-const Section = () => (
+const Welcome = () => (
   <>
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -9,4 +9,4 @@ const Section = () => (
   </>
 );
 
-export default Section;
+export default Welcome;

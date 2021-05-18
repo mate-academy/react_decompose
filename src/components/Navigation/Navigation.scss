@@ -6,9 +6,9 @@
   padding: 0 0.5em;
   color: black;
   transition: opacity 0.2s ease-in-out;
-}
 
-.navigation__link:hover,
-.navigation__link:focus {
-  opacity: 1;
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
 }
