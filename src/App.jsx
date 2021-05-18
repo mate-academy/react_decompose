@@ -1,9 +1,7 @@
 import React from 'react';
-import Welcome from './Welcome';
-import Header from './Header';
-import Article from './Article';
-
-import './App.css';
+import Welcome from './components/Welcome';
+import Header from './components/Header';
+import Article from './components/Article';
 
 function App() {
   return (
