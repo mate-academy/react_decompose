@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 
-import WelcomeSection from './components/WelcomeSection/WelcomeSection';
-import HeaderBlock from './components/HeaderBlock/HeaderBlock';
-import ArticleBlock from './components/ArticleBlock/ArticleBlock';
+import Welcome from './components/Welcome/Welcome';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
 
 function App() {
   return (
     <main className="app">
-      <WelcomeSection />
-      <HeaderBlock />
-      <ArticleBlock />
+      <Welcome />
+      <Header />
+      <Article />
     </main>
   );
 }

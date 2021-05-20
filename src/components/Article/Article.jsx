@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './ArticleBlock.css';
+import './Article.css';
 
-function ArticleBlock() {
+function Article() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -66,4 +66,4 @@ function ArticleBlock() {
   );
 }
 
-export default ArticleBlock;
+export default Article;

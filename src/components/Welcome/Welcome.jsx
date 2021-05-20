@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './WelcomeSection.css';
+import './Welcome.css';
 
-function WelcomeSection() {
+function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -10,4 +10,4 @@ function WelcomeSection() {
   );
 }
 
-export default WelcomeSection;
+export default Welcome;
