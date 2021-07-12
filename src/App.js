@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
-import Main from './components/Main/Main';
+import Header from './components/Header/Header';
+import Welcome from './components/Welcome/Welcome';
+import Text from './components/Text/Text';
 
 function App() {
   return (
-    <Main />
+    <main className="app">
+      <Welcome />
+      <Header />
+      <Text />
+    </main>
   );
 }
 
