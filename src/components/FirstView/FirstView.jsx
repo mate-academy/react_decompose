@@ -1,5 +1,4 @@
 import React from 'react';
-
 import './FirstView.css';
 
 function FirstView() {
