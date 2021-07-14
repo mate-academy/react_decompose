@@ -1,7 +1,6 @@
 import React from 'react';
-import './header.css';
-
-import Navigation from '../navigation/navigation';
+import './Header.css';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => (
   <header className="header">
