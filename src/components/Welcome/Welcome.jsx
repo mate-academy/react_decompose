@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Section() {
+function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -8,4 +8,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default Welcome;
