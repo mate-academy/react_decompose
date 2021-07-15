@@ -7,8 +7,8 @@ import Article from './components/article/Article';
 function App() {
   return (
     <main className="app">
-      <Header />
       <Welcome />
+      <Header />
       <Article />
     </main>
   );
