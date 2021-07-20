@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './Article.css';
 
 export function Article() {
   return (
