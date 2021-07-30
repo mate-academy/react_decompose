@@ -61,6 +61,7 @@ const Article = () => (
         lacus eu diam.
       </p>
     </article>
-  </>);
+  </>
+);
 
 export default Article;
