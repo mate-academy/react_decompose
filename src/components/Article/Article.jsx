@@ -2,13 +2,9 @@ import React from 'react';
 
 import './Article.css';
 
-const ArticleTitle = () => (
-  <h1 className="article__title">Headline</h1>
-);
-
 const Article = () => (
   <article className="article">
-    <ArticleTitle />
+    <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
       pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
