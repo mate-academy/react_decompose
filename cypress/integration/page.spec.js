@@ -4,7 +4,7 @@ describe('Page', () => {
   });
 
   it('should have "Welcome" component', () => {
-    cy.get('.welcome');
+    cy.get('.welcome').should('exist');
   });
 
   it('should have "Sticky Header!" welcome text', () => {
@@ -12,7 +12,7 @@ describe('Page', () => {
   });
 
   it('should have "Header" component', () => {
-    cy.get('.header');
+    cy.get('.header').should('exist');
   });
 
   it('should have header title "Site Name"', () => {
@@ -20,7 +20,7 @@ describe('Page', () => {
    });
 
   it('should have "Navigation" component', () => {
-    cy.get('.navigation__link');
+    cy.get('.navigation__link').should('exist');
   });
 
   it('should have navigation link "About"', () => {
@@ -36,10 +36,10 @@ describe('Page', () => {
   });
 
   it('should have "Article" component', () => {
-    cy.get('.article');
+    cy.get('.article').should('exist');
   });
 
   it('should have an article paragraph', () => {
-    cy.get('.article__paragraph');
+    cy.get('.article__paragraph').should('exist');
   });
 });
