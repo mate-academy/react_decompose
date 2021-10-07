@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .navigation__link {
   display: inline-block;
   outline: none;

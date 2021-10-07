@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .welcome {
   height: 100vh;
   background: coral;
