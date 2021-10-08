@@ -1,12 +1,16 @@
 import React from 'react';
 import './App.css';
-// Move each BEM block to a separate component (file) and import them here
-
-import MainContent from './components/blocks/MainContent';
+import Article from './components/blocks/Article';
+import Welcome from './components/blocks/Welcome';
+import Header from './components/blocks/Header';
 
 function App() {
   return (
-    <MainContent />
+    <main className="app">
+      <Welcome />
+      <Header />
+      <Article />
+    </main>
   );
 }
 
