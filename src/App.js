@@ -1,10 +1,9 @@
 import React from 'react';
 import './App.css';
-import Article from './components/article/Article';
-import ArticleTitle from './components/article/article-title/Article-title';
+import Article from './components/article/Article.tsx';
+import ArticleTitle from './components/article/article-title/Article-title.tsx';
 import Paragraph from './components/article/paragraph/Paragraph';
 import Header from './components/header/Header';
-// Move each BEM block to a separate component (file) and import them here
 
 function App() {
   return (
