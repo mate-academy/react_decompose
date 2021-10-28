@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const ArticleP = ({ text }) => (
+export const ArticleParagraph = ({ text }) => (
   <p className="article__paragraph">{text}</p>
 );
 
-ArticleP.propTypes = {
+ArticleParagraph.propTypes = {
   text: PropTypes.string.isRequired,
 };

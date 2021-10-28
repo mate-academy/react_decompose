@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArticleTitle } from './ArticleTitle';
-import { ArticleP } from './ArticleP';
+import { ArticleParagraph } from './ArticleParagraph';
 
 export const Article = () => {
   const articleTitle = 'Some title';
@@ -60,7 +60,7 @@ export const Article = () => {
       <ArticleTitle title={articleTitle} />
       {paragraphs
         .map((paragraph, i) => (
-          <ArticleP key={paragraph.slice(i, 13)} text={paragraph} />
+          <ArticleParagraph key={paragraph.slice(i, 13)} text={paragraph} />
         ))}
     </article>
   );

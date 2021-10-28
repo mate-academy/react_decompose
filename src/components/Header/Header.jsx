@@ -1,4 +1,5 @@
 import React from 'react';
+import { Nav } from '../Nav/Nav';
 
 export const Header = () => {
   const title = 'Site Name';
@@ -7,12 +8,7 @@ export const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">{title}</h1>
-      <nav className="navigation">
-        {navLinks
-          .map(link => (
-            <a key={link} className="navigation__link" href="#about">{link}</a>
-          ))}
-      </nav>
+      <Nav navLinks={navLinks} />
     </header>
   );
 };
