@@ -1,8 +1,3 @@
-@import "./components/Welcome/Welcome.css";
-@import "./components/Header/header.css";
-@import "./components/Navigation/navigation.css";
-@import "./components/Article/article.css";
-
 * {
   box-sizing: border-box;
 }
