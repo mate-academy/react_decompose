@@ -1,12 +1,8 @@
 import React from 'react';
 import './Article.css';
 
-type Props = {
-  children: [];
-};
-
-const Article: React.FC<Props> = ({ children }) => (
-  <>
+const Article: React.FC = () => (
+  <div>
     <article className="article">
       <h1 id="about">About</h1>
       In elementum lorem eget est euismod ornare. Phasellus sit amet
@@ -52,7 +48,7 @@ const Article: React.FC<Props> = ({ children }) => (
       bibendum gravida felis. Vivamus ut nunc id mauris posuere
       pellentesque. Praesent tincidunt id odio id feugiat.
     </article>
-  </>
+  </div>
 );
 
 export default Article;
