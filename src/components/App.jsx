@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Banner from './Banner';
 import Article from './Article';
-import './styles/App.css';
+import './styles/App';
 
 function App() {
   return (
