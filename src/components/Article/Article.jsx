@@ -1,5 +1,5 @@
 import React from 'react';
-import './Article.scss';
+import './Article.css';
 
 export function Article() {
   return (
