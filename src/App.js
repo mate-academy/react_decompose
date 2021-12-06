@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 
 import { Welcome } from './components/Welcome';
-// import Article from './components/Article';
 import { Article } from './components/Article';
 import { Header } from './components/Header';
 

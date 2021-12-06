@@ -8,5 +8,3 @@ export function Welcome() {
     </section>
   );
 }
-
-// export default Welcome;

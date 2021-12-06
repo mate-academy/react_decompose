@@ -1,5 +1,5 @@
 # Rect decompose
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://4qwerty.github.io/react_decompose/)
+- Replace `<your_account>` with your Github username in the npm run deploy 
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
