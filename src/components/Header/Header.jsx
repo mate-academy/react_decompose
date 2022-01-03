@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Header/Header.css';
+import './Header.css';
 import Navigation from '../Navigation/Navigation';
 
 const Header = () => (
