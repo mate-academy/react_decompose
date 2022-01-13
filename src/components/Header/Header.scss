@@ -8,18 +8,16 @@
   right: 0;
   transition: opacity 0.2s ease-in-out;
   text-align: center;
-}
 
-.header__title {
-  font-weight: 600;
-  display: inline;
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
-}
+  &__title {
+    font-weight: 600;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+  }
 
-@media (min-width: 500px) {
-  .header {
+  @media (min-width: 500px) {
     text-align: left;
     display: flex;
     justify-content: space-between;
