@@ -1,7 +1,7 @@
 import React from 'react';
-import './Nav.css';
+import './Navigation.css';
 
-function Nav() {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">About</a>
@@ -12,4 +12,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Navigation;
