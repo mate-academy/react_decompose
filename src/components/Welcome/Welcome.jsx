@@ -1,5 +1,3 @@
-// Import a css file containig weclome styles
-
 import React from 'react';
 import './Welcome.css';
 
