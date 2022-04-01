@@ -1,6 +1,7 @@
 .welcome {
   height: 100vh;
   background: coral;
+  width: 100%;
 }
 
 .welcome__text {
