@@ -1,5 +1,5 @@
 import React from 'react';
-import './Article.css';
+import './style.css';
 
 const Article = () => (
   <article className="article">
