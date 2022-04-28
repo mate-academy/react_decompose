@@ -1,0 +1,10 @@
+.article {
+  &__paragraph {
+    margin: 0;
+    color: #333;
+  }
+
+  &__paragraph:not(:first-child) {
+    margin-top: 0.7em;
+  }
+}
