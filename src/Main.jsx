@@ -1,7 +1,7 @@
 import React from 'react';
-import Section from './Section';
-import Header from './Header';
-import Article from './Article';
+import Section from './components/Section/Section';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
 
 const Main = () => (
   <>
