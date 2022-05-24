@@ -5,6 +5,20 @@ const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
+      In elementum lorem eget est euismod ornare. Phasellus sit amet
+      pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
+      nibh. Mauris molestie, urna accumsan ornare semper, augue nibh
+      posuere lorem, vitae feugiat sem magna eget massa. Vivamus quis
+      tincidunt dolor. Fusce efficitur, orci non vestibulum consequat,
+      lectus turpis bibendum odio, in efficitur leo felis sed justo. Fusce
+      commodo iaculis orci, quis imperdiet urna. Sed mollis facilisis lacus
+      non condimentum. Nunc efficitur massa non neque elementum semper.
+      Vestibulum lorem arcu, tincidunt in quam et, feugiat venenatis augue.
+      Donec sed tincidunt tellus, a facilisis magna. Proin sit amet viverra
+      nibh, bibendum gravida felis. Vivamus ut nunc id mauris posuere
+      pellentesque. Praesent tincidunt id odio id feugiat.
+    </p>
+    <p className="article__paragraph">
       In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
       fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
       cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
