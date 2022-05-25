@@ -12,7 +12,6 @@ describe('Article component', () => {
 
   it('should contain 5 paragraphs', () => {
     mount(<Article />);
-
     cy.get('p')
       .should('have.length', 5);
   });
