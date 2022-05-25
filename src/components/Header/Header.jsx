@@ -5,6 +5,7 @@
 
 // Add a default export statement for Header component to use it in the other files
 import React from 'react';
+import './Header.scss';
 
 const Header = () => (
   <header className="header">

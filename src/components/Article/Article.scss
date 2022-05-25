@@ -15,4 +15,16 @@
       margin-top: 0.7em;
     }
   }
+  @media (min-width: 800px) {
+    & {
+      margin: 3.5em auto;
+    }
+  }
+
+  @media (min-width: 500px) {
+    & {
+      margin: 3.5em auto 0;
+      padding: 2em;
+    }
+  }
 }
