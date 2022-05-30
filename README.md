@@ -1,5 +1,5 @@
 # Rect decompose
-- Replace `<Sardorbek1122>` with your Github username in the [DEMO LINK](https://<Sardorbek1122>.github.io/react_decompose/)
+- Replace `<Sardorbek1122>` with your Github username in the [DEMO LINK](https://Sardorbek1122.github.io/react_decompose/)
 - Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 ## Task
