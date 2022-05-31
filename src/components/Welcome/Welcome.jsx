@@ -1,4 +1,5 @@
 import React from 'react';
+import './Welcome.css';
 
 export const Welcome = () => (
   <section className="welcome">
