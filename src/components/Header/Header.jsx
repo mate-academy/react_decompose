@@ -1,9 +1,6 @@
-// Don't forget to import the React library
-// Import a css file containing header styles
 import React from 'react';
 import './Header.css';
 
-// Create a Header function returning the HTML of header block
 function Header() {
   return (
     <header className="header">
