@@ -9,8 +9,8 @@ function App() {
   return (
     <main className="app">
       <Header />
-      <Article />
       <Welcome />
+      <Article />
     </main>
   );
 }
