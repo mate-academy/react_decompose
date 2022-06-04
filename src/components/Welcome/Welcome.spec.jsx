@@ -5,7 +5,6 @@ import Welcome from './Welcome';
 describe('Welcome component', () => {
   it('should contain Sticky Header', () => {
     mount(<Welcome />);
-
     cy.get('.welcome__text')
       .should('contain', 'Sticky Header!');
   });
