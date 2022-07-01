@@ -1,7 +1,7 @@
 import React from 'react';
 import './Article.css';
 
-function Article(params) {
+function Article() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
