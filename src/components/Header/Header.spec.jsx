@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from '@cypress/react';
-import Header from './Header';
+import Header from './Header/Header';
 
 describe('Header component', () => {
   it('should containt Site Name', () => {

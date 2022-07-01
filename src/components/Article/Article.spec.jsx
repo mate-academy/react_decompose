@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from '@cypress/react';
-import Article from './Article';
+import Article from './Article/Article';
 
 describe('Article component', () => {
   it('should contain Headline', () => {

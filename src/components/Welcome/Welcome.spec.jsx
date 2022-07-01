@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from '@cypress/react';
-import Welcome from './Welcome';
+import Welcome from './Welcome/Welcome';
 
 describe('Welcome component', () => {
   it('should contain Sticky Header', () => {
