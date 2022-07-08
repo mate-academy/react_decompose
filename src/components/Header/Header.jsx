@@ -1,5 +1,5 @@
-// Don't forget to import the React library
-// Import a css file containig header styles
+// import the React library here
+// import a css file containig article styles
 
 // Create a Header function returning the HTML of header block
 

@@ -1,5 +1,5 @@
-// Don't forget to import the React library
-// Import a css file containig article styles
+// import the React library here
+// import a css file containig article styles
 
 // Create an Article function returning the HTML of article block
 

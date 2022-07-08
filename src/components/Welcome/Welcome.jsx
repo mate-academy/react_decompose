@@ -1,5 +1,5 @@
-// Don't forget to import the React library
-// Import a css file containig weclome styles
+// import the React library here
+// import a css file containig article styles
 
 // Create a Welcome function returning the HTML of welcome block
 
