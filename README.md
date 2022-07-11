@@ -6,4 +6,4 @@ Split the `App.js` into components basing on CSS blocks. CSS should be split too
 ## Instructions
 - Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 - Open 1 more terminal and run tests with `npm test` to ensure your solutions is correct
-- Replace `<your_account>` with your Github username in the [Demo link](https://<your_account>.github.io/react_decompose/) and add it to the PR Description
+- Replace `<your_account>` with your Github username in the [Demo link](https://Mikhail-Danylenko.github.io/react_decompose/) and add it to the PR Description
