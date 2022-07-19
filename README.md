@@ -1,4 +1,6 @@
-# React Decompose
+# Rect decompose
+- Replace `<your_account>` with your Github username in the [DEMO LINK](https://yanaost.github.io/react_decompose/)
+- Follow the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
 
 Split the `App.js` into components based on CSS blocks. CSS code should be split too.
 - You already have `Article`, `Header` and `Welcome` folders inside `./src/components/` with required files.
