@@ -8,7 +8,7 @@ function App() {
   return (
     <main className="app">
       <Welcome />
-      <Header />
+      <Header siteName="Site Name!" />
       <Article />
     </main>
   );
