@@ -1,6 +1,6 @@
 {
   "name": "react_decompose",
-  "homepage": ".",
+  "homepage": "https://<Vova-Balyshev>.github.io/react_decompose/",
   "version": "0.1.0",
   "keywords": [],
   "author": "Mate Academy",
@@ -36,6 +36,8 @@
     "typescript": "^4.6.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
     "test": "mate-scripts test -l",
