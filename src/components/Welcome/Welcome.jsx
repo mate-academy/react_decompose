@@ -3,15 +3,13 @@
 import React from 'react';
 import './Welcome.css';
 
-function Welcome() {
-  return (
-    <main className="app">
-      <section className="welcome">
-        <span className="welcome__text">Sticky Header!</span>
-      </section>
-    </main>
-  );
-}
+const Welcome = () => (
+  <main className="app">
+    <section className="welcome">
+      <span className="welcome__text">Sticky Header!</span>
+    </section>
+  </main>
+);
 
 // Create a Welcome function returning the HTML of welcome block
 export default Welcome;
