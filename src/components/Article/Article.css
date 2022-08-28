@@ -7,7 +7,7 @@
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
 }
 
-.__paragraph {
+.article__paragraph {
   margin: 0;
   color: #333;
 }
