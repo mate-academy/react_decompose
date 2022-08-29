@@ -1,6 +1,13 @@
-// import the React library here
-// import a css file containig article styles
+import React from 'react';
+import Nav from '../Nav/Nav';
+import './Header.css';
 
-// Create a Header function returning the HTML of header block
+const Header = () => (
+  <header className="header">
+    <h1 className="header__title">Site Name</h1>
 
-// Add a default export statement for Header component to use it in the other files
+    <Nav />
+  </header>
+);
+
+export default Header;
