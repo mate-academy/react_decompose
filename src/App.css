@@ -13,16 +13,3 @@ body {
   margin: 0;
   background: #eee;
 }
-
-@media (min-width: 500px) {
-  .header {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .article {
-    margin: 3.5em auto 0;
-    padding: 2em;
-  }
-}
