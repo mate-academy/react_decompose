@@ -1,10 +1,6 @@
 import React from 'react';
 import './Article.css';
 
-// Create an Article function returning the HTML of article block
-
-// Add a default export statement for Article component to use it in the other files
-
 const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
