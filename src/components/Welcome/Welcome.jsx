@@ -8,12 +8,9 @@ import React from 'react';
 import './Welcome.css';
 
 const Welcome = () => (
-  <React.Fragment>
-    <section className="welcome">
-      <span className="welcome__text">Sticky Header!</span>
-    </section>
-  </React.Fragment>
-
+  <section className="welcome">
+    <span className="welcome__text">Sticky Header!</span>
+  </section>
 );
 
 export default Welcome;
