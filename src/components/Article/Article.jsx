@@ -64,6 +64,7 @@ const Article = () => (
     </p>
   </article>
 );
-// Add a default export statement for Article component to use it in the other files
 
+// Add a default export statement for Article component to use it in the other files
+// export;
 export default Article;
