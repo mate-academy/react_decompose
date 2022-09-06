@@ -1,3 +1,5 @@
+// import the React library here
+// import a css file containig article styles
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 import './Header.css';
