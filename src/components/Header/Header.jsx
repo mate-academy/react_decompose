@@ -4,12 +4,10 @@ import './Header.css';
 
 function Header() {
   return (
-    <React.Fragment>
-      <header className="header">
-        <h1 className="header__title">Site Name</h1>
-        <Navigation />
-      </header>
-    </React.Fragment>
+    <header className="header">
+      <h1 className="header__title">Site Name</h1>
+      <Navigation />
+    </header>
   );
 }
 
