@@ -1,0 +1,4 @@
+.navigation__link:hover,
+.navigation__link:focus {
+  opacity: 1;
+}
