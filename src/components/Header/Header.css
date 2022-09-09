@@ -18,12 +18,15 @@
   font-size: inherit;
 }
 
-.navigation__link {
-  display: inline-block;
-  outline: none;
-  text-decoration: none;
-  opacity: 0.7;
-  padding: 0 0.5em;
-  color: black;
-  transition: opacity 0.2s ease-in-out;
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
 }
