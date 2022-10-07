@@ -2,11 +2,6 @@ import React from 'react';
 
 import './Article.css';
 
-// import the React library here
-// import a css file containig article styles
-
-// Create an Article function returning the HTML of article block
-
 function Article() {
   return (
     <article className="article">
