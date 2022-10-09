@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Welcome.css';
 
-function Wellcome() {
+function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -10,4 +10,4 @@ function Wellcome() {
   );
 }
 
-export default Wellcome;
+export default Welcome;
