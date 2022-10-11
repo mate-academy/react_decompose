@@ -6,7 +6,7 @@
 // Add a default export statement for Header component to use it in the other files
 
 import React from 'react';
-import Navigation from '../../Navigation/Navigation';
+import { Navigation } from '../../Navigation/Navigation';
 import './Header.css';
 
 function Header() {
