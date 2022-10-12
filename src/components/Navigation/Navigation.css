@@ -1,0 +1,14 @@
+.navigation__link {
+  display: inline-block;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+  outline: none;
+  padding: 0 0.5em;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  opacity: 1;
+}
