@@ -1,16 +1,10 @@
-// import the React library here
-// import a css file containig article styles
-
-// Create an Article function returning the HTML of article block
-
-// Add a default export statement for Article component to use it in the other files
-
 import React from 'react';
 import './Article.css';
 
 const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
+
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
       pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
@@ -25,6 +19,7 @@ const Article = () => (
       nibh, bibendum gravida felis. Vivamus ut nunc id mauris posuere
       pellentesque. Praesent tincidunt id odio id feugiat.
     </p>
+
     <p className="article__paragraph">
       In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
       fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
@@ -33,6 +28,7 @@ const Article = () => (
       hendrerit molestie. Morbi lacinia, sapien eu dictum dignissim, tellus
       tortor congue magna, sit amet bibendum libero nisi id massa.
     </p>
+
     <p className="article__paragraph">
       Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
       Cras congue, massa nec sagittis mollis, dui felis ultrices magna,
@@ -44,6 +40,7 @@ const Article = () => (
       velit dignissim consectetur. Fusce placerat ac ipsum ac eleifend.
       Aenean quis faucibus ex.
     </p>
+
     <p className="article__paragraph">
       Cras egestas tempor nibh, a fermentum lorem sollicitudin non. Nulla
       facilisi. In at elit id leo tristique condimentum. Donec at est
@@ -53,6 +50,7 @@ const Article = () => (
       nibh, blandit a vulputate at, vehicula non nulla. Aenean ut nulla
       leo. Praesent in ullamcorper est.
     </p>
+
     <p className="article__paragraph">
       Pellentesque habitant morbi tristique senectus et netus et malesuada
       fames ac turpis egestas. Phasellus bibendum nec arcu eu lobortis.
