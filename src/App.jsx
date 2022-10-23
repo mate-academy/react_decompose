@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
+import Welcome from './components/Welcome/Welcome';
 import Hearder from './components/Header/Header';
 import Article from './components/Article/Article';
-import Welcome from './components/Welcome/Welcome';
 
 function App() {
   return (
     <main className="app">
+      <Welcome />
       <Hearder />
       <Article />
-      <Welcome />
     </main>
   );
 }
