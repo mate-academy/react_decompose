@@ -18,7 +18,7 @@ body {
   background: #eee;
 }
 
-.welcome {
+/* .welcome {
   height: 100vh;
   background: coral;
 }
@@ -31,9 +31,9 @@ body {
   padding-top: calc(50vh - 20pt);
   display: block;
   font-weight: 700;
-}
+} */
 
-.header {
+/* .header {
   width: 100%;
   padding: 1em;
   font-size: 140%;
@@ -66,9 +66,9 @@ body {
 .navigation__link:hover,
 .navigation__link:focus {
   opacity: 1;
-}
+} */
 
-.article {
+/* .article {
   margin: 5em auto 0;
   padding: 1em;
   font-size: 140%;
@@ -84,7 +84,7 @@ body {
 
 .article__paragraph:not(:first-child) {
   margin-top: 0.7em;
-}
+} */
 
 @media (min-width: 500px) {
   .header {
