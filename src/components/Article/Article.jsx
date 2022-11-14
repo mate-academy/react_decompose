@@ -4,6 +4,7 @@ import './Article.css';
 const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
+    
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
       pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
@@ -18,6 +19,7 @@ const Article = () => (
       nibh, bibendum gravida felis. Vivamus ut nunc id mauris posuere
       pellentesque. Praesent tincidunt id odio id feugiat.
     </p>
+    
     <p className="article__paragraph">
       In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
       fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
@@ -26,6 +28,7 @@ const Article = () => (
       hendrerit molestie. Morbi lacinia, sapien eu dictum dignissim, tellus
       tortor congue magna, sit amet bibendum libero nisi id massa.
     </p>
+    
     <p className="article__paragraph">
       Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
       Cras congue, massa nec sagittis mollis, dui felis ultrices magna,
