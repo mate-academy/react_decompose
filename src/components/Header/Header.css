@@ -14,18 +14,18 @@
   text-align: center;
 }
 
-.header__title {
-  font-weight: 600;
-  display: inline;
-  margin: 0;
-  padding: 0;
-  font-size: inherit;
-}
-
 @media (min-width: 500px) {
   .header {
     text-align: left;
     display: flex;
     justify-content: space-between;
   }
+}
+
+.header__title {
+  font-weight: 600;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
 }
