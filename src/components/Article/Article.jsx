@@ -3,7 +3,7 @@ import './Article.css';
 
 function Article() {
   return (
-    <div>
+    <>
       <article className="article">
         <h1 className="article__title">Headline</h1>
         <p className="article__paragraph">
@@ -63,7 +63,7 @@ function Article() {
           lacus eu diam.
         </p>
       </article>
-    </div>
+    </>
   );
 }
 
