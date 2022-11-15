@@ -1,7 +1,3 @@
-@import ".//components/Article/Article.css";
-@import ".//components/Header/Header.css";
-@import ".//components/Welcome/Welcome.css";
-
 iframe {
   display: none;
 }
