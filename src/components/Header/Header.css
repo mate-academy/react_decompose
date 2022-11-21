@@ -2,12 +2,10 @@
   width: 100%;
   padding: 1em;
   font-size: 140%;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   left: 0;
   right: 0;
-  -webkit-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
   text-align: center;
 }
@@ -18,5 +16,13 @@
   margin: 0;
   padding: 0;
   font-size: inherit;
+}
+
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 /*# sourceMappingURL=Header.css.map */
