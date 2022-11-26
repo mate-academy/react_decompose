@@ -1,1 +1,32 @@
 /* Put article styles here */
+
+.article {
+  margin: 5em auto 0;
+  padding: 1em;
+  font-size: 140%;
+  max-width: 800px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+}
+
+.article__paragraph {
+  margin: 0;
+  color: #333;
+}
+
+.article__paragraph:not(:first-child) {
+  margin-top: 0.7em;
+}
+
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}
