@@ -1,7 +1,7 @@
 import React from 'react';
 import './Article.css';
 
-function Article() {
+export default function Article() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -64,5 +64,3 @@ function Article() {
     </article>
   );
 }
-
-export default Article;
