@@ -1,22 +1,5 @@
-iframe {
-  display: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10pt;
-  line-height: 1.4;
-  font-weight: 400;
-  font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
-}
-
-body {
-  margin: 0;
-  background: #eee;
-}
+@import "./reset.css";
+@import "./normalize.css";
 
 .navigation__link {
   display: inline-block;
