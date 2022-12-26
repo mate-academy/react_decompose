@@ -1,6 +1,6 @@
 import React from 'react';
-import './Header.css';
 import Navigation from '../Navigation/Navigation';
+import './Header.css';
 
 function Header() {
   return (
@@ -10,6 +10,5 @@ function Header() {
     </header>
   );
 }
-// Add a default export statement for Header component to use it in the other files
 
 export default Header;
