@@ -1,13 +1,13 @@
 
 import React from 'react';
-import Navigation from '../Navigation/Navigation';
+import Nav from '../Navigation/Navigation';
 import './Header.css';
 
 function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
-      <Navigation />
+      <Nav />
     </header>
   );
 }
