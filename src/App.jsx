@@ -9,10 +9,10 @@ import Welcome from './components/Welcome/Welcome';
 function App() {
   return (
     <main className="app">
-      <Article />
+      <Welcome />
       <Header />
       <Navigation />
-      <Welcome />
+      <Article />
     </main>
   );
 }
