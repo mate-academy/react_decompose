@@ -10,9 +10,11 @@
   text-align: center;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 500px) {
   .header {
+    text-align: left;
     display: flex;
+    justify-content: space-between;
   }
 }
 
