@@ -1,7 +1,7 @@
 import React from 'react';
 import './Article.css';
 
-const Article = () => {
+const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -60,7 +60,7 @@ const Article = () => {
       iaculis interdum vulputate, dui eros vehicula nisi, at interdum enim
       lacus eu diam.
     </p>
-  </article>;
-};
+  </article>
+);
 
 export default Article;
