@@ -8,11 +8,12 @@ import Article from './components/Article/Article';
 function App() {
   return (
     <main className="app">
-      <Header />
       <Welcome />
+      <Header />
       <Article />
     </main>
   );
 }
 
 export default App;
+
