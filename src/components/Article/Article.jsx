@@ -16,7 +16,7 @@ const Article = () => (
       Vestibulum lorem arcu, tincidunt in quam et  feugiat venenatis augue.
       Donec sed tincidunt tellus, a facilisis magna  Proin sit amet viverra
       nibh, bibendum gravida felis. Vivamus ut nuncid mauris posuere
-      pellentesque. Praesent tincidunt id odio idfeugiat.
+      pellentesque. Praesent tincidunt id odio idfeugia.
     </p>
     <p className="article__paragraph">
       In ac nisi lacus. Fusce est dolor, tincidun  ut bibendum vitae,
