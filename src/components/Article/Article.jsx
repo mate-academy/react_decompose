@@ -44,7 +44,7 @@ const Article = () => (
       vestibulum. Lorem ipsum dolor sit amet,consectetuadipiscing elit.
       Fusce id sapien eros. Vivamus viverraultricies gravidaNam urna
       nibh, blandit a vulputate at, vehicula nonnulla. Aeneaut nulla
-      leo. Praesent in ullamcorper est.
+      leo. Praesent in ullamcorper ests.
     </p>
     <p className="article__paragraph">
       Pellentesque habitant morbi tristique senectuset netuet malesuada
