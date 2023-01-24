@@ -6,6 +6,7 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
+    "@babel/generator": "^7.20.7",
     "@cypress/react": "^5.12.4",
     "postcss": "^8.4.12",
     "prop-types": "^15.7.2",
