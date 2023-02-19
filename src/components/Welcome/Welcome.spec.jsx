@@ -2,7 +2,7 @@ import React from 'react';
 import { mount } from '@cypress/react';
 import Welcome from './Welcome';
 
-describe('Welcome component', () => {
+describe('Navigation component', () => {
   beforeEach(() => {
     mount(<Welcome />);
   });
