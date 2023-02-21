@@ -15,6 +15,6 @@ const Header = () => (
       <Navigation />
     </header>
   </>
-)
+);
 
 export default Header;
