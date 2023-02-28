@@ -5,7 +5,6 @@
 
 // Add a default export statement for Article component to use it in the other files
 import React from 'react';
-import '../../App.css';
 import './Article.css';
 
 const Article = () => (
