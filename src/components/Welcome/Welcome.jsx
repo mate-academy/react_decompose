@@ -1,10 +1,12 @@
 import React from 'react';
 import './Welcome.css';
 
-const Welcome = props => (
-  <section className="welcome">
-    <span className="welcome__text">Sticky Header!</span>
-  </section>
-);
+function Welcome(props) {
+  return (
+    <section className="welcome">
+      <span className="welcome__text">Sticky Header!</span>
+    </section>
+  );
+}
 
 export default Welcome;
