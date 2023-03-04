@@ -1,6 +1,5 @@
 import React from 'react';
 import './Welcome.css';
-// import a css file containig article styles
 
 function Welcome() {
   return (
