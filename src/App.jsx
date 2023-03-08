@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Article from './Article';
-import header from './Header';
-import welcome from './Welcome';
+import Article from './components/Article';
+import Welcome from './components/Welcome';
+import Header from './components/Header';
 
 function App() {
   return (
     <main className="app">
-      {welcome}
-      {header}
+      <Welcome />
+      <Header />
       <Article />
     </main>
   );
