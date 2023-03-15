@@ -1,8 +1,8 @@
 // import the React library here
 import React from 'react';
 // import a css file containig article styles
-import './Header.css';
 import Navigation from './Navigation/Navigation';
+import './Header.css';
 
 // Create a Header function returning the HTML of header block
 const Header = () => (
