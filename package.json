@@ -1,12 +1,14 @@
 {
   "name": "react_decompose",
-  "homepage": ".",
+  "homepage": "http://.",
   "version": "0.1.0",
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
     "@cypress/react": "^5.12.4",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
     "postcss": "^8.4.12",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -65,5 +67,14 @@
       "_comment": "Add `cypress: true` to enable integration tests",
       "cypressComponents": true
     }
+  },
+  "description": "Split the `App.js` into components based on CSS blocks. CSS code should be split too. - You already have `Article`, `Header` and `Welcome` folders inside `./src/components/` with required files. - You may also create a folder for the `Navigation` component and move navigation there.",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrynaK-a/react_decompose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IrynaK-a/react_decompose/issues"
   }
 }
