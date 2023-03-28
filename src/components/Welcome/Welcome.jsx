@@ -1,10 +1,12 @@
 import React from 'react';
 import './Welcome.css';
 
+const welcomeText = `Sticky Header!`;
+
 const Welcome = () => (
   <section className="welcome">
     <span className="welcome__text">
-      Sticky Header!
+      {welcomeText}
     </span>
   </section>
 );
