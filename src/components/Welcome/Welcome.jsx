@@ -1,6 +1,14 @@
-// import the React library here
-// import a css file containig article styles
+import React from 'react';
+import './Welcome.css';
 
-// Create a Welcome function returning the HTML of welcome block
+const welcomeText = `Sticky Header!`;
 
-// Add a default export statement for Welcome component to use it in the other files
+const Welcome = () => (
+  <section className="welcome">
+    <span className="welcome__text">
+      {welcomeText}
+    </span>
+  </section>
+);
+
+export default Welcome;
