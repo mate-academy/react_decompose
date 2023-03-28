@@ -2,16 +2,22 @@ import React from 'react';
 import './Navigation.css';
 
 const navigationText = {
-  text1: `About`,
-  text2: `Services`,
-  text3: `Contact`,
+  about: `About`,
+  services: `Services`,
+  contact: `Contact`,
 };
 
 const Navigation = () => (
   <nav className="navigation">
-    <a className="navigation__link" href="#about">{navigationText.text1}</a>
-    <a className="navigation__link" href="#services">{navigationText.text2}</a>
-    <a className="navigation__link" href="#contact">{navigationText.text3}</a>
+    <a className="navigation__link" href="#about">
+      {navigationText.about}
+    </a>
+    <a className="navigation__link" href="#services">
+      {navigationText.services}
+    </a>
+    <a className="navigation__link" href="#contact">
+      {navigationText.contact}
+    </a>
   </nav>
 );
 
