@@ -67,7 +67,7 @@ function Article() {
       <p className="article__paragraph" id="products">
         {articleText.products}
       </p>
-      <p className="article__paragraph" id="pservises">
+      <p className="article__paragraph" id="servises">
         {articleText.servises}
       </p>
       <p className="article__paragraph" id="feedback">
