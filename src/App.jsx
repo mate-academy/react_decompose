@@ -4,7 +4,7 @@ import Header from './components/Header/Header';
 import Welcome from './components/Welcome/Welcome';
 import Article from './components/Article/Article';
 
-export function App() {
+function App() {
   return (
     <main className="app">
       <Welcome />
@@ -13,3 +13,5 @@ export function App() {
     </main>
   );
 }
+
+export default App;
