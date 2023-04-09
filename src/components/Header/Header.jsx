@@ -1,9 +1,7 @@
 import React from 'react';
 import './Header.css';
 
-// Create a Header function returning the HTML of header block
-
-export function Header(params) {
+export default function Header(params) {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
