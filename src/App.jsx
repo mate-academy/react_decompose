@@ -7,7 +7,6 @@ import Welcome from './components/Welcome/Welcome';
 function App() {
   return (
     <main className="app">
-
       <Welcome />
       <Header />
       <Article />
