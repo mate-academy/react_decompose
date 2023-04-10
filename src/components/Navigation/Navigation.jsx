@@ -1,7 +1,7 @@
 import React from 'react';
-import './Menu.css';
+import './Navigation.css';
 
-const Menu = () => (
+const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">About</a>
     <a className="navigation__link" href="#services">Services</a>
@@ -9,4 +9,4 @@ const Menu = () => (
   </nav>
 );
 
-export default Menu;
+export default Navigation;
