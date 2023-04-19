@@ -1,12 +1,12 @@
 import React from 'react';
 import './Header.css';
-import '../Navi/Navi.css';
-import Navi from '../Navi/Navi';
+import '../Navigation/Navigation.css';
+import Navigation from '../Navigation/Navigation';
 
 const Header = () => (
   <header className="header">
     <h1 className="header__title">Site Name</h1>
-    <Navi />
+    <Navigation />
     {/* <nav className="navigation">
       <a className="navigation__link" href="#about">About</a>
       <a className="navigation__link" href="#services">Services</a>
