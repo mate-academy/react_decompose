@@ -8,3 +8,8 @@
   display: block;
   font-weight: 700;
 }
+
+.welcome {
+  height: 100vh;
+  background: coral;
+}
