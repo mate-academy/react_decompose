@@ -1,7 +1,7 @@
 import React from 'react';
-import './Novigation.css';
+import './Navigation.css';
 
-const Novigation = () => (
+const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">About</a>
     <a className="navigation__link" href="#services">Services</a>
@@ -9,4 +9,4 @@ const Novigation = () => (
   </nav>
 );
 
-export default Novigation;
+export default Navigation;
