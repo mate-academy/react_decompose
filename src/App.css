@@ -18,7 +18,7 @@ body {
   background: #eee;
 }
 
-.welcome {
+/* .welcome {
   height: 100vh;
   background: coral;
 }
@@ -31,9 +31,9 @@ body {
   padding-top: calc(50vh - 20pt);
   display: block;
   font-weight: 700;
-}
+} */
 
-.header {
+/* .header {
   width: 100%;
   padding: 1em;
   font-size: 140%;
@@ -61,14 +61,14 @@ body {
   padding: 0 0.5em;
   color: black;
   transition: opacity 0.2s ease-in-out;
-}
+} */
 
-.navigation__link:hover,
+/* .navigation__link:hover,
 .navigation__link:focus {
   opacity: 1;
-}
+} */
 
-.article {
+/* .article {
   margin: 5em auto 0;
   padding: 1em;
   font-size: 140%;
@@ -103,4 +103,4 @@ body {
   .article {
     margin: 3.5em auto;
   }
-}
+} */
