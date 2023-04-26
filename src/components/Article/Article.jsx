@@ -6,7 +6,7 @@
 
 // Add a default export statement for Article component to use it in the other files
 
-export const Articles = () => (
+const Articles = () => (
   <>
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -68,3 +68,5 @@ export const Articles = () => (
     </article>
   </>
 );
+
+export default Articles;
