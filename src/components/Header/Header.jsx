@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigator from '../../Navigator/Navigator';
+import Navigator from '../Navigator/Navigator';
 import './Header.css';
 
 function Header() {
