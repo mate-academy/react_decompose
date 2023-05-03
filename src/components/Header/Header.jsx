@@ -2,7 +2,6 @@ import React from 'react';
 import Navigation from './Navigation/Navigation';
 
 import './Header.css';
-import '../../styles/MediaQuery.css';
 
 const Header = () => (
   <header className="header">

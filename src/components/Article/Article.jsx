@@ -1,7 +1,6 @@
 import React from 'react';
 
 import './Article.css';
-import '../../styles/MediaQuery.css';
 
 function Article() {
   return (
