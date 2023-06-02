@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-import '../Article/Article.css';
 
 import Navigation from '../Navigation/Navigation';
 
