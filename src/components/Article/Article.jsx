@@ -1,4 +1,3 @@
-// import the React library here
 // import a css file containig article styles
 
 // Create an Article function returning the HTML of article block
