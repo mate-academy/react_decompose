@@ -1,9 +1,10 @@
+
 import './Welcome.css';
 
-const Welcome = () => {
+const Welcome = () => (
   <section className="welcome">
     <span className="welcome__text">Sticky Header!</span>
-  </section>;
-};
+  </section>
+);
 
 export default Welcome;
