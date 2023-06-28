@@ -8,9 +8,7 @@ import Navigation from './components/Navigation/Navigation';
 const App = () => (
   <main className="app">
     <Welcome />
-    <Header>
-      <Navigation />
-    </Header>
+    <Header />
     <Article />
   </main>
 );
