@@ -1,0 +1,25 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 140%;
+  text-align: center;
+  transition: opacity 0.2s ease-in-out;
+
+  &__title {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-size: inherit;
+  }
+
+  @media (min-width: 500px) {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+  }
+}
