@@ -1,5 +1,5 @@
-import './Header.css';
 import Navigation from '../Navigation/Navigation';
+import './Header.css';
 
 const Header = () => (
   <header className="header">
