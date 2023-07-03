@@ -11,3 +11,5 @@ export const App = () => (
     <Article />
   </main>
 );
+
+export default App;
