@@ -1,4 +1,4 @@
-import './Header.css'
+import './Header.css';
 
 const Header = () => (
   <header className="header">
@@ -9,6 +9,6 @@ const Header = () => (
       <a className="navigation__link" href="#contact">Contact</a>
     </nav>
   </header>
-)
+);
 
 export default Header;
