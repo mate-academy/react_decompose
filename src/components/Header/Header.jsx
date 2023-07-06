@@ -1,6 +1,6 @@
 import './Header.css';
 
-const Header = () => {
+const Header = () => (
   <header className="header">
     <h1 className="header__title">Site Name</h1>
     <nav className="navigation">
@@ -8,7 +8,7 @@ const Header = () => {
       <a className="navigation__link" href="#services">Services</a>
       <a className="navigation__link" href="#contact">Contact</a>
     </nav>
-  </header>;
-};
+  </header>
+);
 
 export default Header;
