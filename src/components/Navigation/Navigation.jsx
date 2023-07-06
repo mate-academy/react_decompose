@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-export function Navigation() {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">About</a>
@@ -9,3 +9,5 @@ export function Navigation() {
     </nav>
   );
 }
+
+export default Navigation;
