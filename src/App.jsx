@@ -9,7 +9,6 @@ const App = () => (
     <Section />
     <Header />
     <Article />
-    
   </main>
 );
 
