@@ -1,5 +1,4 @@
 import './Article.css';
-import '../Header/Header.css';
 
 const Article = () => (
   <article className="article">
