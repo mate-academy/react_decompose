@@ -68,3 +68,5 @@ export const Article = () => (
     </article>
   </main>
 );
+
+export default Article;
