@@ -8,9 +8,7 @@ import { Article } from './components/Article/Article';
 const App = () => (
   <main className="app">
     <Welcome />
-
     <Header />
-
     <Article />
   </main>
 );
