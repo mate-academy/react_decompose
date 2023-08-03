@@ -1,10 +1,10 @@
-import Nav from './Navigation/Nav';
+import Navigation from './Navigation/Navigation';
 import './Header.scss';
 
 const Header = () => (
   <header className="header">
     <h1 className="header__title">Site Name</h1>
-    <Nav />
+    <Navigation />
   </header>
 );
 
