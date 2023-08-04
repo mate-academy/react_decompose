@@ -7,8 +7,8 @@ import './App.css';
 
 const App = () => (
   <div>
-    <Welcome />
     <main className="app">
+      <Welcome />
       <Header />
       <Article />
     </main>

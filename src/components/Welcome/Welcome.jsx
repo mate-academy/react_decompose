@@ -2,9 +2,9 @@ import './Welcome.css';
 
 function Welcome() {
   return (
-    <div className="welcome">
+    <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
-    </div>
+    </section>
   );
 }
 
