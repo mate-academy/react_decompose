@@ -8,9 +8,10 @@ function App() {
   return (
     <main className="app">
       <Welcome />
-      <Header/>
+      <Header />
       <Article />
     </main>
   );
 }
+
 export default App;
