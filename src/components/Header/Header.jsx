@@ -1,11 +1,8 @@
-// Don't forget to import the React library
-// Import a css file containig header styles
 import React from "react";
 import './Header.css';
 
 function Header () {
   return (
-    <>
       <header className="header">
         <h1 className="header__title">Site Name</h1>
         <nav className="navigation">
@@ -20,11 +17,6 @@ function Header () {
           </a>
         </nav>
       </header>
-    </>
   );
 }
 export default Header;
-
-// Create a Header function returning the HTML of header block
-
-// Add a default export statement for Header component to use it in the other files
