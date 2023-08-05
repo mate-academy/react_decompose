@@ -2,8 +2,8 @@ import './Header.css';
 import { Navigation } from './Navigation/Navigation';
 
 export const Header = () => (
-<header className="header">
+  <header className="header">
     <h1 className="header__title">Site Name</h1>
     <Navigation />
-</header>
-)
+  </header>
+);
