@@ -6,13 +6,11 @@ import Header from './components/Header/Header';
 import './App.css';
 
 const App = () => (
-  <div>
-    <main className="app">
-      <Welcome />
-      <Header />
-      <Article />
-    </main>
-  </div>
+  <main className="app">
+    <Welcome />
+    <Header />
+    <Article />
+  </main>
 );
 
 export default App;
