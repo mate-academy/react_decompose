@@ -1,7 +1,6 @@
-/* Put welcome styles here */
 .welcome {
   height: 100vh;
-  background: coral;
+  background: #ff7f50;
 }
 
 .welcome__text {
