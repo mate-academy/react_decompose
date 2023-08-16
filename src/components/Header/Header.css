@@ -1,1 +1,10 @@
 /* Put header styles here */
+/* Styl dla głównego kontenera nagłówka */
+.header {
+  position: sticky;
+  display: flex;
+}
+
+.header__title {
+  font-weight: 600;
+}
