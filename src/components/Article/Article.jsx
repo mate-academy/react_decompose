@@ -1,4 +1,4 @@
-import './Article.css';
+import './Article.scss';
 
 export const Article = () => (
   <article className="article">
