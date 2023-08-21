@@ -1,5 +1,24 @@
-// import a css file containig article styles
+import './Article.css';
 
-// Create an Article function returning the HTML of article block
+const Article = props => (
+  <article className="article">
+    <h1 className="article__title">Headline</h1>
+    <p className="article__paragraph">
+      {props.content}
+    </p>
+    <p className="article__paragraph">
+      {props.content1}
+    </p>
+    <p className="article__paragraph">
+      {props.content2}
+    </p>
+    <p className="article__paragraph">
+      {props.content3}
+    </p>
+    <p className="article__paragraph">
+      {props.content4}
+    </p>
+  </article>
+);
 
-// Add a default export statement for Article component to use it in the other files
+export default Article;
