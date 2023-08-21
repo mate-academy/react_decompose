@@ -1,5 +1,11 @@
-// import a css file containig article styles
+import NavigationApp from '../Navigation/Navigation';
+import './Header.scss';
 
-// Create a Header function returning the HTML of header block
+export const Header = () => (
+  <header className="header">
+    <h1 className="header__title">React Decompose</h1>
+    <NavigationApp />
+  </header>
+);
 
-// Add a default export statement for Header component to use it in the other files
+export default Header;
