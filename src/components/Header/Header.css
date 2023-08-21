@@ -10,6 +10,13 @@
   transition: opacity 0.2s ease-in-out;
   text-align: center;
 }
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
 
 .header__title {
   font-weight: 600;
