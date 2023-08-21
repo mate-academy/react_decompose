@@ -35,6 +35,10 @@
     "stylelint": "^13.13.1",
     "typescript": "^4.6.3"
   },
+
+  "overrides": {
+     "webpack": "4.44.2"
+  },
   "scripts": {
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
