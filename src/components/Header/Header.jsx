@@ -1,5 +1,6 @@
+/* eslint-disable import/no-named-as-default */
+
 import './Header.css';
-// eslint-disable-next-line
 import Navigation from '../Navigation/Navigation';
 
 export const Header = () => (
