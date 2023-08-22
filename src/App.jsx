@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.scss';
 
-import HeaderApp from './components/Header/Header';
-import ArticleApp from './components/Article/Article';
-import WelcomeApp from './components/Welcome/Welcome';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
+import Welcome from './components/Welcome/Welcome';
 
 const App = () => (
   <main className="app">
-    <HeaderApp />
-    <WelcomeApp />
-    <ArticleApp />
+    <Header />
+    <Welcome />
+    <Article />
   </main>
 );
 
