@@ -1,17 +1,14 @@
-// import a css file containig article styles
+// import a css file
 import './Header.css';
+import Navigation from '../Navigation/Navigation';
 
-// Create a Welcome function returning the HTML of welcome block
+// Create
 const Header = () => (
   <header className="header">
     <h1 className="header__title">Site Name</h1>
-    <nav className="navigation">
-      <a className="navigation__link" href="#about">About</a>
-      <a className="navigation__link" href="#services">Services</a>
-      <a className="navigation__link" href="#contact">Contact</a>
-    </nav>
+    <Navigation />
   </header>
 );
-// Add a default export statement for Welcome component to use it in the other files
+// Add a default export statement
 
 export default Header;
