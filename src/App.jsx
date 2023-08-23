@@ -10,6 +10,7 @@ const App = () => (
     <Header />
     <Article />
   </main>
+
 );
 
 export default App;
