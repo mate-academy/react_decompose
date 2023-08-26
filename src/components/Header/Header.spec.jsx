@@ -37,7 +37,7 @@ describe('Header component', () => {
     cy.get('.navigation__link')
       .eq(0).should('have.css', 'opacity', '0.7');
   });
-
+z
   it('should have styles added with media', () => {
     cy.get('.header')
       .should('have.css', 'display', 'flex');
