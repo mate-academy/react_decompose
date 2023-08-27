@@ -1,4 +1,4 @@
-import "./Welcome.css";
+import './Welcome.css';
 
 const Welcome = () => (
   <section className="welcome">

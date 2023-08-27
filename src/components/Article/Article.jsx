@@ -1,4 +1,4 @@
-import "./Article.css";
+import './Article.css';
 
 const Article = ({ title, text }) => (
   <article className="article">
