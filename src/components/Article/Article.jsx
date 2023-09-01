@@ -1,4 +1,4 @@
-import './Article.css'
+import './Article.css';
 
 export const Article = () => {
   <article className="article">
@@ -60,6 +60,6 @@ export const Article = () => {
       lacus eu diam.
     </p>
   </article>;
-}
+};
 
 export default Article;
