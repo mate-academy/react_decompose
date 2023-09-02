@@ -1,4 +1,3 @@
-/*
 import './Navigation.css';
 
 const Navigation = () => (
@@ -10,4 +9,3 @@ const Navigation = () => (
 );
 
 export default Navigation;
-*/
