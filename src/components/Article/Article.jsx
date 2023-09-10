@@ -1,6 +1,7 @@
 import './Article.css';
 
-export const Article = () => (
+function Article() {
+  return (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -60,4 +61,7 @@ export const Article = () => (
       lacus eu diam.
     </p>
   </article>
-);
+  );
+};
+
+export default Article;
