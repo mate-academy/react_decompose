@@ -5,7 +5,7 @@
 
 .welcome__text {
   margin: 0;
-  font-size: 400%;
+  font-size: 60px;
   text-align: center;
   line-height: 1;
   padding-top: calc(50vh - 20pt);
