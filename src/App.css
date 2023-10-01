@@ -1,7 +1,3 @@
-@import "./components/Welcome/Welcome.css";
-@import "./components/Header/Header.css";
-@import "./components/Article/Article.css";
-
 iframe {
   display: none;
 }
@@ -20,23 +16,4 @@ html {
 body {
   margin: 0;
   background: #eee;
-}
-
-@media (min-width: 500px) {
-  .header {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .article {
-    margin: 3.5em auto 0;
-    padding: 2em;
-  }
-}
-
-@media (min-width: 800px) {
-  .article {
-    margin: 3.5em auto;
-  }
 }
