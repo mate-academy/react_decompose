@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { mount } from '@cypress/react';
+
 import TestdArticle from './Article';
 
 describe('Article component', () => {
