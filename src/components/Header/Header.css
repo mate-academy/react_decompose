@@ -8,6 +8,7 @@
   right: 0;
   transition: opacity 0.2s ease-in-out;
   text-align: center;
+  display: flex;
 }
 
 .header__title {
