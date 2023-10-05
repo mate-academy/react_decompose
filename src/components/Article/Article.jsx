@@ -63,3 +63,5 @@ export function Article() {
     </article>
   );
 }
+
+export default Article;
