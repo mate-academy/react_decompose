@@ -18,6 +18,14 @@
   font-size: inherit;
 }
 
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .navigation__link {
   display: inline-block;
   outline: none;
