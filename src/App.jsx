@@ -1,21 +1,28 @@
 import React from 'react';
 import './App.css';
-// Move each BEM block to a separate component (file) and import them here
+import { Article } from './components/Article/Article';
+import { Welcome } from './components/Welcome/Welcome';
+import { Header } from './components/Header/Header';
+import { Navigation } from './components/Navigation/Navigation';
 
 const App = () => (
   <main className="app">
-    <section className="welcome">
+    <Welcome />
+    {/* <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
-    </section>
-    <header className="header">
-      <h1 className="header__title">Site Name</h1>
-      <nav className="navigation">
+    </section> */}
+    <Header />
+    {/* <header className="header">
+      <h1 className="header__title">Site Name</h1> */}
+    <Navigation />
+    {/* <nav className="navigation">
         <a className="navigation__link" href="#about">About</a>
         <a className="navigation__link" href="#services">Services</a>
         <a className="navigation__link" href="#contact">Contact</a>
-      </nav>
-    </header>
-    <article className="article">
+      </nav> */}
+    {/* </header> */}
+    <Article />
+    {/* <article className="article">
       <h1 className="article__title">Headline</h1>
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
@@ -73,7 +80,7 @@ const App = () => (
         iaculis interdum vulputate, dui eros vehicula nisi, at interdum enim
         lacus eu diam.
       </p>
-    </article>
+    </article> */}
   </main>
 );
 
