@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import './Header.css';
 
 const Header = () => (
@@ -10,6 +10,6 @@ const Header = () => (
       <a className="navigation__link" href="#contact">Contact</a>
     </nav>
   </header>
-)
+);
 
 export default Header;

@@ -1,5 +1,5 @@
 import './Article.css';
-import React from "react";
+import React from 'react';
 
 const Article = () => (
   <article className="article">
@@ -61,6 +61,6 @@ const Article = () => (
       lacus eu diam.
     </p>
   </article>
-)
+);
 
 export default Article;
