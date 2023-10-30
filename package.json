@@ -7,6 +7,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@cypress/react": "^5.12.4",
+    "@mate-academy/eslint-config": "0.0.25",
     "postcss": "^8.4.12",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
