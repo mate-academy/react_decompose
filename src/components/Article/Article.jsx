@@ -5,7 +5,7 @@
 // Add a default export statement for Article component to use it in the other files
 import './Article.scss';
 
-const Article = () => (
+export const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -66,5 +66,3 @@ const Article = () => (
     </p>
   </article>
 );
-
-export default Article;
