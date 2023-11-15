@@ -1,7 +1,4 @@
-// import a css file containig article styles
 import './Header.css';
-
-// Create a Header function returning the HTML of header block
 
 export const Header = () => (
   <header className="header">
@@ -13,6 +10,4 @@ export const Header = () => (
     </nav>
   </header>
 );
-
-// Add a default export statement for Header component to use it in the other files
 export default Header;
