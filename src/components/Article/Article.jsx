@@ -1,5 +1,15 @@
-// import a css file containig article styles
+import { LoremIpsum } from 'react-lorem-ipsum';
+import './Article.css';
 
-// Create an Article function returning the HTML of article block
+export const Article = () => {
+  const title = 'Headline';
 
-// Add a default export statement for Article component to use it in the other files
+  return (
+    <article className="article">
+      <h1 className="article__title">{title}</h1>
+      <div className="article__paragraph">
+        <LoremIpsum p={5} />
+      </div>
+    </article>
+  );
+};
