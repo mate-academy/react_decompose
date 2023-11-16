@@ -1,4 +1,4 @@
-import { LoremIpsum } from 'react-lorem-ipsum';
+import { loremIpsum } from 'react-lorem-ipsum';
 import './Article.css';
 
 export const Article = () => {
@@ -7,9 +7,11 @@ export const Article = () => {
   return (
     <article className="article">
       <h1 className="article__title">{title}</h1>
-      <div className="article__paragraph">
-        <LoremIpsum p={5} />
-      </div>
+      {loremIpsum({ p: 5 }).map(text => (
+        <p className="article__paragraph">
+          {text}
+        </p>
+      ))}
     </article>
   );
 };
