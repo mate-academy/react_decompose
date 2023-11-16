@@ -1,10 +1,10 @@
 import './Header.css';
 
-export const Header = () => {
+const TestdHeader = () => {
   const navList = [
     { href: '#about', title: 'About' },
     { href: '#services', title: 'Services' },
-    { href: '#contacts', title: 'Contact' },
+    { href: '#contact', title: 'Contact' },
   ];
 
   return (
@@ -24,3 +24,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default TestdHeader;

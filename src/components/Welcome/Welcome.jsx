@@ -1,6 +1,6 @@
 import './Welcome.css';
 
-export const Welcome = () => {
+const TestdWelcome = () => {
   const title = 'Sticky Header!';
 
   return (
@@ -9,3 +9,5 @@ export const Welcome = () => {
     </section>
   );
 };
+
+export default TestdWelcome;
