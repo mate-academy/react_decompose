@@ -7,3 +7,5 @@ export const Navigation = () => (
     <a className="navigation__link" href="#contact">Contact</a>
   </nav>
 );
+
+export default Navigation;
