@@ -7,7 +7,6 @@ import Article from './components/Article/Article';
 
 const App = () => (
   <main className="app">
-    <div>14324234324</div>
     <Welcome />
     <Header />
     <Article />
