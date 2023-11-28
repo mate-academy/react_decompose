@@ -9,6 +9,7 @@ const App = () => (
     <Welcome />
     <Header />
     <Article />
+    <Article />
   </main>
 );
 
