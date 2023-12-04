@@ -1,0 +1,14 @@
+.welcome {
+  height: 100vh;
+  background: coral;
+
+  &__text {
+    margin: 0;
+    font-size: 400%;
+    text-align: center;
+    line-height: 1;
+    padding-top: calc(50vh - 20pt);
+    display: block;
+    font-weight: 700;
+  }
+}
