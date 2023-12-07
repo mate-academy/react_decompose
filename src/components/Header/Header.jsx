@@ -1,4 +1,21 @@
-// import a css file containig article styles
+import './Header.css';
+
+export default function Header() {
+  return (
+    <header className="header">
+      <h1 className="header__title">Site Name</h1>
+      <Nav />
+    </header>
+  );
+}
+
+const Nav = () => (
+  <nav className="navigation">
+    <a className="navigation__link" href="#about">About</a>
+    <a className="navigation__link" href="#services">Services</a>
+    <a className="navigation__link" href="#contact">Contact</a>
+  </nav>
+);
 
 // Create a Header function returning the HTML of header block
 
