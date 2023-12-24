@@ -1,6 +1,6 @@
 import './Nav.css';
 
-export const Nav = () => (
+const Nav = () => (
   <nav className="navigation">
     <a
       className="navigation__link"
