@@ -4,8 +4,8 @@ import Header from './components/Header/Header';
 import Welcome from './components/Welcome/Welcome';
 
 import './App.css';
-import './components/Welcome/Welcome.css';
-import './components/Header/Header.css';
+// import './components/Welcome/Welcome.css';
+// import './components/Header/Header.css';
 import './components/Article/Article.css';
 
 // import React from 'react';
