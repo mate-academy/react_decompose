@@ -1,4 +1,4 @@
-import Navigation from '../Navigation/Navigation';
+import { Navigation } from '../Navigation/Navigation';
 import './Header.scss';
 
 // Add a default export statement for Header component to use it in the other files
