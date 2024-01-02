@@ -1,16 +1,17 @@
 import './Header.css';
-import Navigation from './navigation/Navigation';
-// import a css file containig article styles
+import '../Article/Article.css';
+import Navigation from '../Navigation/Navigation';
+
 function Header() {
   return (
     <>
       <h1 className="header__title">Site Name</h1>
-      <Navigation />
+      <header className="header">
+        <Navigation />
+      </header>
+
     </>
   );
 }
 
 export default Header;
-// Create a Header function returning the HTML of header block
-
-// Add a default export statement for Header component to use it in the other files
