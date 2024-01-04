@@ -1,5 +1,6 @@
 /* Put header styles here */
 .header {
+  display: flex;
   width: 100%;
   padding: 1em;
   font-size: 140%;
