@@ -1,6 +1,5 @@
-// import a css file containig article styles
 import './Welcome.css';
-// Create a Welcome function returning the HTML of welcome block
+
 function Welcome() {
   return (
     <section className="welcome">
@@ -8,6 +7,5 @@ function Welcome() {
     </section>
   );
 }
-// Add a default export statement for Welcome component to use it in the other files
 
 export default Welcome;
