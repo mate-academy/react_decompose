@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
-// Move each BEM block to a separate component (file) and import them here
+import Header from './components/Header/Header';
+import Welcome from './components/Welcome/Welcome';
+import Article from './components/Article/Article';
 
 const App = () => (
   <main className="app">
-    <section className="welcome">
+    <Welcome />
+    <Header />
+    <Article />
+    {/* <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
     </section>
     <header className="header">
@@ -73,7 +78,7 @@ const App = () => (
         iaculis interdum vulputate, dui eros vehicula nisi, at interdum enim
         lacus eu diam.
       </p>
-    </article>
+    </article> */}
   </main>
 );
 
