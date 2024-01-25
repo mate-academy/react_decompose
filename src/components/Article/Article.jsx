@@ -1,5 +1,14 @@
-// import a css file containig article styles
+import Title from './Title';
+import Paragraph from './Paragraph';
+import './Article.css';
 
-// Create an Article function returning the HTML of article block
+function Article() {
+  return (
+    <div className="article">
+      <Title />
+      <Paragraph />
+    </div>
+  );
+}
 
-// Add a default export statement for Article component to use it in the other files
+export default Article;
