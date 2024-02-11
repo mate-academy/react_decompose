@@ -1,10 +1,10 @@
 import React from 'react';
 import { mount } from '@cypress/react';
-import TestedWelcome from './Welcome';
+import { CreateWelcome } from './Welcome';
 
 describe('Welcome component', () => {
   beforeEach(() => {
-    mount(<TestedWelcome />);
+    mount(<CreateWelcome />);
   });
 
   it('should contain Sticky Header', () => {
