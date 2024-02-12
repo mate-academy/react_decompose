@@ -1,4 +1,4 @@
-import '../Article/Article.css';
+import './Header.css';
 import { NavigationBlock } from '../Navigation/Navigation';
 
 export function HeaderBlock() {
