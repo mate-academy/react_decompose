@@ -1,5 +1,4 @@
 import './Header.css';
-import '../Article/Article.css';
 import { NavigationBlock } from '../Navigation/Navigation';
 
 export function HeaderBlock() {

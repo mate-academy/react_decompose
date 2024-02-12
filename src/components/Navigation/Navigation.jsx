@@ -1,4 +1,4 @@
-import '../Article/Article.css';
+import './Navigation.css';
 
 export function NavigationBlock() {
   return (

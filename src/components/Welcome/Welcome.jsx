@@ -1,4 +1,4 @@
-import '../Article/Article.css';
+import './Welcome.css';
 
 export function WelcomeBlock() {
   return (
