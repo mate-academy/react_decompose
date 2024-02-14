@@ -1,6 +1,6 @@
 import './Welcome.css';
 
-export function WelcomeBlock() {
+export function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -8,7 +8,7 @@ export function WelcomeBlock() {
   );
 }
 
-export default WelcomeBlock;
+export default Welcome;
 
 // import a css file containig article styles
 

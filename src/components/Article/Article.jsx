@@ -1,6 +1,6 @@
 import './Article.css';
 
-export function ArticleBlock() {
+export function Article() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -64,7 +64,7 @@ export function ArticleBlock() {
   );
 }
 
-export default ArticleBlock;
+export default Article;
 
 // import a css file containig article styles
 

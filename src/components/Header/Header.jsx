@@ -1,16 +1,16 @@
 import './Header.css';
-import { NavigationBlock } from '../Navigation/Navigation';
+import { Navigation } from '../Navigation/Navigation';
 
-export function HeaderBlock() {
+export function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
-      <NavigationBlock />
+      <Navigation />
     </header>
   );
 }
 
-export default HeaderBlock;
+export default Header;
 
 // import a css file containig article styles
 
