@@ -7,7 +7,9 @@ import Article from './components/Article/Article';
 const App = () => (
   <main className="app">
     <Section />
+
     <Header />
+
     <Article />
   </main>
 );
