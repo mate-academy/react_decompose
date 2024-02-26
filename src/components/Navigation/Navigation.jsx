@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Navigation.css';
 // Move each BEM block to a separate component (file) and import them here
 
 const App = () => (
