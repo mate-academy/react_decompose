@@ -1,5 +1,11 @@
-// import a css file containig article styles
+import './Header.css';
+import NavComponent from '../Nav/Nav';
 
-// Create a Header function returning the HTML of header block
+export const Header = () => (
+  <header className="header">
+    <h1 className="header__title">Site Name</h1>
+    <NavComponent />
+  </header>
+);
 
-// Add a default export statement for Header component to use it in the other files
+export default Header;
