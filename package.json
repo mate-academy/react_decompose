@@ -19,7 +19,9 @@
     "@mate-academy/eslint-config-react": "0.0.15",
     "@mate-academy/scripts": "^1.7.0",
     "@mate-academy/stylelint-config": "^0.0.12",
+
     "cypress": "^13.6.6",
+
     "eslint": "^7.32.0",
     "eslint-plugin-cypress": "^2.11.2",
     "gh-pages": "^3.2.3",
