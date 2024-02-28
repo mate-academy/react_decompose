@@ -1,7 +1,16 @@
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import "./App.css";
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root'),
+import Welcome from "./components/Welcome/Welcome";
+import Header from "./components/Header/Header";
+import Article from "./components/Article/Article";
+
+const App = () => (
+  <main className="app">
+    <Welcome />
+    <Header />
+    <Article />
+  </main>
 );
+
+export default App;
