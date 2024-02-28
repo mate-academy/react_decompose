@@ -1,5 +1,18 @@
-import { createRoot } from 'react-dom/client';
 
-import App from './App';
+import React from "react";
+import "./App.css";
 
-createRoot(document.getElementById('root')).render(<App />);
+import Welcome from "./components/Welcome/Welcome";
+import Header from "./components/Header/Header";
+import Article from "./components/Article/Article";
+
+const App = () => (
+  <main className="app">
+    <Welcome />
+    <Header />
+    <Article />
+  </main>
+);
+
+export default App;
+
