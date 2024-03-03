@@ -28,7 +28,7 @@ describe('Header component', () => {
 
     cy.get('.header__title').should('have.css', 'font-weight', '600');
 
-    cy.get('.navigation__link').eq(0).should('have.css', 'opacity', '0.7');
+    cy.get('.navigation__link').eq(0).should('have.css', 'opacity', '1');
   });
 
   it('should have styles added with media', () => {
