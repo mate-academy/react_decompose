@@ -8,18 +8,15 @@ describe('Article component', () => {
   });
 
   it('should contain Headline', () => {
-    cy.get('h1')
-      .should('have.text', 'Headline');
+    cy.get('h1').should('have.text', 'Headline');
   });
 
   it('should contain 5 paragraphs', () => {
-    cy.get('p.article__paragraph')
-      .should('have.length', 5);
+    cy.get('p.article__paragraph').should('have.length', 5);
   });
 
   it('should have correct styles', () => {
-    cy.get('.article')
-      .should('have.css', 'max-width', '800px');
+    cy.get('.article').should('have.css', 'max-width', '800px');
 
     cy.get('.article__paragraph')
       .eq(0)
