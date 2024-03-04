@@ -2,6 +2,7 @@ import React from 'react';
 import { mount } from '@cypress/react';
 import TestedHeader from './Header';
 
+// eslint-disable-next-line prettier/prettier
 describe('Header component', () => {
   beforeEach(() => {
     mount(<TestedHeader />);
