@@ -5,8 +5,8 @@
 // Add a default export statement for Header component to use it in the other files
 import './Header.css';
 
-export function Header() {
-    return (
+function Header() {
+  return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
       <nav className="navigation">
@@ -21,5 +21,7 @@ export function Header() {
         </a>
       </nav>
     </header>
-    )
+  );
 }
+
+export default Header;
