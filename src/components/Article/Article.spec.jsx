@@ -2,6 +2,7 @@ import React from 'react';
 import { mount } from '@cypress/react';
 import TestdArticle from './Article';
 
+// eslint-disable-next-line prettier/prettier
 describe('Article component', () => {
   beforeEach(() => {
     mount(<TestdArticle />);
