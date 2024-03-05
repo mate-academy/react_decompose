@@ -6,10 +6,4 @@ import Welcome from './components/Welcome/Welcome';
 
 const App = () => (
   <main className="app">
-    <Welcome />
-    <Header />
-    <Article />
-  </main>
-);
-
-export default App;
+  
