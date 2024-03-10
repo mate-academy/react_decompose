@@ -13,3 +13,5 @@ export const Navigation = () => (
     </a>
   </nav>
 );
+
+export default Navigation;
