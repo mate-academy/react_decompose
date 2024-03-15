@@ -27,7 +27,6 @@
     "mochawesome-merge": "^4.2.0",
     "mochawesome-report-generator": "^6.2.0",
     "node-sass": "^7.0.1",
-    "prettier": "^3.2.5",
     "stylelint": "^15.11.0"
   },
   "scripts": {
