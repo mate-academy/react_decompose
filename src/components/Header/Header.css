@@ -1,1 +1,42 @@
-/* Put header styles here */
+.header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  transition: opacity 0.2s ease-in-out;
+  padding: 1em;
+  width: 100%;
+  font-size: 140%;
+  text-align: center;
+}
+
+.header__title {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.navigation__link {
+  display: inline-block;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+  outline: none;
+  padding: 0 0.5em;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  opacity: 1;
+}
