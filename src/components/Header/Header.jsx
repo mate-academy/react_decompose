@@ -2,7 +2,7 @@
 // import a css file containig article styles
 
 import './Header.css';
-import Navigation from '../Navigation/Navigation ';
+import Navigation from '../Navigation/Navigation';
 
 // Create a Header function returning the HTML of header block
 const Header = () => (
