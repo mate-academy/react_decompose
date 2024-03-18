@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/Article/Article.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1710702662744,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710702677400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // import a css file containig article styles\n-im\n+import './'\n // Create an Article function returning the HTML of article block\n \n // Add a default export statement for Article component to use it in the other files\n"
+                },
+                {
+                    "date": 1710702693394,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+// import a css file containig article styles\n+import '../'\n+// Create an Article function returning the HTML of article block\n+\n+// Add a default export statement for Article component to use it in the other files\n"
+                },
+                {
+                    "date": 1710702701950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n // import a css file containig article styles\n-import '../'\n+import './A'\n // Create an Article function returning the HTML of article block\n \n // Add a default export statement for Article component to use it in the other files\n-// import a css file containig article styles\n-import './'\n-// Create an Article function returning the HTML of article block\n-\n-// Add a default export statement for Article component to use it in the other files\n"
+                },
+                {
+                    "date": 1710702707687,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // import a css file containig article styles\n-import './Article'\n+import './Article.spec'\n // Create an Article function returning the HTML of article block\n \n // Add a default export statement for Article component to use it in the other files\n"
+                },
+                {
+                    "date": 1710702838747,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,5 @@\n   return ()\n }\n // Add a default export statement for Article component to use it in the other files\n ex\n+po\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1710702662744,
+            "name": "Commit-0",
+            "content": "// import a css file containig article styles\nim\n// Create an Article function returning the HTML of article block\n\n// Add a default export statement for Article component to use it in the other files\n"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "sourceFile": "src/components/Welcome/Welcome.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1710703611487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710703617252,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // import a css file containig article styles\n-import\n+import './Welcome.spec';\n // Create a Welcome function returning the HTML of welcome block\n \n // Add a default export statement for Welcome component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703626358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n // import a css file containig article styles\n-import './Welcome.spec';\n+import './Welcome.css';\n // Create a Welcome function returning the HTML of welcome block\n-\n+function \n // Add a default export statement for Welcome component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703632963,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+// import a css file containig article styles\n+import './Welcome.css';\n+// Create a Welcome function returning the HTML of welcome block\n+function Wlcome()\n+// Add a default export statement for Welcome component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703639009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,7 @@\n // import a css file containig article styles\n import './Welcome.css';\n // Create a Welcome function returning the HTML of welcome block\n-function Wlcome()\n+function Welcome() {\n+  \n+}\n // Add a default export statement for Welcome component to use it in the other files\n-// import a css file containig article styles\n-import './Welcome.css';\n-// Create a Welcome function returning the HTML of welcome block\n-function \n-// Add a default export statement for Welcome component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703644650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+// import a css file containig article styles\n+import './Welcome.css';\n+// Create a Welcome function returning the HTML of welcome block\n+function Welcome() {\n+  return ()\n+}\n+// Add a default export statement for Welcome component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703658266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,14 +1,8 @@\n // import a css file containig article styles\n import './Welcome.css';\n // Create a Welcome function returning the HTML of welcome block\n function Welcome() {\n-  return ()\n+  return ();\n }\n // Add a default export statement for Welcome component to use it in the other files\n-// import a css file containig article styles\n-import './Welcome.css';\n-// Create a Welcome function returning the HTML of welcome block\n-function Welcome() {\n-  \n-}\n-// Add a default export statement for Welcome component to use it in the other files\n+export de\n"
+                },
+                {
+                    "date": 1710703664119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n function Welcome() {\n   return ();\n }\n // Add a default export statement for Welcome component to use it in the other files\n-export de\n+export def\n"
+                },
+                {
+                    "date": 1710703671972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n function Welcome() {\n   return ();\n }\n // Add a default export statement for Welcome component to use it in the other files\n-export def\n+export default  \n"
+                },
+                {
+                    "date": 1710703678316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n function Welcome() {\n   return ();\n }\n // Add a default export statement for Welcome component to use it in the other files\n-export default  \n+export default\n+W\n"
+                },
+                {
+                    "date": 1710703686733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,6 +4,5 @@\n function Welcome() {\n   return ();\n }\n // Add a default export statement for Welcome component to use it in the other files\n-export default\n-W\n+export default Welcome\n"
+                },
+                {
+                    "date": 1710703692871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,4 @@\n   return ();\n }\n // Add a default export statement for Welcome component to use it in the other files\n export default Welcome;\n-\n"
+                },
+                {
+                    "date": 1710759760014,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import './Welcome.css';\n // Create a Welcome function returning the HTML of welcome block\n function Welcome() {\n   return (\n-    <div className=></div>\n+    <div className=\"\"></div>\n   );\n }\n // Add a default export statement for Welcome component to use it in the other files\n export default Welcome;\n"
+                }
+            ],
+            "date": 1710703611487,
+            "name": "Commit-0",
+            "content": "// import a css file containig article styles\nimport\n// Create a Welcome function returning the HTML of welcome block\n\n// Add a default export statement for Welcome component to use it in the other files\n"
+        }
+    ]
+}

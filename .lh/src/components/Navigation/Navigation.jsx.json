@@ -1,0 +1,106 @@
+{
+    "sourceFile": "src/components/Navigation/Navigation.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 22,
+            "patches": [
+                {
+                    "date": 1710703461714,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710703467276,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+// import a css file containig article styles\n+import './Navi.css';\n+// Create a Header function returning the HTML of header block\n+function Header() {\n+  return ();\n+}\n+// Add a default export statement for Header component to use it in the other files\n+\n+export default Header;\n"
+                },
+                {
+                    "date": 1710703480081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,9 @@\n // import a css file containig article styles\n-import './Navi.css';\n+import './Navigation.css';\n // Create a Header function returning the HTML of header block\n-function Header() {\n+function Navigation() {\n   return ();\n }\n // Add a default export statement for Header component to use it in the other files\n \n export default Header;\n-// import a css file containig article styles\n-import './Header.css';\n-// Create a Header function returning the HTML of header block\n-function Header() {\n-  return ();\n-}\n-// Add a default export statement for Header component to use it in the other files\n-\n-export default Header;\n"
+                },
+                {
+                    "date": 1710703591183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,8 @@\n-// import a css file containig article styles\n import './Navigation.css';\n // Create a Header function returning the HTML of header block\n function Navigation() {\n   return ();\n }\n // Add a default export statement for Header component to use it in the other files\n \n-export default Header;\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710703597150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,7 @@\n import './Navigation.css';\n-// Create a Header function returning the HTML of header block\n+\n function Navigation() {\n   return ();\n }\n-// Add a default export statement for Header component to use it in the other files\n \n export default Navigation;\n"
+                },
+                {
+                    "date": 1710759613174,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    \n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759625126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,10 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    <div>\n+    </div>\n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759631282,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,26 +1,9 @@\n import './Navigation.css';\n \n function Navigation() {\n   return (\n-    <div>\n-    </div>\n+    <div>somethi</div>\n   );\n }\n \n export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return (\n-    \n-  );\n-}\n-\n-export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return ();\n-}\n-\n-export default Navigation;\n"
+                },
+                {
+                    "date": 1710759636516,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n import './Navigation.css';\n \n function Navigation() {\n   return (\n-    <div>somethi</div>\n+    <div className=''>something</div>\n   );\n }\n \n export default Navigation;\n"
+                },
+                {
+                    "date": 1710759642835,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,9 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    <div className=\"navigation\">something</div>\n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759654942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,13 +6,4 @@\n   );\n }\n \n export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return (\n-    <div className=''>something</div>\n-  );\n-}\n-\n-export default Navigation;\n"
+                },
+                {
+                    "date": 1710759660093,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n import './Navigation.css';\n \n function Navigation() {\n   return (\n-    <div className=\"navigation\">something</div>\n+    <div className=\"navigation\">\n+      a\n+    </div>\n   );\n }\n \n export default Navigation;\n"
+                },
+                {
+                    "date": 1710759665296,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,5 +7,5 @@\n     </div>\n   );\n }\n \n-export default Navigation;\n\\ No newline at end of file\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759670535,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    <div className=\"navigation\">\n+      <a className='navigation' href=\"#\"></a>\n+    </div>\n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759681384,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    <div className=\"navigation\">\n+      <a className='navigation__link' href=\"#\">somethi</a>\n+    </div>\n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759707539,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    <div className=\"navigation\">\n+      <a className='navigation__link' href=\"#j\">something</a>\n+    </div>\n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710759717205,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,44 +2,10 @@\n \n function Navigation() {\n   return (\n     <div className=\"navigation\">\n-      <a className='navigation__link' href=\"#j\">something</a>\n+      <a className='navigation__link' href=\"#\"></a>\n     </div>\n   );\n }\n \n export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return (\n-    <div className=\"navigation\">\n-      <a className='navigation__link' href=\"#\">somethi</a>\n-    </div>\n-  );\n-}\n-\n-export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return (\n-    <div className=\"navigation\">\n-      <a className='navigation' href=\"#\"></a>\n-    </div>\n-  );\n-}\n-\n-export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return (\n-    <div className=\"navigation\">\n-      a\n-    </div>\n-  );\n-}\n-\n-export default Navigation;\n-\n"
+                },
+                {
+                    "date": 1710759731102,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function Navigation() {\n   return (\n     <div className=\"navigation\">\n-      <a className='navigation__link' href=\"#\"></a>\n+      <a className=navigation__link' href=\"#\">something</a>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1710760017510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,11 @@\n+import './Navigation.css';\n+\n+function Navigation() {\n+  return (\n+    <div className=\"navigation\">\n+      <a  href=\"#\">something</a>\n+    </div>\n+  );\n+}\n+\n+export default Navigation;\n"
+                },
+                {
+                    "date": 1710760024542,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,21 +2,11 @@\n \n function Navigation() {\n   return (\n     <div className=\"navigation\">\n-      <a  href=\"#\">something</a>\n+      <a href=\"#\"\n+        className=\"navigation__link\">something</a>\n     </div>\n   );\n }\n \n export default Navigation;\n-import './Navigation.css';\n-\n-function Navigation() {\n-  return (\n-    <div className=\"navigation\">\n-      <a className=navigation__link' href=\"#\">something</a>\n-    </div>\n-  );\n-}\n-\n-export default Navigation;\n"
+                },
+                {
+                    "date": 1710760030586,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n function Navigation() {\n   return (\n     <div className=\"navigation\">\n       <a href=\"#\"\n-        className=\"navigation__link\">something</a>\n+        className=\"navigation__link\">Home</a>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1710760038847,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function Navigation() {\n   return (\n     <div className=\"navigation\">\n-      <a href=\"#\"className=\"navigation__link\">Home</a>\n+      <a href=\"#\" className=\"navigation__link\">Home</a>\n     </div>\n   );\n }\n \n"
+                },
+                {
+                    "date": 1710760045354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n \n function Navigation() {\n   return (\n     <div className=\"navigation\">\n-      <a href=\"#\" className=\"navigation__link\">T</a>\n+      <a href=\"#\" className=\"navigation__link\">Ti</a>\n     </div>\n   );\n }\n \n"
+                }
+            ],
+            "date": 1710703461714,
+            "name": "Commit-0",
+            "content": "// import a css file containig article styles\nimport './Header.css';\n// Create a Header function returning the HTML of header block\nfunction Header() {\n  return ();\n}\n// Add a default export statement for Header component to use it in the other files\n\nexport default Header;\n"
+        }
+    ]
+}

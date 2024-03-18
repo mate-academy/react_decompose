@@ -1,0 +1,38 @@
+{
+    "sourceFile": "src/components/Article/Article.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 5,
+            "patches": [
+                {
+                    "date": 1710702504440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710771701924,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,15 +16,8 @@\n .article__paragraph:not(:first-child) {\n   margin-top: 0.7em;\n }\n \n-@media (min-width: 500px) {\n-  .header {\n-    text-align: left;\n-    display: flex;\n-    justify-content: space-between;\n-  }\n-\n   .article {\n     margin: 3.5em auto 0;\n     padding: 2em;\n   }\n"
+                },
+                {
+                    "date": 1710771718228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,8 +16,12 @@\n .article__paragraph:not(:first-child) {\n   margin-top: 0.7em;\n }\n \n+@media (min-width: 500px) {\n+  \n+  }\n+\n   .article {\n     margin: 3.5em auto 0;\n     padding: 2em;\n   }\n"
+                },
+                {
+                    "date": 1710771729638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,9 @@\n .article__paragraph:not(:first-child) {\n   margin-top: 0.7em;\n }\n \n-@media (min-width: 500px) {\n-  \n-  }\n+@media (min-width: 500px) {}\n \n   .article {\n     margin: 3.5em auto 0;\n     padding: 2em;\n"
+                },
+                {
+                    "date": 1710771737990,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,15 +16,14 @@\n .article__paragraph:not(:first-child) {\n   margin-top: 0.7em;\n }\n \n-@media (min-width: 500px) {}\n+@media (min-width: 500px) {\n \n   .article {\n     margin: 3.5em auto 0;\n     padding: 2em;\n   }\n-}\n \n @media (min-width: 800px) {\n   .article {\n     margin: 3.5em auto;\n"
+                },
+                {
+                    "date": 1710771752023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,10 +22,12 @@\n   .article {\n     margin: 3.5em auto 0;\n     padding: 2em;\n   }\n+  \n \n @media (min-width: 800px) {\n   .article {\n     margin: 3.5em auto;\n   }\n }\n+}\n"
+                }
+            ],
+            "date": 1710702504440,
+            "name": "Commit-0",
+            "content": "/* Put article styles here */\n.article {\n  margin: 5em auto 0;\n  padding: 1em;\n  font-size: 140%;\n  max-width: 800px;\n  background: white;\n  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;\n}\n\n.article__paragraph {\n  margin: 0;\n  color: #333;\n}\n\n.article__paragraph:not(:first-child) {\n  margin-top: 0.7em;\n}\n\n@media (min-width: 500px) {\n  .header {\n    text-align: left;\n    display: flex;\n    justify-content: space-between;\n  }\n\n  .article {\n    margin: 3.5em auto 0;\n    padding: 2em;\n  }\n}\n\n@media (min-width: 800px) {\n  .article {\n    margin: 3.5em auto;\n  }\n}\n"
+        }
+    ]
+}

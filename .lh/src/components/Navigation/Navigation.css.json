@@ -1,0 +1,58 @@
+{
+    "sourceFile": "src/components/Navigation/Navigation.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1710703498626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710765157321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+\n .navigation__link {\n   display: inline-block;\n   outline: none;\n   text-decoration: none;\n"
+                },
+                {
+                    "date": 1710765164033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+.navigation \n .navigation__link {\n   display: inline-block;\n   outline: none;\n   text-decoration: none;\n"
+                },
+                {
+                    "date": 1710765185631,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n-.navigation \n+.navigation {\n+  disp\n+}\n .navigation__link {\n   display: inline-block;\n   outline: none;\n   text-decoration: none;\n"
+                },
+                {
+                    "date": 1710765191460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .navigation {\n-  disp\n+  display: flex;\n+  \n }\n .navigation__link {\n   display: inline-block;\n   outline: none;\n"
+                },
+                {
+                    "date": 1710765196825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .navigation {\n   display: flex;\n-  \n+  justify-content: center;\n }\n .navigation__link {\n   display: inline-block;\n   outline: none;\n"
+                },
+                {
+                    "date": 1710765230588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+/* .navigation {\n+  display: flex;\n+  justify-content: center;\n+} */\n+\n+.navigation__link {\n+  display: inline-block;\n+  outline: none;\n+  text-decoration: none;\n+  opacity: 0.7;\n+  padding: 0 0.5em;\n+  color: black;\n+  transition: opacity 0.2s ease-in-out;\n+}\n+\n+.navigation__link:hover,\n+.navigation__link:focus {\n+  opacity: 1;\n+}\n"
+                },
+                {
+                    "date": 1710765264601,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,16 @@\n+\n+\n+.navigation__link {\n+  display: inline-block;\n+  outline: none;\n+  text-decoration: none;\n+  opacity: 0.7;\n+  padding: 0 0.5em;\n+  color: black;\n+  transition: opacity 0.2s ease-in-out;\n+}\n+\n+.navigation__link:hover,\n+.navigation__link:focus {\n+  opacity: 1;\n+}\n"
+                },
+                {
+                    "date": 1710765737562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n \n-\n .navigation__link {\n   display: inline-block;\n   outline: none;\n   text-decoration: none;\n@@ -13,41 +12,4 @@\n .navigation__link:hover,\n .navigation__link:focus {\n   opacity: 1;\n }\n-/* .navigation {\n-  display: flex;\n-  justify-content: center;\n-} */\n-\n-.navigation__link {\n-  display: inline-block;\n-  outline: none;\n-  text-decoration: none;\n-  opacity: 0.7;\n-  padding: 0 0.5em;\n-  color: black;\n-  transition: opacity 0.2s ease-in-out;\n-}\n-\n-.navigation__link:hover,\n-.navigation__link:focus {\n-  opacity: 1;\n-}\n-.navigation {\n-  display: flex;\n-  justify-content: center;\n-}\n-.navigation__link {\n-  display: inline-block;\n-  outline: none;\n-  text-decoration: none;\n-  opacity: 0.7;\n-  padding: 0 0.5em;\n-  color: black;\n-  transition: opacity 0.2s ease-in-out;\n-}\n-\n-.navigation__link:hover,\n-.navigation__link:focus {\n-  opacity: 1;\n-}\n"
+                },
+                {
+                    "date": 1710765743157,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,5 @@\n-\n+.navigation \n .navigation__link {\n   display: inline-block;\n   outline: none;\n   text-decoration: none;\n"
+                },
+                {
+                    "date": 1710765749285,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+.navigation {\n+  display: fle\n+}\n+.navigation__link {\n+  display: inline-block;\n+  outline: none;\n+  text-decoration: none;\n+  opacity: 0.7;\n+  padding: 0 0.5em;\n+  color: black;\n+  transition: opacity 0.2s ease-in-out;\n+}\n+\n+.navigation__link:hover,\n+.navigation__link:focus {\n+  opacity: 1;\n+}\n"
+                }
+            ],
+            "date": 1710703498626,
+            "name": "Commit-0",
+            "content": ".navigation__link {\n  display: inline-block;\n  outline: none;\n  text-decoration: none;\n  opacity: 0.7;\n  padding: 0 0.5em;\n  color: black;\n  transition: opacity 0.2s ease-in-out;\n}\n\n.navigation__link:hover,\n.navigation__link:focus {\n  opacity: 1;\n}\n"
+        }
+    ]
+}
