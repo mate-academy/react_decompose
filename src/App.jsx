@@ -5,7 +5,7 @@ import { Welcome } from './components/Welcome/Welcome';
 import { Navigation } from './components/Navigation/Navigation';
 import './App.css';
 
-export const App = () => (
+const App = () => (
   <main className="app">
     <Welcome />
     <Header />
@@ -13,3 +13,5 @@ export const App = () => (
     <Navigation />
   </main>
 );
+
+export default App;
