@@ -3,11 +3,27 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1710703244071,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710771649117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,4 +17,5 @@\n   margin: 0;\n   padding: 0;\n   font-size: inherit;\n }\n+\n"
+                },
+                {
+                    "date": 1710771659099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/* Put header styles here */\n+.header {\n+  width: 100%;\n+  padding: 1em;\n+  font-size: 140%;\n+  position: sticky;\n+  top: 0;\n+  left: 0;\n+  right: 0;\n+  transition: opacity 0.2s ease-in-out;\n+  text-align: center;\n+}\n+\n+.header__title {\n+  font-weight: 600;\n+  display: inline;\n+  margin: 0;\n+  padding: 0;\n+  font-size: inherit;\n+\n+  @media (min-width: 500px) {\n+    .header {\n+      text-align: left;\n+      display: flex;\n+      justify-content: space-between;\n+    }\n+}\n"
+                },
+                {
+                    "date": 1710771665768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,27 @@\n+/* Put header styles here */\n+.header {\n+  width: 100%;\n+  padding: 1em;\n+  font-size: 140%;\n+  position: sticky;\n+  top: 0;\n+  left: 0;\n+  right: 0;\n+  transition: opacity 0.2s ease-in-out;\n+  text-align: center;\n+}\n+\n+.header__title {\n+  font-weight: 600;\n+  display: inline;\n+  margin: 0;\n+  padding: 0;\n+  font-size: inherit;\n+\n+  @media (min-width: 500px) {\n+    .header {\n+      text-align: left;\n+      display: flex;\n+      justify-content: space-between;\n+    }\n+}\n"
+                },
+                {
+                    "date": 1710771672087,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,60 +16,12 @@\n   display: inline;\n   margin: 0;\n   padding: 0;\n   font-size: inherit;\n-\n-  @media (min-width: 500px) {\n-    .header {\n-      text-align: left;\n-      display: flex;\n-      justify-content: space-between;\n-    }\n }\n-/* Put header styles here */\n-.header {\n-  width: 100%;\n-  padding: 1em;\n-  font-size: 140%;\n-  position: sticky;\n-  top: 0;\n-  left: 0;\n-  right: 0;\n-  transition: opacity 0.2s ease-in-out;\n-  text-align: center;\n-}\n \n-.header__title {\n-  font-weight: 600;\n-  display: inline;\n-  margin: 0;\n-  padding: 0;\n-  font-size: inherit;\n-\n-  @media (min-width: 500px) {\n-    .header {\n-      text-align: left;\n-      display: flex;\n-      justify-content: space-between;\n-    }\n-}\n-/* Put header styles here */\n-.header {\n-  width: 100%;\n-  padding: 1em;\n-  font-size: 140%;\n-  position: sticky;\n-  top: 0;\n-  left: 0;\n-  right: 0;\n-  transition: opacity 0.2s ease-in-out;\n-  text-align: center;\n-}\n-\n-.header__title {\n-  font-weight: 600;\n-  display: inline;\n-  margin: 0;\n-  padding: 0;\n-  font-size: inherit;\n-}\n-\n+@media (min-width: 500px) {\n+  .header {\n+    text-align: left;\n+    display: flex;\n+    justify-content: space-between;\n+  }\n"
                 }
             ],
             "date": 1710703244071,
