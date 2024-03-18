@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/Welcome/Welcome.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1710703565992,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1710703565992,
+            "name": "Commit-0",
+            "content": "/* Put welcome styles here */\n.welcome {\n  height: 100vh;\n  background: coral;\n}\n\n.welcome__text {\n  margin: 0;\n  font-size: 400%;\n  text-align: center;\n  line-height: 1;\n  padding-top: calc(50vh - 20pt);\n  display: block;\n  font-weight: 700;\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1710702256077,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710702280966,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   margin: 0;\n   background: #eee;\n }\n \n-\n+#\n .welcome {\n   height: 100vh;\n   background: coral;\n }\n"
+                },
+                {
+                    "date": 1710702309552,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n   margin: 0;\n   background: #eee;\n }\n \n-/\n+/*\n .welcome {\n   height: 100vh;\n   background: coral;\n }\n"
+                },
+                {
+                    "date": 1710702315348,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,107 @@\n+iframe {\n+  display: none;\n+}\n+\n+* {\n+  box-sizing: border-box;\n+}\n+\n+html {\n+  font-size: 10pt;\n+  line-height: 1.4;\n+  font-weight: 400;\n+  font-family: \"Source Sans Pro\", \"Open Sans\", Roboto, Arial, sans-serif;\n+}\n+\n+body {\n+  margin: 0;\n+  background: #eee;\n+}\n+\n+/*region \n+.welcome {\n+  height: 100vh;\n+  background: coral;\n+}\n+\n+.welcome__text {\n+  margin: 0;\n+  font-size: 400%;\n+  text-align: center;\n+  line-height: 1;\n+  padding-top: calc(50vh - 20pt);\n+  display: block;\n+  font-weight: 700;\n+}\n+\n+.header {\n+  width: 100%;\n+  padding: 1em;\n+  font-size: 140%;\n+  position: sticky;\n+  top: 0;\n+  left: 0;\n+  right: 0;\n+  transition: opacity 0.2s ease-in-out;\n+  text-align: center;\n+}\n+\n+.header__title {\n+  font-weight: 600;\n+  display: inline;\n+  margin: 0;\n+  padding: 0;\n+  font-size: inherit;\n+}\n+\n+.navigation__link {\n+  display: inline-block;\n+  outline: none;\n+  text-decoration: none;\n+  opacity: 0.7;\n+  padding: 0 0.5em;\n+  color: black;\n+  transition: opacity 0.2s ease-in-out;\n+}\n+\n+.navigation__link:hover,\n+.navigation__link:focus {\n+  opacity: 1;\n+}\n+\n+.article {\n+  margin: 5em auto 0;\n+  padding: 1em;\n+  font-size: 140%;\n+  max-width: 800px;\n+  background: white;\n+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;\n+}\n+\n+.article__paragraph {\n+  margin: 0;\n+  color: #333;\n+}\n+\n+.article__paragraph:not(:first-child) {\n+  margin-top: 0.7em;\n+}\n+\n+@media (min-width: 500px) {\n+  .header {\n+    text-align: left;\n+    display: flex;\n+    justify-content: space-between;\n+  }\n+\n+  .article {\n+    margin: 3.5em auto 0;\n+    padding: 2em;\n+  }\n+}\n+\n+@media (min-width: 800px) {\n+  .article {\n+    margin: 3.5em auto;\n+  }\n+}\n"
+                }
+            ],
+            "date": 1710702256077,
+            "name": "Commit-0",
+            "content": "iframe {\n  display: none;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 10pt;\n  line-height: 1.4;\n  font-weight: 400;\n  font-family: \"Source Sans Pro\", \"Open Sans\", Roboto, Arial, sans-serif;\n}\n\nbody {\n  margin: 0;\n  background: #eee;\n}\n\n\n.welcome {\n  height: 100vh;\n  background: coral;\n}\n\n.welcome__text {\n  margin: 0;\n  font-size: 400%;\n  text-align: center;\n  line-height: 1;\n  padding-top: calc(50vh - 20pt);\n  display: block;\n  font-weight: 700;\n}\n\n.header {\n  width: 100%;\n  padding: 1em;\n  font-size: 140%;\n  position: sticky;\n  top: 0;\n  left: 0;\n  right: 0;\n  transition: opacity 0.2s ease-in-out;\n  text-align: center;\n}\n\n.header__title {\n  font-weight: 600;\n  display: inline;\n  margin: 0;\n  padding: 0;\n  font-size: inherit;\n}\n\n.navigation__link {\n  display: inline-block;\n  outline: none;\n  text-decoration: none;\n  opacity: 0.7;\n  padding: 0 0.5em;\n  color: black;\n  transition: opacity 0.2s ease-in-out;\n}\n\n.navigation__link:hover,\n.navigation__link:focus {\n  opacity: 1;\n}\n\n.article {\n  margin: 5em auto 0;\n  padding: 1em;\n  font-size: 140%;\n  max-width: 800px;\n  background: white;\n  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;\n}\n\n.article__paragraph {\n  margin: 0;\n  color: #333;\n}\n\n.article__paragraph:not(:first-child) {\n  margin-top: 0.7em;\n}\n\n@media (min-width: 500px) {\n  .header {\n    text-align: left;\n    display: flex;\n    justify-content: space-between;\n  }\n\n  .article {\n    margin: 3.5em auto 0;\n    padding: 2em;\n  }\n}\n\n@media (min-width: 800px) {\n  .article {\n    margin: 3.5em auto;\n  }\n}\n"
+        }
+    ]
+}

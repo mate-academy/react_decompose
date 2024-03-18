@@ -1,0 +1,74 @@
+{
+    "sourceFile": "src/components/Header/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 14,
+            "patches": [
+                {
+                    "date": 1710703261236,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710703267253,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,5 @@\n+// import a css file containig article styles\n+import './Header.'\n+// Create a Header function returning the HTML of header block\n+\n+// Add a default export statement for Header component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703320510,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,5 @@\n // import a css file containig article styles\n-import './Header.'\n+import './Header.css';\n // Create a Header function returning the HTML of header block\n-\n+function \n // Add a default export statement for Header component to use it in the other files\n-// import a css file containig article styles\n-import\n-// Create a Header function returning the HTML of header block\n-\n-// Add a default export statement for Header component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703326335,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,7 @@\n+// import a css file containig article styles\n+import './Header.css';\n+// Create a Header function returning the HTML of header block\n+function Header() {\n+  \n+}\n+// Add a default export statement for Header component to use it in the other files\n"
+                },
+                {
+                    "date": 1710703355062,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,12 +1,8 @@\n // import a css file containig article styles\n import './Header.css';\n // Create a Header function returning the HTML of header block\n function Header() {\n-  \n+  return;\n }\n // Add a default export statement for Header component to use it in the other files\n-// import a css file containig article styles\n-import './Header.css';\n-// Create a Header function returning the HTML of header block\n-function \n-// Add a default export statement for Header component to use it in the other files\n+export default Article;\n"
+                },
+                {
+                    "date": 1710703360307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,5 @@\n function Header() {\n   return;\n }\n // Add a default export statement for Header component to use it in the other files\n-export default Article;\n+export default Header;\n"
+                },
+                {
+                    "date": 1710703368751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n function Header() {\n   return;\n }\n // Add a default export statement for Header component to use it in the other files\n+\n export default Header;\n"
+                },
+                {
+                    "date": 1710703377343,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n // import a css file containig article styles\n import './Header.css';\n // Create a Header function returning the HTML of header block\n function Header() {\n-  return;\n+  return ;\n }\n // Add a default export statement for Header component to use it in the other files\n \n export default Header;\n"
+                },
+                {
+                    "date": 1710759525581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,11 @@\n // import a css file containig article styles\n import './Header.css';\n // Create a Header function returning the HTML of header block\n function Header() {\n-  return ;\n+  return (\n+    \n+  );\n }\n // Add a default export statement for Header component to use it in the other files\n \n export default Header;\n"
+                },
+                {
+                    "date": 1710759534308,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,11 @@\n import './Header.css';\n // Create a Header function returning the HTML of header block\n function Header() {\n   return (\n-    \n+    <div>\n+      h1\n+    </div>\n   );\n }\n // Add a default export statement for Header component to use it in the other files\n \n"
+                },
+                {
+                    "date": 1710759542274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,10 +2,10 @@\n import './Header.css';\n // Create a Header function returning the HTML of header block\n function Header() {\n   return (\n-    <div>\n-      h1\n+    <div >\n+      <h1></h1>\n     </div>\n   );\n }\n // Add a default export statement for Header component to use it in the other files\n"
+                },
+                {
+                    "date": 1710759548691,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+// import a css file containig article styles\n+import './Header.css';\n+// Create a Header function returning the HTML of header block\n+function Header() {\n+  return (\n+    <div className=\"header\">\n+      <h1></h1>\n+    </div>\n+  );\n+}\n+// Add a default export statement for Header component to use it in the other files\n+\n+export default Header;\n"
+                },
+                {
+                    "date": 1710759554500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,13 @@\n+// import a css file containig article styles\n+import './Header.css';\n+// Create a Header function returning the HTML of header block\n+function Header() {\n+  return (\n+    <div className=\"header\">\n+      <h1 className=\"\"></h1>\n+    </div>\n+  );\n+}\n+// Add a default export statement for Header component to use it in the other files\n+\n+export default Header;\n"
+                },
+                {
+                    "date": 1710759572128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n // Create a Header function returning the HTML of header block\n function Header() {\n   return (\n     <div className=\"header\">\n-      <h1 className=\"header__title\">som</h1>\n+      <h1 className=\"header__title\">some</h1>\n     </div>\n   );\n }\n // Add a default export statement for Header component to use it in the other files\n"
+                },
+                {
+                    "date": 1710759874405,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,12 @@\n+// import a css file containig article styles\n+import './Header.css';\n+// Create a Header function returning the HTML of header block\n+function Header() {\n+  return (\n+    <div className=\"header\">\n+      <h1 className=\"header__title\">something</h1>\n+    </div>\n+  );\n+}\n+// Add a default export statement for Header component to use it in the other files\n+export default Header;\n"
+                }
+            ],
+            "date": 1710703261236,
+            "name": "Commit-0",
+            "content": "// import a css file containig article styles\nimport\n// Create a Header function returning the HTML of header block\n\n// Add a default export statement for Header component to use it in the other files\n"
+        }
+    ]
+}
