@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Header/Header.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1710852893031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710852898079,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,4 +24,5 @@\n     text-align: left;\n     display: flex;\n     justify-content: space-between;\n   }\n+}\n"
+                },
+                {
+                    "date": 1710852916172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,5 +24,10 @@\n     text-align: left;\n     display: flex;\n     justify-content: space-between;\n   }\n+\n+  .article {\n+    margin: 3.5em auto 0;\n+    padding: 2em;\n+  }\n }\n"
+                },
+                {
+                    "date": 1710853131532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -24,10 +24,5 @@\n     text-align: left;\n     display: flex;\n     justify-content: space-between;\n   }\n-\n-  .article {\n-    margin: 3.5em auto 0;\n-    padding: 2em;\n-  }\n }\n"
+                }
+            ],
+            "date": 1710852893030,
+            "name": "Commit-0",
+            "content": "/* Put header styles here */\n.header {\n  width: 100%;\n  padding: 1em;\n  font-size: 140%;\n  position: sticky;\n  top: 0;\n  left: 0;\n  right: 0;\n  transition: opacity 0.2s ease-in-out;\n  text-align: center;\n}\n\n.header__title {\n  font-weight: 600;\n  display: inline;\n  margin: 0;\n  padding: 0;\n  font-size: inherit;\n}\n\n@media (min-width: 500px) {\n  .header {\n    text-align: left;\n    display: flex;\n    justify-content: space-between;\n  }\n"
+        }
+    ]
+}

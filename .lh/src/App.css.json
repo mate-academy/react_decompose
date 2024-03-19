@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1710852889110,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710852907146,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,38 @@\n+iframe {\n+  display: none;\n+}\n+\n+* {\n+  box-sizing: border-box;\n+}\n+\n+html {\n+  font-size: 10pt;\n+  line-height: 1.4;\n+  font-weight: 400;\n+  font-family: \"Source Sans Pro\", \"Open Sans\", Roboto, Arial, sans-serif;\n+}\n+\n+body {\n+  margin: 0;\n+  background: #eee;\n+}\n+\n+@media (min-width: 500px) {\n+  .header {\n+    text-align: left;\n+    display: flex;\n+    justify-content: space-between;\n+  }\n+\n+  .article {\n+    margin: 3.5em auto 0;\n+    padding: 2em;\n+  }\n+}\n+\n+@media (min-width: 800px) {\n+  .article {\n+    margin: 3.5em auto;\n+  }\n+}\n"
+                },
+                {
+                    "date": 1710852912167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,8 @@\n   margin: 0;\n   background: #eee;\n }\n \n-\n @media (min-width: 800px) {\n   .article {\n     margin: 3.5em auto;\n   }\n"
+                },
+                {
+                    "date": 1710852921625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,19 @@\n+iframe {\n+  display: none;\n+}\n+\n+* {\n+  box-sizing: border-box;\n+}\n+\n+html {\n+  font-size: 10pt;\n+  line-height: 1.4;\n+  font-weight: 400;\n+  font-family: \"Source Sans Pro\", \"Open Sans\", Roboto, Arial, sans-serif;\n+}\n+\n+body {\n+  margin: 0;\n+  background: #eee;\n+}\n"
+                }
+            ],
+            "date": 1710852889110,
+            "name": "Commit-0",
+            "content": "iframe {\n  display: none;\n}\n\n* {\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 10pt;\n  line-height: 1.4;\n  font-weight: 400;\n  font-family: \"Source Sans Pro\", \"Open Sans\", Roboto, Arial, sans-serif;\n}\n\nbody {\n  margin: 0;\n  background: #eee;\n}\n\n\n\n  .article {\n    margin: 3.5em auto 0;\n    padding: 2em;\n  }\n}\n\n@media (min-width: 800px) {\n  .article {\n    margin: 3.5em auto;\n  }\n}\n"
+        }
+    ]
+}

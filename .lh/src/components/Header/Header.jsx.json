@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/Header/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1710852584673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710852752648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,5 @@\n }\n \n // Add a default export statement for Header component to use it in the other files\n \n-export default Header();\n+export default Header;\n"
+                }
+            ],
+            "date": 1710852584673,
+            "name": "Commit-0",
+            "content": "// import a css file containig article styles\nimport React from 'react';\nimport Navigation from '../Navigation/Navigation';\nimport './Header.css';\n// Create a Header function returning the HTML of header block\nfunction Header() {\n  return (\n    <header className=\"header\">\n      <h1 className=\"header__title\">Site Name</h1>\n      <Navigation />\n    </header>\n  )\n}\n\n// Add a default export statement for Header component to use it in the other files\n\nexport default Header();\n"
+        }
+    ]
+}
