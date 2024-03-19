@@ -1,4 +1,4 @@
-// import a css file containig article styles
+// import a css file containig welcome styles
 
 // Create a Welcome function returning the HTML of welcome block
 

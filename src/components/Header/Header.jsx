@@ -1,4 +1,4 @@
-// import a css file containig article styles
+// import a css file containig header styles
 
 // Create a Header function returning the HTML of header block
 
