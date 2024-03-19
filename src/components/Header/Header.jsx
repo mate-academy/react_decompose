@@ -1,4 +1,8 @@
+
 import './Header.css';
+
+// import a css file containig header styles
+
 
 const Header = () => (
   <header className="header">
