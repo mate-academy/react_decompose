@@ -1,0 +1,18 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1710860398493,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1710860398493,
+            "name": "Commit-0",
+            "content": "# React Decompose\n\nSplit the `App.js` into components based on CSS blocks. CSS code should be split too.\n- You already have `Article`, `Header` and `Welcome` folders inside `./src/components/` with required files.\n- You may also create a folder for the `Navigation` component and move navigation there.\n- Tests expect you to use `export default` for all the components.\n\n## Instructions\n- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.\n- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)\n- Open one more terminal and run tests with `npm test` to ensure your solutions is correct\n- Replace `<your_account>` with your Github username in the [DEMO LINK](https://weswojciech.github.io/react_decompose/) and add it to the PR description\n"
+        }
+    ]
+}
