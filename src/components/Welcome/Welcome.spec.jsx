@@ -1,5 +1,5 @@
 import React from 'react';
-import { mount } from '@cypress/react18';
+import { mount } from '@cypress/react';
 import TestedWelcome from './Welcome';
 
 describe('Welcome component', () => {
