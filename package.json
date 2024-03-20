@@ -6,6 +6,7 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
+    "@cypress/react": "^8.0.0",
     "@cypress/react18": "^2.0.0",
     "@fortawesome/fontawesome-free": "^6.2.0",
     "bulma": "^0.9.4",
