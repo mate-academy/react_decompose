@@ -1,5 +1,6 @@
 // import a css file containig header styles
 import './Header.css';
+
 // Create a Header function returning the HTML of header block
 const Header = () => (
   <header className="header">
