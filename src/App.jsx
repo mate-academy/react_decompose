@@ -1,5 +1,8 @@
 import React from 'react';
+import Article from './components/Article/Article';
+import Header from './components/Header/Header';
 import './App.css';
+import Welcome from './components/Welcome/Welcome';
 // Move each BEM block to a separate component (file) and import them here
 
 const App = () => (
@@ -79,6 +82,9 @@ const App = () => (
         vulputate, dui eros vehicula nisi, at interdum enim lacus eu diam.
       </p>
     </article>
+    <Welcome />
+    <Header />
+    <Article />
   </main>
 );
 
