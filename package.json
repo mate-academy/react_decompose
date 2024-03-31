@@ -10,14 +10,15 @@
     "@fortawesome/fontawesome-free": "^6.2.0",
     "bulma": "^0.9.4",
     "classnames": "^2.5.1",
+    "cross-env": "^7.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@mate-academy/eslint-config-react": "latest",
-    "@mate-academy/scripts": "^1.7.9",
+    "@mate-academy/eslint-config-react": "0.0.17",
+    "@mate-academy/scripts": "^1.8.1",
     "@mate-academy/stylelint-config": "latest",
     "cypress": "^12.17.4",
     "eslint": "^7.32.0",
