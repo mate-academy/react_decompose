@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './Navigation.css';
+
 export const Nav = () => {
   return (
     <nav className="navigation">
@@ -14,5 +15,5 @@ export const Nav = () => {
         Contact
       </a>
     </nav>
-  )
-}
+  );
+};
