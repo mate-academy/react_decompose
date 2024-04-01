@@ -44,8 +44,6 @@ const Article = () => (
       ullamcorper est.
     </p>
     <p className="article__paragraph">
-      Pellentesque habitant morbi tristique senectus et netus et malesuada
-      turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam convallis
       faucibus ante sed porta. Nullam ut convallis elit, quis venenatis nunc.
       Curabitur sed sem eget velit condimentum rutrum in et orci. Nunc non
       suscipit eros. Suspendisse porta sem vel justo commodo dictum. Aliquam
