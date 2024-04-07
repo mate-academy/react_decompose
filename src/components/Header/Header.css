@@ -1,1 +1,5 @@
-/* Put header styles here */
+.header {
+  display: flex;
+  position: sticky;
+
+}

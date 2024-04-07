@@ -1,1 +1,4 @@
-/* Put welcome styles here */
+.welcome {
+  color: rgb(255, 127, 80);
+  height: 200px;
+}
