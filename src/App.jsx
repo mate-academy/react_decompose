@@ -7,15 +7,9 @@ import Welcome from './components/Welcome/Welcome';
 
 const App = () => (
   <main className="app">
-    <section>
-      <Welcome />
-    </section>
-    <header>
-      <Header />
-    </header>
-    <article>
-      <Article />
-    </article>
+    <Welcome />
+    <Header />
+    <Article />
   </main>
 );
 
