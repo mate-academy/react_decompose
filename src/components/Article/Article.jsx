@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Article/Article.css'
+import './Article.css';
 
 function Article() {
   return (
@@ -61,7 +61,7 @@ function Article() {
         vulputate, dui eros vehicula nisi, at interdum enim lacus eu diam.
       </p>
     </article>
-  )
+  );
 }
 
-export default Article
+export default Article;
