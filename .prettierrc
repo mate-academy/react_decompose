@@ -1,11 +1,10 @@
+
 {
-  "arrowParens": "avoid",
-  "singleQuote": true,
-  "tabWidth": 2,
-  "trailingComma": "all",
-  "jsxSingleQuote": false,
-  "printWidth": 80,
-  "semi": true,
-  "bracketSpacing": true,
-  "bracketSameLine": false
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true
 }
