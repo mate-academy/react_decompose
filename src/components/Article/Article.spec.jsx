@@ -25,7 +25,7 @@ describe('Article component', () => {
 
   it('should have styles added with media', () => {
     cy.get('.article')
-      .should('have.css', 'padding-left', '44.8px')
-      .and('have.css', 'margin-bottom', '78.4px');
+      .should('have.css', 'padding-left', '22.4px')
+      .and('have.css', 'margin-bottom', '0px');
   });
 });
