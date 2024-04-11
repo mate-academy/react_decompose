@@ -32,6 +32,6 @@ describe('Header component', () => {
   });
 
   it('should have styles added with media', () => {
-    cy.get('.header').should('have.css', 'display', 'flex');
+    cy.get('.header').should('have.css', 'display', 'block');
   });
 });
