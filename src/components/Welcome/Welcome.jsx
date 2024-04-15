@@ -1,6 +1,7 @@
 // import a css file containig article styles
 import './Welcome.css';
 
+
 // Create a Welcome function returning the HTML of welcome block
 function Welcome() {
   return (
