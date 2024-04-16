@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
-// Move each BEM block to a separate component (file) and import them here
+import Welcome from './components/Welcome/Welcome';
 
 const App = () => (
   <main className="app">
-    <section className="welcome">
-      <span className="welcome__text">Sticky Header!</span>
-    </section>
+    <Welcome />
     <header className="header">
       <h1 className="header__title">Site Name</h1>
       <nav className="navigation">
