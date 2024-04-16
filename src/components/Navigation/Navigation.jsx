@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-function Navigation() {
+const Navigation = () => {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -14,6 +14,6 @@ function Navigation() {
       </a>
     </nav>
   );
-}
+};
 
 export default Navigation;
