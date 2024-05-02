@@ -1,1 +1,13 @@
 /* Put article styles here */
+.article {
+  margin: 5em auto 0;
+  padding: 1em;
+  max-width: 800px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+}
+
+.article__paragraph {
+  color: #333;
+  margin-top: 0.7em;
+}
