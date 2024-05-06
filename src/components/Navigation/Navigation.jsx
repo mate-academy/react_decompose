@@ -1,6 +1,6 @@
-import './Welcome.css';
+import './Navigation.css';
 
-export const Welcome = () => {
+export const Navigation = () => {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -8,4 +8,4 @@ export const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default Navigation;
