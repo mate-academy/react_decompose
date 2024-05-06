@@ -10,7 +10,7 @@ const App = () => (
     <Welcome />
     <Header />
     <Article />
-      </main>
+  </main>
 );
 
 export default App;
