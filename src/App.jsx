@@ -1,17 +1,19 @@
 import './App.css';
-import { Header } from './components/Header/Header';
-import { Welcome } from './components/Welcome/Welcome';
-import { Navigation } from './components/Navigation/Navigation';
-import { Article } from './components/Article/Article';
+import Head from './components/Header/Header';
+import Welc from './components/Welcome/Welcome';
+import Navigat from './components/Navigation/Navigation';
+import Articl from './components/Article/Article';
 
 export function App() {
   return (
     <main className="App">
-      <Welcome />
-      <Header>
-        <Navigation />
-      </Header>
-      <Article />
+      <Welc />
+      <Head>
+        <Navigat />
+      </Head>
+      <Articl />
     </main>
   );
 }
+
+export default App;

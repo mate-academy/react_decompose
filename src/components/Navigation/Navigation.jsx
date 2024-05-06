@@ -7,3 +7,5 @@ export const Navigation = () => {
     </section>
   );
 };
+
+export default Navigation;
