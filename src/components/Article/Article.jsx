@@ -1,5 +1,4 @@
 import './Article.css';
-import '../../global.css';
 
 const Article = () => {
   return (
