@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from '@cypress/react18';
-import TestedHeader from './Header';
+import { Header as TestedHeader } from './Header';
 
 describe('Header component', () => {
   beforeEach(() => {
