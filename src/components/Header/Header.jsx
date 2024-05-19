@@ -1,5 +1,5 @@
-import Navigation from '/Users/bartekkowalski/projects_REACT/react_decompose/src/components/Navigation/Navigation';
-import '/Users/bartekkowalski/projects_REACT/react_decompose/src/components/Navigation/Navigation.css'
+import Navigation from '../Navigation/Navigation';
+import '../Navigation/Navigation.css';
 import './Header.css';
 
 const Header = () => {
