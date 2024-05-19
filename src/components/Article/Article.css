@@ -6,7 +6,6 @@
   max-width: 800px;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
-  margin-bottom: 78.4px;
 }
 
 .article__paragraph {
@@ -28,5 +27,6 @@
   .article {
     margin: 3.5em auto 0;
     padding: 2em;
+    margin-bottom: 78.4px;
   }
 }
