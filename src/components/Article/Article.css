@@ -19,7 +19,7 @@
 @media (min-width: 500px) {
   .header {
     text-align: left;
-    display: flex;
+    display: block;
     justify-content: space-between;
   }
 
