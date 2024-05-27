@@ -6,7 +6,6 @@ describe('Welcome component', () => {
   beforeEach(() => {
     mount(<TestedWelcome />);
   });
-
   it('should contain Sticky Header', () => {
     cy.get('.welcome__text').should('have.text', 'Sticky Header!');
   });
