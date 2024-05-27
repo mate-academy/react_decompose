@@ -1,1 +1,28 @@
 /* Put header styles here */
+.header {
+  width: 100%;
+  padding: 1em;
+  font-size: 140%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.2s ease-in-out;
+  text-align: center;
+}
+
+.header__title {
+  font-weight: 600;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+}
+
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
