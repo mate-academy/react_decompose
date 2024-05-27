@@ -6,7 +6,6 @@ describe('Article component', () => {
   beforeEach(() => {
     mount(<TestdArticle />);
   });
-
   it('should contain Headline', () => {
     cy.get('h1').should('have.text', 'Headline');
   });
