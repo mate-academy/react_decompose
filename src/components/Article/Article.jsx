@@ -1,6 +1,6 @@
 import './Article.css';
 
-const Article = () => (
+export const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -8,7 +8,7 @@ const Article = () => (
       pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
       Mauris molestie, urna accumsan ornare semper, augue nibh posuere lorem,
       vitae feugiat sem magna eget massa. Vivamus quis tincidunt dolor. Fusce
-      efficitur, orci non vestibulum consequat, lectus turpis bibendum odio, in
+      efficitur, orci non vestibulum consequat, lectus turpis bibendum odio,
       efficitur leo felis sed justo. Fusce commodo iaculis orci, quis imperdiet
       urna. Sed mollis facilisis lacus non condimentum. Nunc efficitur massa non
       neque elementum semper. Vestibulum lorem arcu, tincidunt in quam et,
@@ -44,8 +44,8 @@ const Article = () => (
       ullamcorper est.
     </p>
     <p className="article__paragraph">
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam convallis
+      Pellentesque habitant morbi tristique senectus et netus et malesuada
+      turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam convallis
       faucibus ante sed porta. Nullam ut convallis elit, quis venenatis nunc.
       Curabitur sed sem eget velit condimentum rutrum in et orci. Nunc non
       suscipit eros. Suspendisse porta sem vel justo commodo dictum. Aliquam
