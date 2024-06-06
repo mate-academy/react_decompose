@@ -1,4 +1,5 @@
 /* Put article styles here */
+
 .article {
   margin: 5em auto 0;
   padding: 1em;
@@ -23,6 +24,7 @@
     padding: 2em;
   }
 }
+
 
 @media (min-width: 800px) {
   .article {

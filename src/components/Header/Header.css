@@ -1,3 +1,4 @@
+/* Put header styles here */
 
 .header {
   width: 100%;
@@ -33,7 +34,6 @@
 .navigation__link:focus {
   opacity: 1;
 }
-
 
 @media (min-width: 500px) {
   .header {
