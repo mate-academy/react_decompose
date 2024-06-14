@@ -18,7 +18,7 @@ body {
   background: #eee;
 }
 
-.welcome {
+/* .welcome {
   height: 100vh;
   background: coral;
 }
@@ -84,7 +84,7 @@ body {
 
 .article__paragraph:not(:first-child) {
   margin-top: 0.7em;
-}
+} */
 
 @media (min-width: 500px) {
   .header {
