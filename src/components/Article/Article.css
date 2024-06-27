@@ -1,1 +1,30 @@
 /* Put article styles here */
+.article {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.article__title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.article__paragraph {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Додаємо медіа-стилі */
+@media (max-width: 600px) {
+  .article {
+    padding-left: 44.8px;
+    margin-bottom: 78.4px;
+  }
+}
