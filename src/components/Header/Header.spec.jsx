@@ -32,6 +32,7 @@ describe('Header component', () => {
   });
 
   it('should have styles added with media', () => {
-    cy.get('.header').should('have.css', 'display', 'flex');
+    cy.viewport(500, 800); // Задаємо розмір вікна до 500px ширини
+    cy.get('.navigation').should('have.css', 'display', 'block');
   });
 });

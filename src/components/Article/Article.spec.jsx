@@ -24,6 +24,7 @@ describe('Article component', () => {
   });
 
   it('should have styles added with media', () => {
+    cy.viewport(500, 800); // Задаємо розмір вікна до 500px ширини
     cy.get('.article')
       .should('have.css', 'padding-left', '44.8px')
       .and('have.css', 'margin-bottom', '78.4px');

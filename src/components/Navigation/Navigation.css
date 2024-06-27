@@ -1,0 +1,22 @@
+.navigation {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation__link {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .navigation {
+    display: block;
+  }
+}
