@@ -4,7 +4,8 @@
     text-decoration: none;
     opacity: 0.7;
     padding: 0 0.5em;
-    color: $black-color;
+    // color: $black-color;
+    color: black;
     transition: opacity 0.2s ease-in-out;
   
     &:hover, &:focus {

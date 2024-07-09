@@ -17,9 +17,16 @@
         font-size: inherit;
     }
 
-    @include on-phone{
+    // @include on-phone{
+    //     text-align: left;
+    //     display: flex;
+    //     justify-content: space-between;
+    // }
+
+    @media (min-width: 500px) {
         text-align: left;
         display: flex;
         justify-content: space-between;
     }
+    
 }

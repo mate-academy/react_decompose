@@ -1,3 +1,5 @@
+import './Welcome.scss';
+
 const Welcome = () => {
   return (
     <section className="welcome">

@@ -1,3 +1,4 @@
+import './Header.scss';
 import Navigation from '../Navigaton/Navigation';
 
 const Header = () => {
