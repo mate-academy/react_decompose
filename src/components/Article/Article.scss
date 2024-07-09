@@ -1,0 +1,28 @@
+/* Put article styles here */
+.article {
+    margin: 5em auto 0;
+    padding: 1em;
+    font-size: 140%;
+    max-width: 800px;
+    background: $white-color;
+    box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+
+    &__paragraph {
+        margin: 0;
+        color: $light-black-color;
+    
+        &:not(:first-child) {
+            margin-top: 0.7em;
+        }
+    }
+
+    @include on-phone {
+        margin: 3.5em auto 0;
+        padding: 2em;
+    }
+
+    @include on-tablet {
+        margin: 3.5em auto 0;
+        padding: 2em;
+    }
+}
