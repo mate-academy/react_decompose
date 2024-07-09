@@ -1,0 +1,26 @@
+@import './utilis/veriables';
+@import './utilis/mixins';
+@import '../components/Welcome/Welcome';
+@import '../components/Header/Header';
+@import '../components/Article/Article';
+@import '../components/Navigaton/Navigation';
+
+iframe {
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 10pt;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+}
