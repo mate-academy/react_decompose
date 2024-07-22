@@ -12,14 +12,14 @@
     "classnames": "^2.5.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@mate-academy/eslint-config-react": "0.0.17",
-    "@mate-academy/scripts": "^1.8.1",
+    "@mate-academy/scripts": "^1.8.6",
     "@mate-academy/stylelint-config": "0.0.12",
-    "cypress": "^12.17.4",
+    "cypress": "^13.13.1",
     "eslint": "^7.32.0",
     "eslint-plugin-cypress": "^2.11.2",
     "gh-pages": "^6.1.1",
