@@ -1,3 +1,5 @@
+import './Navigate.css';
+
 const Navigate = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
