@@ -8,10 +8,10 @@ import Welcome from './components/Welcome/Welcome';
 
 const App = () => (
   <main className="app">
-    <Article />
     <Header />
     <Navigation />
     <Welcome />
+    <Article />
   </main>
 );
 
