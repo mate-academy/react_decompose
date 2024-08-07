@@ -5,7 +5,9 @@
   font-size: 140%;
   max-width: 800px;
   background: white;
+  padding-left: 44.8px;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+  margin-bottom: 78.4px;
 }
 
 .article__paragraph {
@@ -15,4 +17,23 @@
 
 .article__paragraph:not(:first-child) {
   margin-top: 0.7em;
+}
+
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
 }

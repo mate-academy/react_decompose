@@ -4,6 +4,7 @@
   padding: 1em;
   font-size: 140%;
   position: sticky;
+  display: flex;
   top: 0;
   left: 0;
   right: 0;
