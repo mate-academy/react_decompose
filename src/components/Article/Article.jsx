@@ -1,6 +1,6 @@
 import './Article.css';
 
-export const Article = () => {
+export const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -56,7 +56,7 @@ export const Article = () => {
       Aenean rutrum, libero iaculis interdum vulputate, dui eros vehicula nisi,
       at interdum enim lacus eu diam.
     </p>
-  </article>;
-};
+  </article>
+);
 
 export default Article;
