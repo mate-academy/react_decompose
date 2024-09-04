@@ -1,35 +1,41 @@
 {
   "name": "react_decompose",
-  "homepage": ".",
+  "homepage": "react_decompose",
   "version": "0.1.0",
   "keywords": [],
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
-    "@cypress/react18": "^2.0.0",
-    "@fortawesome/fontawesome-free": "^6.2.0",
-    "bulma": "^0.9.4",
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "bulma": "^1.0.1",
     "classnames": "^2.5.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@mate-academy/eslint-config-react": "0.0.17",
-    "@mate-academy/scripts": "^1.8.1",
-    "@mate-academy/stylelint-config": "0.0.12",
-    "cypress": "^12.17.4",
-    "eslint": "^7.32.0",
-    "eslint-plugin-cypress": "^2.11.2",
+    "@cypress/react18": "^2.0.1",
+    "@mate-academy/scripts": "^1.8.5",
+    "@mate-academy/stylelint-config": "*",
+    "@vitejs/plugin-react": "^4.3.1",
+    "cypress": "^13.13.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-cypress": "^3.3.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jsx-a11y": "^6.9.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react-hooks": "^4.6.2",
     "gh-pages": "^6.1.1",
     "mochawesome": "^7.1.3",
-    "mochawesome-merge": "^4.2.0",
+    "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0",
-    "postcss": "^8.4.12",
-    "prettier": "^3.2.5",
-    "sass": "^1.72.0",
-    "stylelint": "^15.11.0"
+    "prettier": "^3.3.2",
+    "sass": "^1.77.8",
+    "stylelint": "^16.7.0",
+    "vite": "^5.3.1"
   },
   "scripts": {
     "start": "mate-scripts start -l",
@@ -59,8 +65,9 @@
   },
   "mateAcademy": {
     "projectType": "react",
+    "nodejsMajorVersion": "20",
     "tests": {
-      "_comment": "Add `cypress: true` to enable integration tests",
+      "_comment": "Add `cypressComponents: true` to enable component tests",
       "cypressComponents": true,
       "cypress": true
     }
