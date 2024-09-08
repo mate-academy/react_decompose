@@ -1,6 +1,5 @@
-// import a css file containig welcome styles
 import './Navigation.css';
-// Create a Welcome function returning the HTML of welcome block
+
 const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
@@ -15,5 +14,4 @@ const Navigation = () => (
   </nav>
 );
 
-// Add a default export statement for Welcome component to use it in the other files
 export default Navigation;
