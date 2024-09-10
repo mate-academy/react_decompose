@@ -1,7 +1,7 @@
 import './Navigation.css';
 
-export const Navigation = () => (
-    <nav className="navigation">
+const Navigation = () => (
+  <nav className="navigation">
     <a className="navigation__link" href="#about">
       About
     </a>
