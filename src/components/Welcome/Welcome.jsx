@@ -1,6 +1,6 @@
 import './Welcome.css';
 
-export function Welcome() {
+function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -8,4 +8,4 @@ export function Welcome() {
   );
 }
 
-// Add a default export statement for Welcome component to use it in the other files
+export default Welcome;
