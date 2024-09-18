@@ -9,9 +9,7 @@ function App() {
   return (
     <main className="app">
       <Welcome />
-      <Header>
-        <Navigation />
-      </Header>
+      <Header />
       <Article />
     </main>
   );
