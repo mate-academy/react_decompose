@@ -6,11 +6,7 @@
 import './Article.css';
 
 const Article = () => {
-  return (
-    <>
-      <article className="article-section">An article section</article>
-    </>
-  );
+  return <article className="article-section">An article section</article>;
 };
 
 export default Article;

@@ -7,11 +7,7 @@
 import './Header.css';
 
 const Header = () => {
-  return (
-    <>
-      <header className="head-section">This is a header file</header>
-    </>
-  );
+  return <header className="head-section">This is a header file</header>;
 };
 
 export default Header;
