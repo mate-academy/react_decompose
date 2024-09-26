@@ -6,9 +6,7 @@
   "author": "Mate Academy",
   "license": "GPL-3.0",
   "dependencies": {
-    "@esbuild/win32-x64": "^0.24.0",
     "@fortawesome/fontawesome-free": "^6.5.2",
-    "@rollup/rollup-win32-x64-msvc": "^4.22.4",
     "bulma": "^1.0.1",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
