@@ -1,6 +1,6 @@
 import React from 'react';
-import './Article.scss';
-import '../../App.scss';
+import './Article.css';
+import '../../App.css';
 
 function Article() {
   return (
