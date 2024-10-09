@@ -1,6 +1,4 @@
-import React from 'react';
 import './Article.css';
-import '../../App.css';
 
 function Article() {
   return (
