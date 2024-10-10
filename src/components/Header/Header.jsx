@@ -1,6 +1,6 @@
-import './Header.css';
+import './Header.scss';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -18,3 +18,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;
