@@ -1,5 +1,19 @@
-// import a css file containig header styles
+// Importar o arquivo de estilo
+import './Header.css';
 
-// Create a Header function returning the HTML of header block
+// Função Header que retorna o HTML do bloco do cabeçalho
+const Header = () => {
+  return (
+    <header className="header">
+      <h1>Site Name</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+  );
+};
 
-// Add a default export statement for Header component to use it in the other files
+// Exportação padrão do componente Header
+export default Header;
