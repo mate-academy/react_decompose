@@ -17,3 +17,4 @@ const Article = () => {
 
 // Exportação padrão do componente Article
 export default Article;
+
