@@ -1,7 +1,7 @@
 /* Put article styles here */
 
 .article {
-    width: 800px;
+    width: 800px; /* largura esperada pelo teste */
     margin: 0 auto;
   }
   
