@@ -9,13 +9,13 @@
     "@fortawesome/fontawesome-free": "^6.5.2",
     "bulma": "^1.0.1",
     "classnames": "^2.5.1",
-    "mate-scripts": "^2.0.0",
+    "mate-scripts": "^0.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@cypress/react18": "^2.0.1",
-    "@mate-academy/scripts": "^1.8.5",
+    "@mate-academy/scripts": "^1.9.12",
     "@mate-academy/stylelint-config": "*",
     "@vitejs/plugin-react": "^4.3.1",
     "cypress": "^13.13.0",
@@ -39,19 +39,19 @@
     "vite": "^5.3.1"
   },
   "scripts": {
-  "start": "mate-scripts start -l",
-  "build": "mate-scripts build",
-  "test": "mate-scripts test -l",
-  "style-format": "npx stylelint 'src/**/*.scss' --fix --allow-empty-input",
-  "lint-js": "mate-scripts lint -j",
-  "lint-css": "mate-scripts lint -s",
-  "format": "prettier --write './src/**/*.{js,jsx}'",
-  "lint": "npm run style-format && npm run format && npm run lint-js && npm run lint-css",
-  "update": "mate-scripts update",
-  "postinstall": "npm run update && cypress verify",
-  "predeploy": "npm run build",
-  "deploy": "mate-scripts deploy"
-},
+    "start": "mate-scripts start -l",
+    "build": "mate-scripts build",
+    "test": "mate-scripts test -l",
+    "style-format": "npx stylelint 'src/**/*.scss' --fix --allow-empty-input",
+    "lint-js": "mate-scripts lint -j",
+    "lint-css": "mate-scripts lint -s",
+    "format": "prettier --write './src/**/*.{js,jsx}'",
+    "lint": "npm run style-format && npm run format && npm run lint-js && npm run lint-css",
+    "update": "mate-scripts update",
+    "postinstall": "npm run update && cypress verify",
+    "predeploy": "npm run build",
+    "deploy": "mate-scripts deploy"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
