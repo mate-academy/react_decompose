@@ -4,8 +4,7 @@
 
 // Add a default export statement for Article component to use it in the other files
 const Article = () => {
-    // código do componente
-  };
-  
-  export default Article;
-  
+  // código do componente
+};
+
+export default Article;
