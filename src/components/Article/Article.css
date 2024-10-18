@@ -1,8 +1,18 @@
 /* Put article styles here */
 .article {
-    /* Estilos do artigo */
+    width: 800px; /* largura esperada pelo teste */
+    margin: 0 auto; /* centraliza o artigo */
   }
   
   .article__paragraph {
-    /* Estilos dos parágrafos */
+    margin-bottom: 16px; /* adiciona espaço entre parágrafos */
+    line-height: 1.6; /* aumenta a legibilidade */
   }
+  
+  /* Estilos de mídia (exemplo) */
+  @media (max-width: 600px) {
+    .article {
+      width: 100%; /* ajusta a largura para telas menores */
+    }
+  }
+  
