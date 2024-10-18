@@ -1,2 +1,22 @@
 /* Put header styles here */
 
+.header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+  }
+  
+  .header nav {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  @media (max-width: 600px) {
+    .header nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
