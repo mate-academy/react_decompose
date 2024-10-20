@@ -1,4 +1,4 @@
-import './Navigation.css'
+import './Navigation.css';
 
 const Navigation = () => (
   <nav className="navigation">
@@ -12,6 +12,6 @@ const Navigation = () => (
       Contact
     </a>
   </nav>
-)
+);
 
 export default Navigation;
