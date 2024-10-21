@@ -1,0 +1,15 @@
+.Product {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.Product_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.Product_price {
+  font-size: 20px;
+  color: #888;
+}

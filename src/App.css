@@ -15,10 +15,12 @@ html {
 
 body {
   margin: 0;
-  background: #eee;
+  background: white;
 }
 
-
+.app {
+  background-color: #fff /* Altere a cor de fundo se necessário */
+}
 
 
 

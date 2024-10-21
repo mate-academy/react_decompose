@@ -1,8 +1,9 @@
 /* Put welcome styles here */
 .welcome {
-  height: 100vh;
-  background: coral;
+  background-color: #fff;
+  padding: 20px;
 }
+
 
 .welcome__text {
   margin: 0;
