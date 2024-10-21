@@ -13,12 +13,7 @@ function App() {
       <Welcome />
       <Header />
       <Article />
-      <Product 
-        title1="Pastel"
-        price1={10}
-        title="Peperoni Pizza"
-        price={100}
-      />
+      <Product title1="Pastel" price1={10} title="Peperoni Pizza" price={100} />
     </main>
   );
 }
