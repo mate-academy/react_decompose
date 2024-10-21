@@ -1,1 +1,29 @@
 /* Put article styles here */
+.article {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.article__paragraph {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.article__paragraph:not(:first-child) {
+  margin-top: 0.7em;
+}
+
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}

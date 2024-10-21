@@ -1,0 +1,15 @@
+.navigation {
+  background-color: #fff;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navigation__link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navigation__link:hover {
+  color: #007bff;
+}
