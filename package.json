@@ -7,6 +7,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
+    "@rollup/rollup-win32-x64-msvc": "^4.24.4",
     "bulma": "^1.0.1",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
@@ -14,7 +15,7 @@
   },
   "devDependencies": {
     "@cypress/react18": "^2.0.1",
-    "@mate-academy/scripts": "^1.8.5",
+    "@mate-academy/scripts": "^1.9.12",
     "@mate-academy/stylelint-config": "*",
     "@vitejs/plugin-react": "^4.3.1",
     "cypress": "^13.13.0",
