@@ -7,7 +7,7 @@ describe('Header component', () => {
     mount(<TestedHeader />);
   });
 
-  it('should containt Site Name', () => {
+  it('should contain Site Name', () => {
     cy.get('h1').should('contain', 'Site Name');
   });
 
