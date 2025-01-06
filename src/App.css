@@ -6,6 +6,12 @@ iframe {
   box-sizing: border-box;
 }
 
+.app {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-size: 10pt;
   line-height: 1.4;

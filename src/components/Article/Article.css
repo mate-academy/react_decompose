@@ -1,1 +1,17 @@
-/* Put article styles here */
+.article {
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.article__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.article__paragraph {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
