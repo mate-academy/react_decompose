@@ -1,1 +1,34 @@
-/* Put welcome styles here */
+iframe {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10pt;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+}
+
+.welcome {
+  height: 100vh;
+  background: coral;
+}
+
+.welcome__text {
+  margin: 0;
+  font-size: 400%;
+  text-align: center;
+  line-height: 1;
+  padding-top: calc(50vh - 20pt);
+  display: block;
+  font-weight: 700;
+}
