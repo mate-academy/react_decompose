@@ -12,6 +12,6 @@ const Navigation = () => (
       Contact
     </a>
   </nav>
-)
+);
 
 export default Navigation;
