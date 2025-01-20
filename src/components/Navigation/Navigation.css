@@ -1,0 +1,13 @@
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation__link {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}

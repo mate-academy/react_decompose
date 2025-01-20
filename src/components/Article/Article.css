@@ -1,1 +1,15 @@
 /* Put article styles here */
+.article {
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.article__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article__paragraph {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}

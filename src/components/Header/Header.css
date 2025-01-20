@@ -1,1 +1,14 @@
 /* Put header styles here */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem;
+}
+
+.header__title {
+  font-size: 2rem;
+  margin: 0;
+}
