@@ -5,10 +5,12 @@
 // Add a default export statement for Welcome component to use it in the other files
 import './Welcome.css';
 
-export function Welcome() {
+function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
     </section>
   );
 }
+
+export default Welcome;
