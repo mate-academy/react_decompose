@@ -10,8 +10,8 @@ import { Header, Welcome, Article } from './components';
 function App() {
   return (
     <main className="app">
-      <Header />
-      <Welcome />
+       <Welcome />
+       <Header />
       <Article />
     </main>
   );
