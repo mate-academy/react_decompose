@@ -1,3 +1,6 @@
+/* Put header styles here */
+
+
 .navigation__link {
   display: inline-block;
   outline: none;
@@ -12,3 +15,4 @@
 .navigation__link:focus {
   opacity: 1;
 }
+
