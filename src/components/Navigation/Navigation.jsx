@@ -1,8 +1,8 @@
 // import a css file containig header styles
-import './Navigate.css';
+import './Navigation.css';
 
 // Create a Header function returning the HTML of header block
-const Header = () => {
+const Navigation = () => {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -19,4 +19,4 @@ const Header = () => {
 };
 
 // Add a default export statement for Header component to use it in the other files
-export default Header;
+export default Navigation;
