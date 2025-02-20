@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Welcome from './components/Welcome/Welcome';
-import Header from './components/Header/Header'
+import Header from './components/Header/Header';
 import Article from './components/Article/Article';
 
 // Move each BEM block to a separate component (file) and import them here
@@ -29,8 +29,6 @@ function App() {
         </nav>
       </header> */}
       <Header />
-      
-
 
       {/* <article className="article">
         <h1 className="article__title">Headline</h1>
@@ -91,10 +89,8 @@ function App() {
           diam.
         </p>
       </article> */}
-      
+
       <Article />
-
-
     </main>
   );
 }
