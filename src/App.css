@@ -18,7 +18,7 @@ body {
   background: #eee;
 }
 
-.welcome {
+/* .welcome {
   height: 100vh;
   background: coral;
 }
@@ -31,9 +31,9 @@ body {
   padding-top: calc(50vh - 20pt);
   display: block;
   font-weight: 700;
-}
+} */
 
-.header {
+/* .header {
   width: 100%;
   padding: 1em;
   font-size: 140%;
@@ -68,7 +68,15 @@ body {
   opacity: 1;
 }
 
-.article {
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+} */
+
+/* .article {
   margin: 5em auto 0;
   padding: 1em;
   font-size: 140%;
@@ -87,12 +95,6 @@ body {
 }
 
 @media (min-width: 500px) {
-  .header {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-  }
-
   .article {
     margin: 3.5em auto 0;
     padding: 2em;
@@ -103,4 +105,4 @@ body {
   .article {
     margin: 3.5em auto;
   }
-}
+} */
