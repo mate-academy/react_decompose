@@ -1,1 +1,16 @@
 /* Put header styles here */
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 10px 20px;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: 24px;
+  color: #333;
+}
