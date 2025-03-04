@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-const Header = () => (
+const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
       About
@@ -14,4 +14,4 @@ const Header = () => (
   </nav>
 );
 
-export default Header;
+export default Navigation;
