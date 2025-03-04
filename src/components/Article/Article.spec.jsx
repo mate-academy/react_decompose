@@ -5,6 +5,7 @@ import TestdArticle from './Article';
 describe('Article component', () => {
   beforeEach(() => {
     mount(<TestdArticle />);
+    cy.viewport(800, 600);
   });
 
   it('should contain Headline', () => {
