@@ -1,3 +1,5 @@
+/* stylelint-disable order/properties-order */
+
 .navigation__link {
   display: inline-block;
   outline: none;
