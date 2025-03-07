@@ -1,3 +1,12 @@
+/* stylelint-disable order/properties-order */
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .header {
   width: 100%;
   padding: 1em;
@@ -16,12 +25,4 @@
   margin: 0;
   padding: 0;
   font-size: inherit;
-}
-
-@media (min-width: 500px) {
-  .header {
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-  }
 }
