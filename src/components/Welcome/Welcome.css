@@ -1,1 +1,9 @@
 /* Put welcome styles here */
+.welcome {
+    background-color: rgb(255, 127, 80);
+  }
+  
+  .welcome__text {
+    text-align: center;
+  }
+  
