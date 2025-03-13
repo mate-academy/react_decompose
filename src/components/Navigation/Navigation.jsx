@@ -1,6 +1,6 @@
-// import a css file containig welcome styles
+// import a css file containig navigation styles
 import './Navigation.css';
-// Create a Welcome function returning the HTML of welcome block
+// Create a Navigation function returning the HTML of Navigation block element
 const Navigation = () => {
   return (
     <nav className="navigation">
@@ -17,5 +17,5 @@ const Navigation = () => {
   );
 };
 
-// Add a default export statement for Welcome component to use it in the other files
+// Add a default export statement for Navigation component to use it in the other files
 export default Navigation;
