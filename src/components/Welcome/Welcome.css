@@ -1,1 +1,10 @@
-/* Put welcome styles here */
+.welcome {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 127, 80);
+}
+
+.welcome__text {
+    font-size: 1.5rem;
+    color: white;
+}
