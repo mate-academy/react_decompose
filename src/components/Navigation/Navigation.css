@@ -1,0 +1,11 @@
+.navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navigation__link {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+}
