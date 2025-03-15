@@ -1,8 +1,17 @@
+iframe {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
   font-size: 10pt;
   font-weight: 400;
   line-height: 1.4;
+
 }
 
 body {
@@ -25,6 +34,7 @@ body {
   font-weight: 700;
   line-height: 1;
   text-align: center;
+
 }
 
 .header {
@@ -40,6 +50,7 @@ body {
   text-align: center;
 
   transition: opacity 0.2s ease-in-out;
+
 }
 
 .header__title {
@@ -62,6 +73,7 @@ body {
 
   opacity: 0.7;
   outline: none;
+
 
   transition: opacity 0.2s ease-in-out;
 }
