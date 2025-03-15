@@ -4,6 +4,12 @@
     padding: 0 0 0 44.8px;
 }
 
+.article__title {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 .article__paragraph {
     color: rgb(51, 51, 51);
 }

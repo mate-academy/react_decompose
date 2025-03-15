@@ -1,10 +1,18 @@
 .welcome {
+    display: flex;    
+    align-items: center;               
+    justify-content: center;         
+
+    height: 100vh;
     padding: 20px;
-    text-align: center;
+
+    text-align: center;         
+
     background-color: rgb(255, 127, 80);
 }
 
 .welcome__text {
-    font-size: 1.5rem;
-    color: white;
+    font-size: 5rem;
+    color: black;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
 }

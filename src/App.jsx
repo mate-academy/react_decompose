@@ -6,9 +6,10 @@ import Navigation from './components/Navigation/Navigation';
 
 const App = () => (
   <div>
-    <Header />
-    <Navigation />
     <Welcome />
+    <Header>
+      <Navigation />
+    </Header>
     <Article />
   </div>
 );
