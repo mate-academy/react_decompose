@@ -36,7 +36,7 @@ function App() {
           arcu, tincidunt in quam et, feugiat venenatis augue. Donec sed
           tincidunt tellus, a facilisis magna. Proin sit amet viverra nibh,
           bibendum gravida felis. Vivamus ut nunc id mauris posuere
-          pellentesque. Praesent tincidunt id odio id feugiat.
+          pellentesque. Praesent tincidunt id odio id feugiat..
         </p>
         <p className="article__paragraph">
           In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
