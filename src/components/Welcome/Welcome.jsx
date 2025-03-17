@@ -1,5 +1,16 @@
-// import a css file containig welcome styles
+// import a css file containig article styles
+import React from 'react';
+// Create an Article function returning the HTML of article block
+const Welcome = () => {
+  return (
+    <welcome>
+      <section className="welcome">
+        <span className="welcome__text">Sticky Header!</span>
+      </section>
+    </welcome>
+  );
+};
 
-// Create a Welcome function returning the HTML of welcome block
+// Add a default export statement for Article component to use it in the other files
 
-// Add a default export statement for Welcome component to use it in the other files
+export default Welcome;
