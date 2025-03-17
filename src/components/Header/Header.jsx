@@ -3,9 +3,9 @@ import React from 'react';
 // Create an Article function returning the HTML of article block
 const Header = () => {
   return (
-    <header className="header">
+    <div className="header">
       <h1 className="header__title">Site Name</h1>
-    </header>
+    </div>
   );
 };
 
