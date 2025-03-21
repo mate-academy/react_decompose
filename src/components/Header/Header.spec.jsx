@@ -1,10 +1,9 @@
 import React from 'react';
-import { mount } from '@cypress/react18';
 import TestedHeader from './Header';
 
 describe('Header component', () => {
   beforeEach(() => {
-    mount(<TestedHeader />);
+    cy.mount(<TestedHeader />);
   });
 
   it('should containt Site Name', () => {
