@@ -1,8 +1,8 @@
 /* Put article styles here */
 .article {
   max-width: 800px;
-  margin: 5em auto 0;
-  padding: 1em;
+  margin: 3.5em auto 0;
+  padding: 2em;
 
   font-size: 140%;
 
@@ -26,12 +26,6 @@
 }
 
 @media (min-width: 500px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    text-align: left;
-  }
-
   .article {
     margin: 3.5em auto 0;
     padding: 2em;
