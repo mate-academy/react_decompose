@@ -19,4 +19,12 @@
   font-size: inherit;
 }
 
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 
