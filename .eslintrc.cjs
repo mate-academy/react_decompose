@@ -8,7 +8,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'plugin:prettier/recommended',
-    'plugin:cypress/recommended',
+    // 'plugin:cypress/recommended',
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -19,6 +19,12 @@ module.exports = {
   },
   plugins: ['jsx-a11y', 'import', 'react', 'prettier'],
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
     'function-paren-newline': ['error', 'consistent'],
     'comma-dangle': [
       'error',
