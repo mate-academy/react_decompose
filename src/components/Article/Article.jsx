@@ -1,13 +1,9 @@
-// import a css file containig article styles
+
 import './Article.css';
-// Create an Article function returning the HTML of article block
 
-// Add a default export statement for Article component to use it in the other files
-
-// Create an Article function returning the HTML of article block
 function Article() {
   return (
-    <Article className="article">
+    <article className="article">
       <h1 className="articletitle">Headline</h1>
       <p className="article-content">
         {' '}
@@ -69,9 +65,9 @@ function Article() {
         tempus a neque vitae tempor. Aenean rutrum, libero iaculis interdum
         vulputate, dui eros vehicula nisi, at interdum enim lacus eu diam.
       </p>
-    </Article>
+    </article>
   );
 }
 
-// Add a default export statement for Article component to use it in the other files
+
 export default Article;
