@@ -4,7 +4,7 @@ function Article() {
   return (
     <article className="article">
       <h1 className="articletitle">Headline</h1>
-      <p className="article-content">
+      <p className="article__paragraph">
         {' '}
         In elementum lorem eget est euismod ornare. Phasellus sit amet
         pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
@@ -20,7 +20,7 @@ function Article() {
         tincidunt id odio id feugiat.
       </p>
 
-      <p className="article-content">
+      <p className="article__paragraph">
         In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
         fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
         cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
@@ -29,7 +29,7 @@ function Article() {
         congue magna, sit amet bibendum libero nisi id massa.
       </p>
 
-      <p className="article-content">
+      <p className="article__paragraph">
         Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
         congue, massa nec sagittis mollis, dui felis ultrices magna, tincidunt
         finibus lorem quam in sem. Morbi odio turpis, pulvinar sit amet
@@ -41,7 +41,7 @@ function Article() {
         ex.
       </p>
 
-      <p className="article-content">
+      <p className="article__paragraph">
         Cras egestas tempor nibh, a fermentum lorem sollicitudin non. Nulla
         facilisi. In at elit id leo tristique condimentum. Donec at est nulla.
         Mauris egestas magna ut laoreet pretium. Sed ultrices suscipit
@@ -51,7 +51,7 @@ function Article() {
         Praesent in ullamcorper est.
       </p>
 
-      <p className="article-content">
+      <p className="article__paragraph">
         Pellentesque habitant morbi tristique senectus et netus et malesuada
         fames ac turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam
         convallis faucibus ante sed porta. Nullam ut convallis elit, quis
