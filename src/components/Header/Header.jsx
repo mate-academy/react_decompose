@@ -6,7 +6,7 @@ import './Header.css';
 // Add a default export statement for Header component to use it in the other files
 import React from 'react';
 
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -24,3 +24,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

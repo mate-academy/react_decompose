@@ -6,7 +6,7 @@
 import React from 'react';
 import './Article.css';
 
-export const Article = () => {
+const Article = () => {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -68,3 +68,5 @@ export const Article = () => {
     </article>
   );
 };
+
+export default Article;
