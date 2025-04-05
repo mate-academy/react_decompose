@@ -1,4 +1,3 @@
-
 import './Article.css';
 
 function Article() {
@@ -68,6 +67,5 @@ function Article() {
     </article>
   );
 }
-
 
 export default Article;
