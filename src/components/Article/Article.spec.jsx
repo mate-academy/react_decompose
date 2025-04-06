@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { mount } from '@cypress/react18';
 import TestdArticle from './Article';
