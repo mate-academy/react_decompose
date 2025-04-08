@@ -9,8 +9,11 @@ import Welcome from './components/Welcome/Welcome';
 createRoot(document.getElementById('root')).render(
   <App>
     <Header />
+
     <Welcome />
+
     <Navigation />
+
     <Article />
   </App>,
 );
