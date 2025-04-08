@@ -1,4 +1,4 @@
-// import a css file containig article styles
+import './Article.css';
 
 const Article = () => (
   <article className="article">
