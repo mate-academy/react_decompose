@@ -1,7 +1,7 @@
 import './Article.css';
 
 function Article() {
-  return `
+  return (
 <article className="article">
 <h1 className="article__title">Headline</h1>
 <p className="article__paragraph">
@@ -61,8 +61,7 @@ function Article() {
   diam.
 </p>
 </article>
-</main>
-`;
+);
 }
 
 export default Article;

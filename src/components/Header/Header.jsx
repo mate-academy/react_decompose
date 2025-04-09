@@ -1,7 +1,7 @@
 import './Header.css';
 
 function Header() {
-  return `
+  return (
   <header className="header">
         <h1 className="header__title">Site Name</h1>
         <nav className="navigation">
@@ -16,7 +16,7 @@ function Header() {
           </a>
         </nav>
       </header>
-      `;
+  );
 }
 
 export default Header;
