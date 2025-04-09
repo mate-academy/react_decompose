@@ -1,0 +1,20 @@
+.navigation__link {
+  display: inline-block;
+
+  outline: none;
+  /* stylelint-disable-next-line order/properties-order */
+  text-decoration: none;
+
+  opacity: 0.7;
+  /* stylelint-disable-next-line order/properties-order */
+  padding: 0 0.5em;
+
+  color: black;
+  /* stylelint-disable-next-line order/properties-order */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  opacity: 1;
+}

@@ -1,1 +1,43 @@
-/* Put header styles here */
+.header {
+  width: 100%;
+  padding: 1em;
+
+  font-size: 140%;
+  /* stylelint-disable-next-line order/properties-order */
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* stylelint-disable-next-line order/properties-order */
+  right: 0;
+
+  transition: opacity 0.2s ease-in-out;
+
+  /* stylelint-disable-next-line order/properties-order */
+  text-align: center;
+}
+
+.header__title {
+  font-weight: 600;
+  /* stylelint-disable-next-line order/properties-order */
+  display: inline;
+  /* stylelint-disable-next-line order/properties-order */
+  margin: 0;
+  padding: 0;
+  /* stylelint-disable-next-line order/properties-order */
+  font-size: inherit;
+}
+
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    /* stylelint-disable-next-line order/properties-order */
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}
