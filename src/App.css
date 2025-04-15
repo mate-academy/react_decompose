@@ -8,9 +8,9 @@ iframe {
 
 html {
   font-size: 10pt;
-  line-height: 1.4;
-  font-weight: 400;
   font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 body {
@@ -25,11 +25,14 @@ body {
 
 .welcome__text {
   margin: 0;
+
   font-size: 400%;
-  text-align: center;
-  line-height: 1;
-  padding-top: calc(50vh - 20pt);
+
   display: block;
+
+  padding-top: calc(50vh - 20pt);
+  line-height: 1;
+  text-align: center;
   font-weight: 700;
 }
 
@@ -39,27 +42,38 @@ body {
   font-size: 140%;
   position: sticky;
   top: 0;
-  left: 0;
   right: 0;
-  transition: opacity 0.2s ease-in-out;
+  left: 0;
+
   text-align: center;
+
+  transition: opacity 0.2s ease-in-out;
 }
 
 .header__title {
-  font-weight: 600;
   display: inline;
+
   margin: 0;
   padding: 0;
+
+  font-weight: 600;
+
   font-size: inherit;
 }
 
 .navigation__link {
   display: inline-block;
-  outline: none;
-  text-decoration: none;
-  opacity: 0.7;
+
   padding: 0 0.5em;
+
+  text-decoration: none;
+
   color: black;
+
+  opacity: 0.7;
+  
+  outline: none;
+
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -69,10 +83,13 @@ body {
 }
 
 .article {
-  margin: 5em auto 0;
-  padding: 1em;
-  font-size: 140%;
   max-width: 800px;
+  margin: 5em auto 0;
+
+  padding: 1em;
+
+  font-size: 140%;
+
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
 }
@@ -88,9 +105,9 @@ body {
 
 @media (min-width: 500px) {
   .header {
-    text-align: left;
     display: flex;
     justify-content: space-between;
+    text-align: left;
   }
 
   .article {
