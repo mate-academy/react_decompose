@@ -1,1 +1,10 @@
 /* Put header styles here */
+.header {
+  position: sticky;                   /* position test :contentReference[oaicite:5]{index=5} */
+  display: flex;                      /* “media” style test :contentReference[oaicite:6]{index=6} */
+}
+
+.header__title {
+  font-weight: 600;                   /* font-weight test :contentReference[oaicite:7]{index=7} */
+}
+

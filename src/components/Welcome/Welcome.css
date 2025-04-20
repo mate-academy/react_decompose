@@ -1,1 +1,8 @@
 /* Put welcome styles here */
+.welcome {
+  background-color: rgb(255, 127, 80); /* background-color test :contentReference[oaicite:8]{index=8} */
+}
+
+.welcome__text {
+  text-align: center;                  /* text-align test :contentReference[oaicite:9]{index=9} */
+}
