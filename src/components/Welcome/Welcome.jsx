@@ -4,12 +4,14 @@
 
 // Add a default export statement for Welcome component to use it in the other files
 // Welcome.jsx
-import React from 'react';
+import './Welcome.css';
 
-const Welcome = () => (
-  <div className="welcome">
-    <h1>Welcome</h1>
-  </div>
-);
+function Welcome() {
+  return (
+    <section className="welcome">
+      <p className="welcome__text">Sticky Header!</p>
+    </section>
+  );
+}
 
 export default Welcome;
