@@ -3,14 +3,13 @@
 // Create a Welcome function returning the HTML of welcome block
 
 // Add a default export statement for Welcome component to use it in the other files
-import './Welcome.css';
+// Welcome.jsx
+import React from 'react';
 
-function Welcome() {
-  return (
-    <div className="welcome">
-      <p className="welcome__text">Sticky Header!</p>
-    </div>
-  );
-}
+const Welcome = () => (
+  <div className="welcome">
+    <h1>Welcome</h1>
+  </div>
+);
 
 export default Welcome;
