@@ -59,7 +59,6 @@ function Article() {
         vulputate, dui eros vehicula nisi, at interdum enim lacuseudiam.
       </p>
     </article>
-
   );
 }
 
