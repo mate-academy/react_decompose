@@ -1,7 +1,8 @@
 import './Navigation.css';
 
-export const Navigation = () => {
-  <nav className="navigation">
+function Navigation() {
+  return (
+    < nav className="navigation" >
     <a className="navigation__link" href="#about">
       About
     </a>
@@ -11,7 +12,11 @@ export const Navigation = () => {
     <a className="navigation__link" href="#contact">
       Contact
     </a>
-  </nav>;
-};
+  </nav>
+  );
+}
 
 export default Navigation;
+
+
+

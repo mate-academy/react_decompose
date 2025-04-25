@@ -2,8 +2,9 @@
 import './Article.css';
 
 // Create an Article function returning the HTML of article block
-export const Article = () => {
-  <article className="article">
+function Article() {
+  return (
+    <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
@@ -58,8 +59,9 @@ export const Article = () => {
       Aenean rutrum, libero iaculis interdum vulputate, dui eros vehicula nisi,
       at interdum enim lacus eu diam.
     </p>
-  </article>;
-};
+    </article>
+  );
+}
 
 // Add a default export statement for Article component to use it in the other files
 export default Article;
