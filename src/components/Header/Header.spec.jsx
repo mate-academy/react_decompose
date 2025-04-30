@@ -14,7 +14,6 @@ describe('Header component', () => {
   it('should contain About link', () => {
     cy.get('[href="#about"]').should('have.text', 'About');
   });
-
   it('should contain Services link', () => {
     cy.get('[href="#services"]').should('have.text', 'Services');
   });
@@ -25,7 +24,6 @@ describe('Header component', () => {
 
   it('should have correct styles', () => {
     cy.get('.header').should('have.css', 'position', 'sticky');
-
     cy.get('.header__title').should('have.css', 'font-weight', '600');
 
     cy.get('.navigation__link').eq(0).should('have.css', 'opacity', '0.7');
