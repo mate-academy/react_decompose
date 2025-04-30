@@ -1,0 +1,17 @@
+/* Put article styles here */
+.navigation {
+  display: flex;
+  gap: 1.5em;
+}
+
+.navigation__link {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+
+  /* Adicione transições ou outros estilos específicos */
+  transition: transform 0.3s ease;
+}
+
+.navigation__link:hover {
+  transform: translateY(-2px);
+}

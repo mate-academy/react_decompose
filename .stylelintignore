@@ -1,1 +1,17 @@
-/build
+# .stylelintignore
+
+# Ignorar diretórios de build
+dist/
+build/
+node_modules/
+
+# Ignorar arquivos compilados/minificados
+*.min.css
+
+# Ignorar arquivos de dependências
+**/vendor/**/*.css
+
+# Adicionar ao .stylelintignore
+public/
+coverage/
+*.css.map
