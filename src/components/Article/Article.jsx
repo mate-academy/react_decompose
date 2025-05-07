@@ -16,7 +16,7 @@ function Article() {
         molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
         congue magna, sit amet bibendum libero nisi id massa.
       </p>
-      <p className=" article__paragraph">
+      <p className="article__paragraph">
         Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
         congue, massa nec sagittis mollis, dui felis ultrices magna, tincidunt
         finibus lorem quam in sem. Morbi odio turpis, pulvinar sitamet vulputate
