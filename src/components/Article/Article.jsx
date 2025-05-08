@@ -4,6 +4,7 @@
 
 // Add a default export statement for Article component to use it in the other files
 import './Article.css';
+import React from 'react';
 
 function Article() {
   return (
