@@ -1,4 +1,4 @@
-import './navigations.css';
+import './Navigation.css';
 
 function Navigation() {
   return (

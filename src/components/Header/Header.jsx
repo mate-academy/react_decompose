@@ -1,4 +1,4 @@
-import Navigation from '../navigations/navigations';
+import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
 function Header() {
