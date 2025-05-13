@@ -1,5 +1,52 @@
-// import a css file containig article styles
+import React from 'react';
+import './Article.css';
 
-// Create an Article function returning the HTML of article block
+function Article() {
+  return (
+    <article className="article">
+      <h1 className="article__title">Headline</h1>
+      <p className="article__paragraph">
+        In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
+        fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
+        cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
+        ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut hendrerit
+        molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
+        congue magna, sit amet bibendum libero nisi id massa.
+      </p>
+      <p className="article__paragraph">
+        In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
+        fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
+        cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
+        ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut hendrerit
+        molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
+        congue magna, sit amet bibendum libero nisi id massa.
+      </p>
+      <p className="article__paragraph">
+        In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
+        fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
+        cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
+        ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut hendrerit
+        molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
+        congue magna, sit amet bibendum libero nisi id massa.
+      </p>
+      <p className="article__paragraph">
+        In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
+        fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
+        cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
+        ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut hendrerit
+        molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
+        congue magna, sit amet bibendum libero nisi id massa.
+      </p>
+      <p className="article__paragraph">
+        In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
+        fermentum ac quam. Aliquam pretium tristique nibh quis iaculis. In et
+        cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
+        ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut hendrerit
+        molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
+        congue magna, sit amet bibendum libero nisi id massa.
+      </p>
+    </article>
+  );
+}
 
-// Add a default export statement for Article component to use it in the other files
+export default Article;
