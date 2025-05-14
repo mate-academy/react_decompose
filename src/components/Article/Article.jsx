@@ -10,43 +10,40 @@ function Article() {
     <article className="article">
       <h1 className="article__title">Headline</h1>
       <p className="article__paragraph">
-        Fusce commodo iaculis orci, quis
-        imperdiet urna. Sed mollis facilisis lacus non condimentum. Nunc
-        efficitur massa non neque elementum semper. Vestibulum lorem arcu,
-        tincidunt in quam et, feugiat venenatis augue. Donec sed tincidunt
-        tellus, a facilisis magna. Proin sit amet viverra nibh, bibendum gravida
-        felis. Vivamus ut nunc id mauris posuere pellentesque. Praesent
-        tincidunt id odio id feugiat.
+        Fusce commodo iaculis orci, quis imperdiet urna. Sed mollis facilisis
+        lacus non condimentum. Nunc efficitur massa non neque elementum semper.
+        Vestibulum lorem arcu, tincidunt in quam et, feugiat venenatis augue.
+        Donec sed tincidunt tellus, a facilisis magna. Proin sit amet viverra
+        nibh, bibendum gravida felis. Vivamus ut nunc id mauris posuere
+        pellentesque. Praesent tincidunt id odio id feugiat.
       </p>
       <p className="article__paragraph">
-        Aliquam pretium tristique nibh quis iaculis. In et
-        cursus ex, eu aliquet ex. Proin facilisis lacus sit amet sapien
-        ultrices, ut vehicula arcu lobortis. Vivamus mollis ipsum ut hendrerit
-        molestie. Morbi lacinia, sapien eu dictum dignissim, tellus tortor
-        congue magna, sit amet bibendum libero nisi id massa.
+        Aliquam pretium tristique nibh quis iaculis. In et cursus ex, eu aliquet
+        ex. Proin facilisis lacus sit amet sapien ultrices, ut vehicula arcu
+        lobortis. Vivamus mollis ipsum ut hendrerit molestie. Morbi lacinia,
+        sapien eu dictum dignissim, tellus tortor congue magna, sit amet
+        bibendum libero nisi id massa.
       </p>
       <p className="article__paragraph">
-        Donec ac maximus neque, nec maximus
-        nibh. Morbi rhoncus convallis urna, accumsan porta lorem hendrerit in.
-        Cras eget nisl dui. Morbi faucibus nisi eget ipsum semper vulputate.
-        Mauris nec tincidunt lectus. Aenean ac mi consequat velit dignissim
-        consectetur. Fusce placerat ac ipsum ac eleifend. Aenean quis faucibus
-        ex.
+        Donec ac maximus neque, nec maximus nibh. Morbi rhoncus convallis urna,
+        accumsan porta lorem hendrerit in. Cras eget nisl dui. Morbi faucibus
+        nisi eget ipsum semper vulputate. Mauris nec tincidunt lectus. Aenean ac
+        mi consequat velit dignissim consectetur. Fusce placerat ac ipsum ac
+        eleifend. Aenean quis faucibus ex.
       </p>
       <p className="article__paragraph">
-        Sed ultrices suscipit
-        vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Fusce id sapien eros. Vivamus viverra ultricies gravida. Nam urna nibh,
-        blandit a vulputate at, vehicula non nulla. Aenean ut nulla leo.
-        Praesent in ullamcorper est.
+        Sed ultrices suscipit vestibulum. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Fusce id sapien eros. Vivamus viverra
+        ultricies gravida. Nam urna nibh, blandit a vulputate at, vehicula non
+        nulla. Aenean ut nulla leo. Praesent in ullamcorper est.
       </p>
       <p className="article__paragraph">
-        Aliquam erat ligula, fringilla nec suscipit sed, porta vitae
-        turpis. Vestibulum rhoncus placerat nulla vitae suscipit. Curabitur
-        consectetur ex ut odio tristique vehicula. Ut ligula tortor, tincidunt
-        quis sodales vitae, ornare a turpis. Proin sit amet finibus enim. Fusce
-        tempus a neque vitae tempor. Aenean rutrum, libero iaculis interdum
-        vulputate, dui eros vehicula nisi, at interdum enim lacus eu diam.
+        Aliquam erat ligula, fringilla nec suscipit sed, porta vitae turpis.
+        Vestibulum rhoncus placerat nulla vitae suscipit. Curabitur consectetur
+        ex ut odio tristique vehicula. Ut ligula tortor, tincidunt quis sodales
+        vitae, ornare a turpis. Proin sit amet finibus enim. Fusce tempus a
+        neque vitae tempor. Aenean rutrum, libero iaculis interdum vulputate,
+        dui eros vehicula nisi, at interdum enim lacus eu diam.
       </p>
     </article>
   );
