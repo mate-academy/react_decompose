@@ -14,6 +14,6 @@ function Navigation() {
       </a>
     </nav>
   );
-}
+};
 
 export default Navigation;
