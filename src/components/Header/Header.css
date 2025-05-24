@@ -1,13 +1,13 @@
 .header {
-  width: 100%;
-  padding: 1em;
   font-size: 140%;
+  padding: 1em;
+  text-align: center;
   position: sticky;
   top: 0;
+  width: 100%;
   left: 0;
   right: 0;
   transition: opacity 0.2s ease-in-out;
-  text-align: center;
 }
 
 .header__title {
