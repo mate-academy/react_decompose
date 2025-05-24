@@ -5,7 +5,6 @@ import './Article.css';
 
 function Article() {
   return (
-    <div className="article-container">
       <article className="article">
         <h1 className="article__title">Headline</h1>
         <p className="article__paragraph">
@@ -65,7 +64,6 @@ function Article() {
           diam.
         </p>
       </article>
-    </div>
   );
 }
 
