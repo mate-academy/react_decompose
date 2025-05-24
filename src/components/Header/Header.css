@@ -5,10 +5,10 @@
   display: flex;
 }
 
-.header__title {
+.header .header__title {
   font-weight: 600;
 }
 
-.navigation__link {
+.header .navigation__link {
   opacity: 0.7;
 }
