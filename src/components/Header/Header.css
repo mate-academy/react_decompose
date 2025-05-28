@@ -1,9 +1,9 @@
 /* Put header styles here */
 .header {
-  position: static;
+  position: sticky;
 }
 
 .nav {
-  display: block;
+  display: flex;
   justify-content: space-between;
 }
