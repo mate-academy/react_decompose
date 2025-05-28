@@ -1,1 +1,9 @@
 /* Put header styles here */
+.header {
+  position: static;
+}
+
+.nav {
+  display: block;
+  justify-content: space-between;
+}
