@@ -1,4 +1,17 @@
 /* Put welcome styles here */
 .welcome {
+  height: 100vh;
   background-color: (rgba(0, 0, 0, 0));
+}
+
+.welcome__text {
+  display: block;
+
+  margin: 0;
+  padding-top: calc(50vh - 20pt);
+
+  font-size: 400%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
 }
