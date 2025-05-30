@@ -103,6 +103,7 @@ module.exports = {
         devDependencies: true,
         optionalDependencies: false,
         peerDependencies: false,
+        packageDir: './',
       },
     ],
     'max-len': [
