@@ -1,7 +1,7 @@
 /* Put welcome styles here */
 .welcome {
   height: 100vh;
-  background-color: (rgba(0, 0, 0, 0));
+  background-color: rgb(255, 127, 80);
 }
 
 .welcome__text {
