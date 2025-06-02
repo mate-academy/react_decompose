@@ -3,7 +3,7 @@ import './App.css';
 // Move each BEM block to a separate component (file) and import them here
 import Article from './components/Article/Article';
 import Header from './components/Header/Header';
-import Wellcome from './components/Welcome/Welcome';
+import Welcome from './components/Welcome/Welcome';
 import Navigation from './components/Navigation/Navigation';
 
 function App() {
@@ -85,7 +85,7 @@ function App() {
           diam.
         </p>
       </article>
-      <Wellcome />
+      <Welcome />
       <Header />
       <Article />
       <Navigation />
