@@ -1,1 +1,8 @@
 /* Put welcome styles here */
+
+.welcome {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
