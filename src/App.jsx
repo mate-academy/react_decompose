@@ -2,6 +2,14 @@ import React from 'react';
 import './App.css';
 // Move each BEM block to a separate component (file) and import them here
 
+import { Article } from './components/Article/Article';
+import { Header } from './components/Header/Header';
+import { Welcome } from './components/Welcome/Welcome';
+
+import './components/Article/Article.css';
+import './components/Header/Header.css';
+import './components/Welcome/Welcome.css';
+
 function App() {
   return (
     <main className="app">
@@ -21,6 +29,7 @@ function App() {
             Contact
           </a>
         </nav>
+        <Header />
       </header>
       <article className="article">
         <h1 className="article__title">Headline</h1>
@@ -80,7 +89,9 @@ function App() {
           interdum vulputate, dui eros vehicula nisi, at interdum enim lacus eu
           diam.
         </p>
+        <Article />
       </article>
+      <Welcome />
     </main>
   );
 }
