@@ -4,17 +4,16 @@ import './App.css';
 
 import Welcome from './components/Welcome/Welcome';
 import Article from './components/Article/Article';
-import Header  from './components/Header/Header';
+import Header from './components/Header/Header';
 import Navigation from './components/Navigation/Navigation';
-
 
 function App() {
   return (
     <main className="app">
-        <Welcome/>
-        <Header/>
-        <Article/>
-        <Navigation/>
+      <Welcome />
+      <Header />
+      <Article />
+      <Navigation />
     </main>
   );
 }
