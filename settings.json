@@ -1,0 +1,51 @@
+{
+  "tabnine.experimentalAutoImports": true,
+  "prettier.useTabs": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "on",
+  "prettier.printWidth": 120,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "liveSassCompile.settings.forceBaseDirectory": "/src",
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../",
+      "savePathReplacementPairs": null
+    }
+  ],
+  "git.confirmSync": false,
+  "editor.accessibilitySupport": "off",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 500,
+  "editor.fontSize": 15,
+  "editor.renderWhitespace": "boundary",
+  "editor.detectIndentation": false,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "files.eol": "\n",
+  "html.format.wrapLineLength": 80,
+  "code-runner.languageIdToFileExtensionMap": {
+    "bat": ".bat",
+    "powershell": ".ps1",
+    "typescript": ".ts"
+  },
+  "cursor.cpp.disabledLanguages": ["plaintext", "markdown", "scminput"],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "always",
+    "source.fixAll.eslint": "always"
+  },
+  "editor.formatOnType": true
+}
