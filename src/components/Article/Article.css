@@ -15,7 +15,7 @@
   line-height: 1.5;
 }
 
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .article {
     padding: 20px;
     padding-top: 20px !important;

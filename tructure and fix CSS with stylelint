@@ -1,0 +1,30 @@
+[1mdiff --git a/src/components/Welcome/.stylelintrc.json b/src/components/Welcome/.stylelintrc.json[m
+[1mdeleted file mode 100644[m
+[1mindex ef5c051..0000000[m
+[1m--- a/src/components/Welcome/.stylelintrc.json[m
+[1m+++ /dev/null[m
+[36m@@ -1,10 +0,0 @@[m
+[31m-{[m
+[31m-  "extends": ["stylelint-config-standard"],[m
+[31m-  "plugins": ["stylelint-order", "stylelint-scss"],[m
+[31m-  "rules": {[m
+[31m-    "selector-class-pattern": "^[a-z0-9\\-_]+$",[m
+[31m-    "order/order": ["custom-properties", "declarations"],[m
+[31m-    "order/properties-order": [],[m
+[31m-    "scss/at-rule-no-unknown": true[m
+[31m-  }[m
+[31m-}[m
+[1mdiff --git a/src/components/Welcome/Welcome.css b/src/components/Welcome/Welcome.css[m
+[1mdeleted file mode 100644[m
+[1mindex 4247aa7..0000000[m
+[1m--- a/src/components/Welcome/Welcome.css[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-.welcome {[m
+[31m-  padding: 1rem;[m
+[31m-  background-color: lightblue;[m
+[31m-}[m
+[31m-[m
+[31m-.welcome__text {[m
+[31m-  font-size: 24px;[m
+[31m-}[m
