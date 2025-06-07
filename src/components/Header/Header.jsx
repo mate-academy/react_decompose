@@ -1,10 +1,11 @@
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
 
-function Header() {
+function Header({ children }) {
   return (
     <header className="header">
-      <Navigation />
+      <h1>Nome do Site</h1>
+      {children}
     </header>
   );
 }
