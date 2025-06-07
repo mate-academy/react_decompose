@@ -1,1 +1,6 @@
-/* Put header styles here */
+.header {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  background-color: white;
+}

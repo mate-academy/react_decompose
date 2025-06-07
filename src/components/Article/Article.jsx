@@ -1,5 +1,17 @@
-// import a css file containig article styles
+import React from 'react';
+import './Article.css';
 
-// Create an Article function returning the HTML of article block
+function Article() {
+  return (
+    <article className="article">
+      <h1 className="article__headline">Headline</h1>
+      <p className="article__paragraph">Lorem ipsum dolor sit amet.</p>
+      <p className="article__paragraph">Consectetur adipiscing elit.</p>
+      <p className="article__paragraph">Sed do eiusmod tempor.</p>
+      <p className="article__paragraph">Incididunt ut labore et dolore.</p>
+      <p className="article__paragraph">Magna aliqua.</p>
+    </article>
+  );
+}
 
-// Add a default export statement for Article component to use it in the other files
+export default Article;

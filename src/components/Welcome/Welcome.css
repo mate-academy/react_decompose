@@ -1,1 +1,8 @@
-/* Put welcome styles here */
+.welcome {
+  padding: 1rem;
+  background-color: lightblue;
+}
+
+.welcome__text {
+  font-size: 24px;
+}

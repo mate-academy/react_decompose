@@ -1,0 +1,19 @@
+.navigation {
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.navigation__list {
+  display: flex;
+  gap: 20px;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.navigation__item {
+  cursor: pointer;
+  font-weight: bold;
+}
