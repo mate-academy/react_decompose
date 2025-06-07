@@ -7,11 +7,13 @@ import Article from './components/Article/Article';
 
 function App() {
   return (
-    <main className="app">
-      <Welcome />
+    <>
       <Header />
-      <Article />
-    </main>
+      <main className="app">
+        <Welcome />
+        <Article />
+      </main>
+    </>
   );
 }
 
