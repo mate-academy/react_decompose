@@ -17,9 +17,10 @@
   margin-top: 0.7em;
 }
 
-.article {
+@media (min-width: 500px) {.article {
   margin: 3.5em auto 0;
   padding: 2em;
+}
 }
 
 
