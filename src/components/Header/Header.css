@@ -23,3 +23,11 @@
   font-size: inherit;
   font-weight: 600;
 }
+
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+  }
+}
