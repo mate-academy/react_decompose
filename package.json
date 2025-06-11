@@ -1,7 +1,7 @@
 {
   "name": "react_decompose_project",
   "version": "1.0.0",
-  "description": "Decomposing a React App into components based on CSS blocks, including separate CSS files for each component.",
+  "description": "Decomposing a React App into components based on CSS blocks, including separate CSS files for each component. Pure JavaScript project.",
   "main": "src/index.js",
   "private": true,
   "dependencies": {
