@@ -1,5 +1,6 @@
+// src/components/Navigation/Navigation.jsx
 import React from 'react';
-import './Navigation.css';
+import './Navigation.css'; // Importa o CSS específico da Navigation
 
 function Navigation() {
   return (

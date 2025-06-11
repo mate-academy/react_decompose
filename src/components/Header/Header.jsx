@@ -1,5 +1,6 @@
+// src/components/Header/Header.jsx
 import React from 'react';
-import './Header.css';
+import './Header.css'; // Importa o CSS específico do Header
 import Navigation from '../Navigation/Navigation'; // Importa o componente Navigation
 
 function Header() {

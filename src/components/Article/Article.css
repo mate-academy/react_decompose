@@ -1,4 +1,4 @@
-/* Put article styles here */
+/* src/components/Article/Article.css */
 .article {
   margin: 5em auto 0;
   padding: 1em;
@@ -6,6 +6,10 @@
   max-width: 800px;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+}
+
+.article__title {
+  /* Título do artigo, não tinha um estilo específico no seu App.css, mas se tivesse, ficaria aqui */
 }
 
 .article__paragraph {

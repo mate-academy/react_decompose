@@ -1,10 +1,6 @@
-// import a css file containig welcome styles
-
-// Create a Welcome function returning the HTML of welcome block
-
-// Add a default export statement for Welcome component to use it in the other files
+// src/components/Welcome/Welcome.jsx
 import React from 'react';
-import './Welcome.css';
+import './Welcome.css'; // Importa o CSS específico do Welcome
 
 function Welcome() {
   return (
