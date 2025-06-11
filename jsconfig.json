@@ -1,0 +1,9 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "jsx": "react", // ou "react-jsx" para React 17+
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src"]
+}
