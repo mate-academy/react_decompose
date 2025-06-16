@@ -1,6 +1,6 @@
 import './Header.css';
 
-export const Headers = () => {
+export const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -19,4 +19,4 @@ export const Headers = () => {
   );
 };
 
-export default Headers;
+export default Header;
