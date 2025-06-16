@@ -4,6 +4,7 @@ import TestdArticle from './Article';
 
 describe('Article component', () => {
   beforeEach(() => {
+    cy.viewport(1280, 800);
     mount(<TestdArticle />);
   });
 

@@ -4,6 +4,7 @@ import TestedHeader from './Header';
 
 describe('Header component', () => {
   beforeEach(() => {
+    cy.viewport(1280, 800);
     mount(<TestedHeader />);
   });
 
