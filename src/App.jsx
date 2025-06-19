@@ -7,9 +7,9 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <main className="app">
-        <Welcome />
-        <Header />
-        <Article />
+      <Welcome />
+      <Header />
+      <Article />
     </main>
   );
 }
