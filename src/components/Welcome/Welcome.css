@@ -1,1 +1,21 @@
-/* Put welcome styles here */
+.welcome {
+  height: 100vh;
+  background: coral;
+}
+
+.welcome__text {
+  margin: 0;
+  font-size: 400%;
+  text-align: center;
+  line-height: 1;
+  padding-top: calc(50vh - 20pt);
+  display: block;
+  font-weight: 700;
+}
+
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
