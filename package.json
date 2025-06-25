@@ -7,17 +7,20 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",
+    "@rollup/rollup-win32-x64-msvc": "^4.44.0",
     "bulma": "^1.0.1",
     "classnames": "^2.5.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "rollup-plugin-node-builtins": "^2.1.2"
   },
   "devDependencies": {
     "@cypress/react18": "^2.0.1",
-    "@mate-academy/scripts": "^1.8.5",
+    "@cypress/vite-dev-server": "^6.0.3",
+    "@mate-academy/scripts": "^2.1.1",
     "@mate-academy/stylelint-config": "*",
     "@vitejs/plugin-react": "^4.3.1",
-    "cypress": "^13.13.0",
+    "cypress": "^14.5.0",
     "eslint": "^8.57.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^9.1.0",
@@ -34,14 +37,14 @@
     "mochawesome-report-generator": "^6.2.0",
     "prettier": "^3.3.2",
     "sass": "^1.77.8",
+    "start-server-and-test": "^2.0.12",
     "stylelint": "^16.7.0",
     "vite": "^5.3.1"
   },
   "scripts": {
     "start": "mate-scripts start -l",
     "build": "mate-scripts build",
-    "test": "mate-scripts test -l",
-    "style-format": "npx stylelint 'src/**/*.scss' --fix --allow-empty-input",
+    "style-format": "npx stylelint 'src/**/*.{css,scss}' --fix --allow-empty-input",
     "lint-js": "mate-scripts lint -j",
     "lint-css": "mate-scripts lint -s",
     "format": "prettier --write './src/**/*.{js,jsx}'",
@@ -49,7 +52,11 @@
     "update": "mate-scripts update",
     "postinstall": "npm run update && cypress verify",
     "predeploy": "npm run build",
-    "deploy": "mate-scripts deploy"
+    "deploy": "mate-scripts deploy",
+    "dev": "vite",
+    "test:ct": "cypress run --component",
+    "test:e2e": "start-server-and-test dev http://localhost:5173 \"npx cypress run --e2e\"",
+    "test": "npm run test:ct && npm run test:e2e"
   },
   "browserslist": {
     "production": [
@@ -65,11 +72,6 @@
   },
   "mateAcademy": {
     "projectType": "react",
-    "nodejsMajorVersion": "20",
-    "tests": {
-      "_comment": "Add `cypressComponents: true` to enable component tests",
-      "cypressComponents": true,
-      "cypress": true
-    }
+    "nodejsMajorVersion": "20"
   }
 }
