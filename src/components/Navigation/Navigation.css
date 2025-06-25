@@ -1,8 +1,8 @@
 
 .navigation__link {
-  color: #007acc;
-  font-weight: bold;
   margin: 0 1rem;
+  font-weight: bold;
+  color: #007acc;
   text-decoration: none;
 }
 
