@@ -1,1 +1,10 @@
-/* Put article styles here */
+.article {
+  max-width: 800px;
+  padding-left: 2.8rem;
+  margin-bottom: 4.9rem;
+}
+
+.article__paragraph {
+  color: #333;
+}
+
