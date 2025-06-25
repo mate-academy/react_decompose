@@ -1,1 +1,8 @@
-/* Put welcome styles here */
+.welcome {
+  background-color: coral; /* coral = rgb(255, 127, 80) */
+  padding: 1rem;
+}
+
+.welcome__text {
+  text-align: center;
+}
