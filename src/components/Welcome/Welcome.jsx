@@ -7,12 +7,10 @@ function Welcome() {
     <main className="app">
       <section className="welcome">
         <span className="welcome__text">Sticky Header!</span>
-        <div className="welcome">
-          <h1 className="welcome__title">Welcome to My Website</h1>
-          <p className="welcome__description">
-            This is a simple React component that welcomes users to the site.
-          </p>
-        </div>
+        <h1 className="welcome__title">Welcome to My Website</h1>
+        <p className="welcome__description">
+          This is a simple React component that welcomes users to the site.
+        </p>
       </section>
     </main>
   );
