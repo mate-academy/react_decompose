@@ -4,15 +4,13 @@ import './Welcome.css';
 // Create a Welcome function returning the HTML of welcome block
 function Welcome() {
   return (
-    <main className="app">
-      <section className="welcome">
-        <span className="welcome__text">Sticky Header!</span>
-        <h1 className="welcome__title">Welcome to My Website</h1>
-        <p className="welcome__description">
-          This is a simple React component that welcomes users to the site.
-        </p>
-      </section>
-    </main>
+    <section className="welcome">
+      <span className="welcome__text">Sticky Header!</span>
+      <h1 className="welcome__title">Welcome to My Website</h1>
+      <p className="welcome__description">
+        This is a simple React component that welcomes users to the site.
+      </p>
+    </section>
   );
 }
 
