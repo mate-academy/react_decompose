@@ -4,7 +4,6 @@ import Article from './components/Article/Article';
 import Header from './components/Header/Header';
 import Welcome from './components/Welcome/Welcome';
 import Navigation from './components/Navigation/Navigation';
-// Move each BEM block to a separate component (file) and import them here
 
 function App() {
   return (
@@ -12,6 +11,10 @@ function App() {
       <Header />
       <Navigation />
       <Welcome />
+      <section id="contact">
+        {/* conteúdo da seção Contact aqui */}
+        Contact content
+      </section>
       <main className="app">
         <Article />
       </main>
