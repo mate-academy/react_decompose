@@ -3,7 +3,6 @@ import './Article.css';
 
 function Article() {
   return (
-    <article id="about" className="article">
       <article className="article">
       <h1 className="article__title">Headline</h1>
       <p className="article__paragraph">
@@ -61,7 +60,6 @@ function Article() {
         tempus a neque vitae tempor. Aenean rutrum, libero iaculis interdum
         vulputate, dui eros vehicula nisi, at interdum enim lacus eu diam.
       </p>
-    </article>
     </article>
   );
 }

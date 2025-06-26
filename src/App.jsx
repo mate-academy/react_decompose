@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Welcome />
       <section id="contact">
-        Contact content
+        <Contact />
       </section>
       <main className="app">
         <Article />
