@@ -1,7 +1,7 @@
 import React from 'react';
-import './Navegation.css';
+import './Navigation.css';
 
-function Navegation() {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -17,4 +17,4 @@ function Navegation() {
   );
 }
 
-export default Navegation;
+export default Navigation;
