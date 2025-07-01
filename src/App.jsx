@@ -8,8 +8,8 @@ import { Section } from './components/Section';
 function App() {
   return (
     <main className="app">
+       <Header />
       <Section />
-      <Header />
       <Article />
     </main>
   );
