@@ -1,1 +1,13 @@
 /* Put welcome styles here */
+.welcome {
+  background-color: coral; /* Це і є rgb(255, 127, 80) */
+  padding: 2rem;
+}
+
+.welcome__text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+

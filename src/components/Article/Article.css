@@ -1,1 +1,15 @@
 /* Put article styles here */
+.article {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 2.8rem;    /* ≈ 44.8px */
+  padding-right: 2.8rem;
+  margin-bottom: 4.9rem;   /* ≈ 78.4px */
+}
+
+.article__paragraph {
+  color: #333; /* rgb(51, 51, 51) */
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
