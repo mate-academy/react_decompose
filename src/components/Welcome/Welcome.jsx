@@ -1,9 +1,11 @@
 import './Welcome.css';
 
 function Welcome() {
-  <section className="welcome">
+  return (
+    <section className="welcome">
     <span className="welcome__text">Sticky Header!</span>
-  </section>;
+  </section>
+  );
 }
 
 export default Welcome;

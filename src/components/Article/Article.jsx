@@ -1,7 +1,8 @@
 import './Article.css';
 
 function Article() {
-  <article className="article">
+  return (
+    <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
@@ -56,7 +57,8 @@ function Article() {
       Aenean rutrum, libero iaculis interdum vulputate, dui eros vehicula nisi,
       at interdum enim lacus eu diam.
     </p>
-  </article>;
+  </article>
+  );
 }
 
 export default Article;
