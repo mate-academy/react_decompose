@@ -1,11 +1,13 @@
 // import a css file containig article styles
+import './Article.css';
+// Create an Article function returning the HTML of article block
 export const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
-      pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
-      Mauris molestie, urna accumsan ornare semper, augue nibh posuere lorem,
+      pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam Mauris
+      molestie, urna accumsan ornare semper, augue nibh posuere lorem, vitae
       vitae feugiat sem magna eget massa. Vivamus quis tincidunt dolor. Fusce
       efficitur, orci non vestibulum consequat, lectus turpis bibendum odio, in
       efficitur leo felis sed justo. Fusce commodo iaculis orci, quis imperdiet
@@ -24,7 +26,7 @@ export const Article = () => (
       libero nisi id massa.
     </p>
     <p className="article__paragraph">
-      Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
+      Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
       congue, massa nec sagittis mollis, dui felis ultrices magna, tincidunt
       finibus lorem quam in sem. Morbi odio turpis, pulvinar sit amet vulputate
       quis, ultricies eu libero. Donec ac maximus neque, nec maximus nibh. Morbi
@@ -43,8 +45,8 @@ export const Article = () => (
       ullamcorper est.
     </p>
     <p className="article__paragraph">
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames
-      ac turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam convallis
+      Pellentesque habitant morbi tristique senectus et netus et malesuada
+      turpis egestas. Phasellus bibendum nec arcu eu lobortis. Nam convallis
       faucibus ante sed porta. Nullam ut convallis elit, quis venenatis nunc.
       Curabitur sed sem eget velit condimentum rutrum in et orci. Nunc non
       suscipit eros. Suspendisse porta sem vel justo commodo dictum. Aliquam
@@ -57,6 +59,5 @@ export const Article = () => (
     </p>
   </article>
 );
-// Create an Article function returning the HTML of article block
-
 // Add a default export statement for Article component to use it in the other files
+export default Article;
