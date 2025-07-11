@@ -4,6 +4,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'http://localhost:3000',
     specPattern: 'cypress/integration/**/*.spec.{js,ts,jsx,tsx}',
+    supportFile: 'cypress/support/e2e.js',
   },
   video: true,
   viewportHeight: 1920,
@@ -22,5 +23,6 @@ module.exports = defineConfig({
       framework: 'react',
       bundler: 'vite',
     },
+    supportFile: 'cypress/support/component.js',
   },
 });
