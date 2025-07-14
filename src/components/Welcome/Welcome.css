@@ -6,15 +6,13 @@
 }
 
 .welcome__text {
-  margin: 0;
-
-  font-size: 400%;
-
   display: block;
 
+  margin: 0;
   padding-top: calc(50vh - 20pt);
+
+  font-size: 400%;
+  font-weight: 700;
   line-height: 1;
   text-align: center;
-
-  font-weight: 700;
 }
