@@ -8,8 +8,8 @@ import PageArticle from './components/Article/Article';
 function App() {
   return (
     <main className="app">
-      <PageWelcome />
       <PageHeader />
+      <PageWelcome />
       <PageArticle />
     </main>
   );
