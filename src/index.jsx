@@ -1,5 +1,11 @@
-import { createRoot } from 'react-dom/client';
+import './Welcome.css';
 
-import App from './App';
+function Welcome() {
+  return (
+    <section className="welcome">
+      <span className="welcome__text">Sticky Header!</span>
+    </section>
+  );
+}
 
-createRoot(document.getElementById('root')).render(<App />);
+export default Welcome;

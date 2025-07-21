@@ -1,1 +1,11 @@
-/* Put welcome styles here */
+
+.welcome {
+  padding: 20px;
+  background-color: coral;
+}
+
+.welcome__text {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}

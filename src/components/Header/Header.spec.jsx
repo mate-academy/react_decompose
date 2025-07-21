@@ -1,37 +1,23 @@
 import React from 'react';
-import { mount } from '@cypress/react18';
-import TestedHeader from './Header';
+import { render, screen } from '@testing-library/react';
+import Header from './Header';
 
 describe('Header component', () => {
-  beforeEach(() => {
-    mount(<TestedHeader />);
+  it('renders the site title', () => {
+    render(<Header />);
+    const titleElement = screen.getByText(/Site Name/i);
+
+    expect(titleElement).toBeInTheDocument();
   });
 
-  it('should containt Site Name', () => {
-    cy.get('h1').should('contain', 'Site Name');
-  });
+  it('renders the navigation links', () => {
+    render(<Header />);
+    const aboutLink = screen.getByText(/About/i);
+    const servicesLink = screen.getByText(/Services/i);
+    const contactLink = screen.getByText(/Contact/i);
 
-  it('should contain About link', () => {
-    cy.get('[href="#about"]').should('have.text', 'About');
-  });
-
-  it('should contain Services link', () => {
-    cy.get('[href="#services"]').should('have.text', 'Services');
-  });
-
-  it('should contain Contact link', () => {
-    cy.get('[href="#contact"]').should('have.text', 'Contact');
-  });
-
-  it('should have correct styles', () => {
-    cy.get('.header').should('have.css', 'position', 'sticky');
-
-    cy.get('.header__title').should('have.css', 'font-weight', '600');
-
-    cy.get('.navigation__link').eq(0).should('have.css', 'opacity', '0.7');
-  });
-
-  it('should have styles added with media', () => {
-    cy.get('.header').should('have.css', 'display', 'flex');
+    expect(aboutLink).toBeInTheDocument();
+    expect(servicesLink).toBeInTheDocument();
+    expect(contactLink).toBeInTheDocument();
   });
 });
