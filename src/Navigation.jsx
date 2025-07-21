@@ -1,16 +1,10 @@
-import React from 'react';
-import './Navigation.css';
-
-function Navigation() {
-  return (
-    <nav className="navigation">
-      <ul className="navigation__list">
-        <li className="navigation__item">Home</li>
-        <li className="navigation__item">About</li>
-        <li className="navigation__item">Contact</li>
-      </ul>
-    </nav>
-  );
-}
-
-export default Navigation;
+export const Navigation = () => (
+  <nav>
+    <ul>
+      <li><a href="/">Página Inicial</a></li>
+      <li><a href="/sobre">Sobre</a></li>
+      <li><a href="/servicos">Serviços</a></li> {/* ESTE AQUI É O NOVO */}
+      <li><a href="/contato">Contato</a></li>
+    </ul>
+  </nav>
+);
