@@ -1,5 +1,5 @@
 // import a css file containig article styles
-import './Articel.css';
+import './Article.css';
 // Create an Article function returning the HTML of article block
 const Article = () => (
   <article className="article">
