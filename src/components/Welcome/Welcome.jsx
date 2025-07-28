@@ -4,7 +4,11 @@ import './Welcome.css';
 
 // Create a Welcome function returning the HTML of welcome block
 
-const Welcome = () => <span className="welcome__text">Sticky Header!</span>;
+const Welcome = () => (
+  <div className="welcome">
+    <span className="welcome__text">Sticky Header!</span>
+  </div>
+);
 
 // Simples HTML. Não tem um uso direto aqui dentro do JSX, mas vai ser exportado para um arquivo que vai juntar diversos outros códigos
 
