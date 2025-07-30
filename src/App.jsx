@@ -9,8 +9,8 @@ import Article from './components/Article/Article';
 function App() {
   return (
     <main className="app">
-      <Welcome />
       <Header />
+      <Welcome />
       <Article />
     </main>
   );
