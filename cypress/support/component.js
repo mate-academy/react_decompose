@@ -1,3 +1,7 @@
+import '../../src/components/Article/Article.css';
+import '../../src/components/Header/Header.css';
+import '../../src/components/Welcome/Welcome.css';
+
 // ***********************************************************
 // This example support/component.ts is processed and
 // loaded automatically before your test files.
@@ -30,3 +34,5 @@ Cypress.Commands.add('mount', mount);
 
 // Example use:
 // cy.mount(<MyComponent />)
+
+
