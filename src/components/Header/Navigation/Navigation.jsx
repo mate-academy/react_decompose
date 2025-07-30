@@ -1,6 +1,5 @@
-// import a css file containig navigation styles
 import './Navigation.css';
-// Create an Article function returning the HTML of navigation block
+
 function Navigation() {
   return (
     <nav className="navigation">
