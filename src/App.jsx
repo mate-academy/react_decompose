@@ -6,9 +6,7 @@ import './App.css';
 export const App = () => (
   <div>
     <Welcome />
-
     <Header />
-
     <Article />
   </div>
 );
