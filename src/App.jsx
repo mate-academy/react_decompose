@@ -8,8 +8,8 @@ import Article from './components/Article/Article'; // Import the Article compon
 function App() {
   return (
     <main className="app">
-      <Welcome />
       <Header />
+      <Welcome />
       <Article />
     </main>
   );
