@@ -8,8 +8,8 @@ import Welcome from './components/Welcome/Welcome';
 function App() {
   return (
     <main className="app">
-      <Welcome />
       <Header />
+      <Welcome />
       <Article />
     </main>
   );
