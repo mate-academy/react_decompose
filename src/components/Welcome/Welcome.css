@@ -7,7 +7,7 @@
   display: block;
 
   margin: 0;
-  padding-top: calc(50vh - 20pt);
+  padding-top: calc(50vh - 2rem);
 
   font-size: 4rem;
   font-weight: 700;
