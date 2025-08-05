@@ -30,5 +30,4 @@ const Navigation = () => {
   );
 };
 
-export { Navigation }; // Export Navigation component for use in other files
-// Note: Ensure to create a Navigation.css file with appropriate styles for the navigation component.
+export default Navigation;
