@@ -29,5 +29,3 @@ describe('Article component', () => {
       .and('have.css', 'margin-bottom', '78.4px');
   });
 });
-
-
