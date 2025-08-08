@@ -16,6 +16,12 @@
   margin-top: 0.7em;
 }
 
+.article__title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
 @media (min-width: 500px) {
   .article {
     margin-top: 3.5em;
