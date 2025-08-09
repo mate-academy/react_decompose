@@ -10,6 +10,8 @@
   font-size: 140%;
   text-align: center;
 
+  background-color: #eee;
+
   transition: opacity 0.2s ease-in-out;
 }
 

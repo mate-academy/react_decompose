@@ -1,7 +1,7 @@
 import './Navigation.css';
 
 const Navigation = () => (
-  <nav className="navigation">
+  <nav>
     <a className="navigation__link" href="#about">
       About
     </a>

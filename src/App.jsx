@@ -7,7 +7,7 @@ import './App.css';
 
 function App() {
   return (
-    <main className="app">
+    <main>
       <Welcome />
       <Header />
       <Article />
