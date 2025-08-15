@@ -1,5 +1,26 @@
-// import a css file containig welcome styles
+import './Welcome.css';
 
-// Create a Welcome function returning the HTML of welcome block
+export const Welcome = () => (
+  <section className="welcome">
+    <span className="welcome__text">Sticky Header!</span>
+  </section>
+);
 
-// Add a default export statement for Welcome component to use it in the other files
+// Либо
+// export const Welcome = () => (
+//     <section className="welcome">
+//         <span className="welcome__text">Sticky Header!</span>
+//     </section>
+//  )
+
+// Либо
+
+//  const Welcome = () => (
+//     <section className="welcome">
+//         <span className="welcome__text">Sticky Header!</span>
+//     </section>
+//  )
+
+// export default Welcome;
+
+// Нам нужно оставлять один экспорт, это не ошибка, но этого достаточно, чтобы был один экспорт, если же через default, то импорт без {}
