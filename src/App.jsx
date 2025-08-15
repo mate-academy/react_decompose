@@ -3,14 +3,15 @@ import './App.css';
 import Article from './components/Article/Article';
 import Welcome from './components/Welcome/Welcome';
 import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
 
 function App() {
   return (
     <main className="app">
-      <App />
       <Header />
       <Article />
       <Welcome />
+      <Navigation />
     </main>
   );
 }
