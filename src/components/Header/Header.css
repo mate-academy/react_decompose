@@ -1,20 +1,31 @@
 .header {
+  /* posição */
+  position: static;
+
+  /* box model */
   width: 100%;
   padding: 1em;
 
+  /* tipografia */
   font-size: 140%;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  transition: opacity 0.2s ease-in-out;
   text-align: center;
+
+  /* transição */
+  transition: opacity 0.2s ease-in-out;
 }
 
 .header__title {
+  /* tipografia */
   font-weight: 600;
-  display: inline;
+  /* stylelint-disable-next-line order/properties-order */
+  font-size: inherit;
+
+  /* box model */
+  /* stylelint-disable-next-line order/properties-order */
   margin: 0;
   padding: 0;
-  font-size: inherit;
+
+  /* layout */
+  /* stylelint-disable-next-line order/properties-order */
+  display: inline;
 }
