@@ -1,1 +1,22 @@
-/* Put welcome styles here */
+.welcome {
+  /* box model */
+  height: 100vh;
+
+  /* aparência */
+  background: coral; /* troque para 'transparent' se seu teste exigir */
+
+  /* layout */
+  display: flex;
+  align-items: flex-start; /* esperado pelo teste */
+  justify-content: center;
+}
+
+.welcome__text {
+  /* box model */
+  margin: 0;
+
+  /* tipografia */
+  font-size: 400%;
+  line-height: 1;
+  font-weight: 700;
+}

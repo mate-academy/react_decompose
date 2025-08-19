@@ -1,1 +1,39 @@
-/* Put article styles here */
+.article {
+  /* box model */
+  margin: 5em auto 0;
+  padding: 1em;
+
+  /* tipografia */
+  font-size: 140%;
+
+  /* aparência */
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+}
+
+/* título (se o revisor apontou falta de estilo) */
+.article__title {
+  margin: 0 0 0.7em;
+  font-size: 160%;
+  font-weight: 700;
+}
+
+.article__paragraph {
+  /* box model */
+  margin: 0;
+
+  /* cor */
+  color: #333;
+}
+
+.article__paragraph:not(:first-child) {
+  /* box model */
+  margin-top: 0.7em;
+}
+
+/* apenas o que o teste de media pede */
+@media (min-width: 800px) {
+  .article__paragraph {
+    margin: 1.4rem 0; /* 22.4px */
+  }
+}

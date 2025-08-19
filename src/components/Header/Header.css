@@ -1,1 +1,27 @@
-/* Put header styles here */
+.header {
+  /* layout */
+  width: 100%;
+
+  /* box model */
+  padding: 1em;
+
+  /* tipografia */
+  font-size: 140%;
+  text-align: center;
+
+  /* transições */
+  transition: opacity 0.2s ease-in-out;
+}
+
+.header__title {
+  /* layout */
+  display: inline;
+
+  /* box model */
+  margin: 0;
+  padding: 0;
+
+  /* tipografia */
+  font-weight: 600;
+  font-size: inherit;
+}
