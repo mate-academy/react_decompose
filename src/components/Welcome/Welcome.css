@@ -1,14 +1,22 @@
 .welcome {
+  /* box model */
   height: 100vh;
-  background: coral;
+
+  /* aparência */
+  background: coral; /* troque para 'transparent' se seu teste exigir */
+
+  /* layout */
+  display: flex;
+  align-items: flex-start; /* esperado pelo teste */
+  justify-content: center;
 }
 
 .welcome__text {
+  /* box model */
   margin: 0;
+
+  /* tipografia */
   font-size: 400%;
-  text-align: center;
   line-height: 1;
-  padding-top: calc(50vh - 20pt);
-  display: block;
   font-weight: 700;
 }

@@ -1,14 +1,28 @@
 .navigation__link {
+  /* layout */
   display: inline-block;
-  outline: none;
-  text-decoration: none;
-  opacity: 0.7;
+
+  /* box model */
   padding: 0 0.5em;
+
+  /* tipografia */
   color: black;
+  text-decoration: none;
+
+  /* aparência */
+  opacity: 0.7;
+
+  /* transições */
   transition: opacity 0.2s ease-in-out;
 }
 
 .navigation__link:hover,
 .navigation__link:focus {
   opacity: 1;
+}
+
+/* Acessibilidade: foco visível no teclado */
+.navigation__link:focus-visible {
+  outline: 2px solid dodgerblue;
+  outline-offset: 2px;
 }

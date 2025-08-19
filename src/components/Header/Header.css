@@ -1,31 +1,27 @@
 .header {
-  /* posição */
-  position: static;
+  /* layout */
+  width: 100%;
 
   /* box model */
-  width: 100%;
   padding: 1em;
 
   /* tipografia */
   font-size: 140%;
   text-align: center;
 
-  /* transição */
+  /* transições */
   transition: opacity 0.2s ease-in-out;
 }
 
 .header__title {
-  /* tipografia */
-  font-weight: 600;
-  /* stylelint-disable-next-line order/properties-order */
-  font-size: inherit;
+  /* layout */
+  display: inline;
 
   /* box model */
-  /* stylelint-disable-next-line order/properties-order */
   margin: 0;
   padding: 0;
 
-  /* layout */
-  /* stylelint-disable-next-line order/properties-order */
-  display: inline;
+  /* tipografia */
+  font-weight: 600;
+  font-size: inherit;
 }

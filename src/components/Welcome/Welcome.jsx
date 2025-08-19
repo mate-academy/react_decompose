@@ -3,7 +3,7 @@ import './Welcome.css';
 export default function Welcome() {
   return (
     <section className="welcome">
-      <span className="welcome__text">Sticky Header!</span>
+      <h1 className="welcome__text">Sticky Header!</h1>
     </section>
   );
 }
