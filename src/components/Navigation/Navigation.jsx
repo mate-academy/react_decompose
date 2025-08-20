@@ -1,3 +1,5 @@
+import './Navigation.css';
+
 // Create a Header function returning the HTML of header block
 const Navigation = () => (
   <nav className="navigation">
