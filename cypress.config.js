@@ -22,5 +22,6 @@ module.exports = defineConfig({
       framework: 'react',
       bundler: 'vite',
     },
+    supportFile: 'cypress/support/component.js',
   },
 });
