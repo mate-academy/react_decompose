@@ -1,1 +1,18 @@
 /* Put welcome styles here */
+.welcome {
+  height: 100vh;
+  background: coral;
+}
+
+.welcome__text {
+  margin: 0;
+
+  font-size: 400%;
+
+  display: block;
+  padding-top: calc(50vh - 20pt);
+  line-height: 1;
+  text-align: center;
+  
+  font-weight: 700;
+}
