@@ -4,12 +4,14 @@
 
 // Add a default export statement for Header component to use it in the other files
 import './Header.css';
+import Navigation from '../Navigation/Navigation';
 
 export default function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
-      <nav className="navigation">
+      <Navigation />
+      {/* <nav className="navigation">
         <a className="navigation__link" href="#about">
           About
         </a>
@@ -19,7 +21,7 @@ export default function Header() {
         <a className="navigation__link" href="#contact">
           Contact
         </a>
-      </nav>
+      </nav> */}
     </header>
   );
 }

@@ -5,7 +5,7 @@
 // Add a default export statement for Welcome component to use it in the other files
 import './Welcome.css';
 
-export default function Weclome() {
+export default function Welcome() {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>

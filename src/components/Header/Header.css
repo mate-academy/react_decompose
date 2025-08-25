@@ -27,7 +27,7 @@
   }
 }
 
-.navigation__link {
+/* .navigation__link {
   display: inline-block;
   outline: none;
   text-decoration: none;
@@ -40,4 +40,4 @@
 .navigation__link:hover,
 .navigation__link:focus {
   opacity: 1;
-}
+} */
