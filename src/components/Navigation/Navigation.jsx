@@ -1,5 +1,5 @@
-import React from "react";
-import "./Navigation.css";
+import React from 'react';
+import './Navigation.css';
 
 export function Navigation() {
   return (
@@ -16,3 +16,5 @@ export function Navigation() {
     </nav>
   );
 }
+
+export default Navigation;
