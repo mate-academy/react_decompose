@@ -7,10 +7,10 @@ iframe {
 }
 
 html {
-  font-size: 10pt;
-  line-height: 1.4;
-  font-weight: 400;
   font-family: "Source Sans Pro", "Open Sans", Roboto, Arial, sans-serif;
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: 1.4;
 }
 
 body {
@@ -20,9 +20,9 @@ body {
 
 @media (min-width: 500px) {
   .header {
-    text-align: left;
     display: flex;
     justify-content: space-between;
+    text-align: left;
   }
 
   .article {
