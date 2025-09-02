@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
-// Move each BEM block to a separate component (file) and import them here
 
-function App() {
+import Article from './components/Article/Article';
+import Header from './components/Header/Header';
+import Welcome from './components/Welcome/Welcome';
+
+function AppLayout() {
   return (
     <main className="app">
       <section className="welcome">
@@ -14,6 +17,9 @@ function App() {
           <a className="navigation__link" href="#about">
             About
           </a>
+          <Article />
+          <Header />
+          <Welcome />
           <a className="navigation__link" href="#services">
             Services
           </a>
@@ -85,4 +91,10 @@ function App() {
   );
 }
 
-export default App;
+export default function App() {
+  return (
+    <main className="app">
+      <AppLayout />
+    </main>
+  );
+}
