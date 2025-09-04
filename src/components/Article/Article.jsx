@@ -1,9 +1,6 @@
-// src/components/Article/Article.jsx
-
-import React from 'react';
 import './Article.css';
 
-const Article = () => {
+function Article() {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
@@ -64,6 +61,6 @@ const Article = () => {
       </p>
     </article>
   );
-};
+}
 
 export default Article;

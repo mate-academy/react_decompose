@@ -1,8 +1,6 @@
-// src/navigation/Navigatio.jsx
-import React from 'react';
 import './Navigation.css';
 
-const Navigation = () => {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -16,6 +14,6 @@ const Navigation = () => {
       </a>
     </nav>
   );
-};
+}
 
 export default Navigation;
