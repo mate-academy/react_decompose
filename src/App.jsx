@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 
-// eslint-disable-next-line no-unused-vars
-import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
 import Welcome from './components/Welcome/Welcome';
