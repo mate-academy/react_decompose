@@ -5,12 +5,12 @@ import Article from "./components/Article/Article";
 
 function App() {
   return (
-    <div>
+    <main>
       <Header />
       <Navigation />
       <Welcome />
       <Article />
-    </div>
+    </main>
   );
 }
 

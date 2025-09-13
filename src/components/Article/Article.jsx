@@ -1,15 +1,12 @@
-// import a css file containig article styles
-
-// Create an Article function returning the HTML of article block
-
-// Add a default export statement for Article component to use it in the other files
+// Article.jsx
 import "./Article.css";
 
 function Article() {
   return (
-    <article>
-      <h2>Article title</h2>
-      <p>Article text</p>
+    <article className="article">
+      <h2>Article Title</h2>
+      <p>Some text content from App.js...</p>
+      <p>More text content...</p>
     </article>
   );
 }
