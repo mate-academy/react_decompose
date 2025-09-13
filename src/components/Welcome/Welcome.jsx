@@ -1,5 +1,12 @@
-// import a css file containig welcome styles
+import "./Welcome.css";
 
-// Create a Welcome function returning the HTML of welcome block
+function Welcome() {
+  return (
+    <section className="welcome">
+      <h2 className="welcome__title">Welcome to our website!</h2>
+      <p className="welcome__text">This is the original paragraph from App.js...</p>
+    </section>
+  );
+}
 
-// Add a default export statement for Welcome component to use it in the other files
+export default Welcome;
