@@ -2,9 +2,9 @@ import "./Welcome.css";
 
 function Welcome() {
   return (
-    <section>
-      <h2>Welcome!</h2>
-      <p>This is my first React website!</p>
+    <section className="welcome">
+      <h2 className="welcome__title">Welcome to our website!</h2>
+      <p className="welcome__text">This is the original paragraph from App.js...</p>
     </section>
   );
 }
