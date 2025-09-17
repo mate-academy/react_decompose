@@ -1,1 +1,25 @@
-/* Put header styles here */
+.header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  padding: 16px 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+  z-index: 10;
+}
+
+.header__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+}
