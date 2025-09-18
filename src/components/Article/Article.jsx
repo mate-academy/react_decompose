@@ -5,9 +5,6 @@
 // Add a default export statement for Article component to use it in the other files
 import './Article.css';
 
-const Article = () =>
-  (
-    <article>...</article>
-  );
+const Article = () => <article>...</article>;
 
 export default Article;
