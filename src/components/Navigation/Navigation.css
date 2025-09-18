@@ -15,4 +15,5 @@
 .navigation__link:hover,
 .navigation__link:focus {
   opacity: 1;
+  box-shadow: 0 0 0 2px #333;
 }
