@@ -1,1 +1,16 @@
 /* Put article styles here */
+article {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.article-title {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.article-content {
+  font-size: 16px;
+  line-height: 1.5;
+}
