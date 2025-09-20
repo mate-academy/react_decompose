@@ -1,1 +1,17 @@
-/* Put welcome styles here */
+/* stylelint-disable order/properties-order */
+.welcome {
+  height: 100vh;
+  background: coral;
+}
+
+.welcome__text {
+  margin: 0;
+  font-size: 400%;
+  text-align: center;
+  line-height: 1;
+
+  display: block;
+  padding-top: calc(50vh - 20pt);
+
+  font-weight: 700;
+}
