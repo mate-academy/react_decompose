@@ -12,3 +12,8 @@
 .navigation__link:focus {
   opacity: 1;
 }
+
+.navigation__link:focus-visible {
+  outline: 3px solid #ffbf47;
+  outline-offset: 2px;
+}
