@@ -8,6 +8,7 @@
   padding: 1em;
 
   font-size: 140%;
+  
   text-align: center;
 
   transition: opacity 0.2s ease-in-out;
@@ -15,6 +16,7 @@
 
 .header__title {
   display: inline;
+
   margin: 0;
   padding: 0;
 
