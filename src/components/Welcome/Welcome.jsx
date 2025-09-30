@@ -5,7 +5,7 @@
 // Add a default export statement for Welcome component to use it in the other files
 import './Welcome.css';
 
-export const WelcomeFrame = () => {
+const Welcome = () => {
   return (
     <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
@@ -13,4 +13,4 @@ export const WelcomeFrame = () => {
   );
 };
 
-export default WelcomeFrame;
+export default Welcome;
