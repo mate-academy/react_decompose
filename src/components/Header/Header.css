@@ -4,8 +4,6 @@
   right: 0;
   left: 0;
 
-  display: flex;
-
   width: 100%;
   padding: 1em;
 
@@ -23,4 +21,15 @@
 
   font-size: inherit;
   font-weight: 600;
+
+}
+
+
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+
 }
