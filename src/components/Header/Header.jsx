@@ -1,4 +1,5 @@
 // import a css file containing header styles
+import React from 'react';
 import './Header.css';
 import Navigation from '../Navigation/Navigation';
 

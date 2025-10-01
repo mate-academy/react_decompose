@@ -1,4 +1,5 @@
 // import a css file containig welcome styles
+import React from 'react';
 import './Welcome.css';
 
 // Create a Welcome function returning the HTML of welcome block
