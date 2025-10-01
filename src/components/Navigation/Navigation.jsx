@@ -2,7 +2,7 @@
 import './Navigation.css';
 
 // Create a Header function returning the HTML of header block
-export const Navigation = () => (
+const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
       About
