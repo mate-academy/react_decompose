@@ -8,9 +8,9 @@ import './Welcome.css';
 
 function Welcome() {
   return (
-    <welcome className="welcome">
+    <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
-    </welcome>
+    </section>
   );
 }
 

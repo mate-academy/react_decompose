@@ -4,17 +4,15 @@ import './App.css';
 import Article from './components/Article/Article';
 import Header from './components/Header/Header';
 import Welcome from './components/Welcome/Welcome';
-import Navigation from './components/Navigation/Navigation';
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <main className="app">
       <Header />
       <Welcome />
       <Article />
-      <Navigation />
-    </div>
+    </main>
   );
-};
+}
 
 export default App;
