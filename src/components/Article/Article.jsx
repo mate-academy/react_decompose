@@ -1,3 +1,5 @@
+import './Article.css';
+
 const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>

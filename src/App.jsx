@@ -1,11 +1,6 @@
 import React from 'react';
 import './App.css';
-import './components/Article/Article.css';
-import './components/Navigation/Navigation.css';
-import './components/Header/Header.css';
-import './components/Welcome/Welcome.css';
 import Article from './components/Article/Article';
-import Navigation from './components/Navigation/Navigation';
 import Header from './components/Header/Header';
 import Welcome from './components/Welcome/Welcome';
 
@@ -13,9 +8,7 @@ function App() {
   return (
     <main className="app">
       <Welcome />
-      <Header>
-        <Navigation />
-      </Header>
+      <Header />
       <Article />
     </main>
   );
