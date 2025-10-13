@@ -1,4 +1,5 @@
 import PageNavigation from '../Navigation/Navigation';
+import './Header.css';
 
 function Header() {
   return (
