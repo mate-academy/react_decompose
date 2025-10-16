@@ -2,7 +2,6 @@ import React from 'react';
 import Welcome from './components/Welcome/Welcome';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
-import './App.css'; // only for global app-level styles if needed
 
 function App() {
   return (

@@ -1,10 +1,38 @@
 .navigation {
+  background-color: #34495e;
+  padding: 1rem 0;
+}
+
+.navigation__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .navigation__link {
+  color: white;
   text-decoration: none;
-  color: #333;
-  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navigation__link:hover {
+  background-color: #4a6278;
+}
+
+.navigation__link--active {
+  background-color: #3498db;
+}
+
+@media (max-width: 768px) {
+  .navigation__container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
 }
