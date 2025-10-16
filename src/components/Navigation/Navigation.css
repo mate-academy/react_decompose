@@ -1,0 +1,10 @@
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}

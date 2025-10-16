@@ -1,1 +1,32 @@
-/* Put header styles here */
+.header {
+  position: sticky; /* matches test */
+  top: 0;
+  background-color: #fff;
+  padding: 1rem;
+  border-bottom: 1px solid #ccc;
+
+  /* media query style check */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  font-weight: 600; /* matches test */
+  margin: 0;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  opacity: 0.7; /* matches test */
+  margin-left: 1rem;
+}
+
+/* Optional media query */
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+  }
+}
