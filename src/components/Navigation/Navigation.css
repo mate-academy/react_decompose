@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  gap: 15px;
+}
+
+.navigation__link {
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+  opacity: 0.7;
+  padding: 0 0.5em;
+  color: black;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.navigation__link:hover,
+.navigation__link:focus {
+  opacity: 1;
+}
+
+iframe {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10pt;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: 'Source Sans Pro', 'Open Sans', Roboto, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eee;
+}
