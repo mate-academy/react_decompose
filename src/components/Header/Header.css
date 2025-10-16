@@ -1,1 +1,48 @@
-/* Put header styles here */
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.header__title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.header__nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+  opacity: 0.7;
+}
+
+.navigation__link:hover {
+  opacity: 1;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .header__nav {
+    gap: 1rem;
+  }
+}
