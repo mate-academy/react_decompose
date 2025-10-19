@@ -1,3 +1,4 @@
+import React from 'react';
 // import a css file containig header styles
 import './Header.css';
 
