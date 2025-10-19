@@ -1,3 +1,4 @@
+import React from 'react';
 // import a css file containig article styles
 import './Article.css';
 
