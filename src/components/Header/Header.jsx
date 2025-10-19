@@ -1,5 +1,5 @@
 import React from 'react';
-// import a css file containig header styles
+// import a css file containing header styles
 import './Header.css';
 
 // Create a Header function returning the HTML of header block
