@@ -11,7 +11,6 @@ function App() {
     <main className="app">
       <Welcome />
       <Header />
-
       <Article />
     </main>
   );
