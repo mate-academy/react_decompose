@@ -1,0 +1,15 @@
+/* Put navigation styles here */
+.navigation {
+  display: flex;
+  gap: 1rem;
+}
+
+.navigation__link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}

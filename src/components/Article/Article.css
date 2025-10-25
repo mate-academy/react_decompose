@@ -1,1 +1,32 @@
 /* Put article styles here */
+.article {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.article__title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.article__paragraph {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Media query для ширини ≥500px */
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+/* Media query для ширини ≥800px */
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}
