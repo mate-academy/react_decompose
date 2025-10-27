@@ -1,0 +1,9 @@
+.navigation a {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
