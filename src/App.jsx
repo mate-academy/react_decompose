@@ -3,6 +3,8 @@ import Welcome from './components/Welcome/Welcome';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
 
+// Atualização para forçar nova revisão do PR
+
 import './App.css';
 // Move each BEM block to a separate component (file) and import them here
 
