@@ -1,3 +1,7 @@
+.navigation {
+  /* if you want to style the nav container on small screens */
+}
+
 .navigation__link {
   display: inline-block;
 
