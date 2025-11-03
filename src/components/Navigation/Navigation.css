@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation__link {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.7; /* ✅ з тестів */
+}
+
+.navigation__link:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
