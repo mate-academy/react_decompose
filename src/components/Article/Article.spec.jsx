@@ -1,7 +1,7 @@
 import '../../App.css';
 import React from 'react';
 import { mount } from '@cypress/react18';
-import TestdArticle from './Article';// ensure styles are loaded
+import TestdArticle from './Article'; // ensure styles are loaded
 
 describe('Article component', () => {
   beforeEach(() => {

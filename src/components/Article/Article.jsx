@@ -8,12 +8,12 @@ function Article() {
 
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
-        pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
-        nibh. Mauris molestie, urna accumsan ornare semper, augue nibh posuere
-        lorem, vitae feugiat sem magna eget massa. Vivamus quis tincidunt
-        dolor. Fusce efficitur, orci non vestibulum consequat, lectus turpis
-        bibendum odio, in efficitur leo felis sed justo. Fusce commodo iaculis
-        orci, quis imperdiet urna. Sed mollis facilisis lacus non condimentum.
+        pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
+        Mauris molestie, urna accumsan ornare semper, augue nibh posuere lorem,
+        vitae feugiat sem magna eget massa. Vivamus quis tincidunt dolor. Fusce
+        efficitur, orci non vestibulum consequat, lectus turpis bibendum odio,
+        in efficitur leo felis sed justo. Fusce commodo iaculis orci, quis
+        imperdiet urna. Sed mollis facilisis lacus non condimentum.
       </p>
 
       <p className="article__paragraph">
@@ -22,9 +22,9 @@ function Article() {
       </p>
 
       <p className="article__paragraph">
-        Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
-        Cras congue, massa nec sagittis mollis, dui felis ultrices magna,
-        tincidunt finibus lorem quam in sem.
+        Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
+        congue, massa nec sagittis mollis, dui felis ultrices magna, tincidunt
+        finibus lorem quam in sem.
       </p>
 
       <p className="article__paragraph">
