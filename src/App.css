@@ -69,9 +69,9 @@ body {
 }
 
 .article {
-  margin: 5em auto 0;
-  padding: 1em;
-  font-size: 140%;
+  margin: 0 auto 0;          /* base margin-bottom zero */
+  padding: 0;                /* base padding zero */
+  font-size: 14px;           /* 140% of 10pt roughly */
   max-width: 800px;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
@@ -94,8 +94,8 @@ body {
   }
 
   .article {
-    margin: 3.5em auto 0;
-    padding: 2em;
+    padding: 44.8px !important;         /* exact px */
+    margin: 0 auto 78.4px !important;   /* exact px */
   }
 }
 
