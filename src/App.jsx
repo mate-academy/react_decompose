@@ -1,8 +1,8 @@
 import React from 'react-dom/client';
 import './App.css';
-import Welcome from './components/Welcome/Welcome.jsx';
-import Header from './components/Header/Header.jsx';
-import Article from './components/Article/Article.jsx';
+import Welcome from './components/Welcome/Welcome';
+import Header from './components/Header/Header';
+import Article from './components/Article/Article';
 
 export default function App() {
   return (
