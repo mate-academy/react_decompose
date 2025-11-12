@@ -1,9 +1,11 @@
+import '../../App.css';
 import React from 'react';
 import { mount } from '@cypress/react18';
-import TestdArticle from './Article';
+import TestdArticle from './Article'; // ensure styles are loaded
 
 describe('Article component', () => {
   beforeEach(() => {
+    cy.viewport(1000, 800); // ensure media queries apply
     mount(<TestdArticle />);
   });
 
