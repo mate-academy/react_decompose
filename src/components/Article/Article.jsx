@@ -3,7 +3,7 @@
 import './Article.css';
 
 // Create an Article function returning the HTML of article block
-export const Article = () => {
+const Article = () => {
   return (
     <article className="article">
       <h1 className="article__title">Headline</h1>
