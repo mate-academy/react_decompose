@@ -2,7 +2,7 @@
 import { Navigation } from '../Navigation/Navigation';
 import './Header.css';
 // Create a Header function returning the HTML of header block
-export const Header = () => {
+const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
