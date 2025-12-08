@@ -4,7 +4,7 @@
 
 // Add a default export statement for Header component to use it in the other files
 import './Header.css';
-import Navigation from '../Navigation/Navigation';
+import Navigation from '../navigation/Navigation';
 
 function Header () {
   return (
