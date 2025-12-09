@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import './components/Article/Article';
-import './components/Header/Header';
-import './components/Welcome/Welcome';
+//It was add because eslint not allows me to make push without those lines
 import Welcome from './components/Welcome/Welcome';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
+
 
 function App() {
   return (
