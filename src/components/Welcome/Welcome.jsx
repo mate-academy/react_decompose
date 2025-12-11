@@ -10,5 +10,6 @@ const Welcome = () => {
     </section>
   );
 };
+
 // Add a default export statement for Welcome component to use it in the other files
 export default Welcome;
