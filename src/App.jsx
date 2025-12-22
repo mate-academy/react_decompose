@@ -1,5 +1,9 @@
 import React from 'react';
 import './App.css';
+import './components/Article/Article';
+import './components/Header/Header';
+import './components/Welcome/Welcome';
+import './components/Navigation/Navigation';
 // Move each BEM block to a separate component (file) and import them here
 
 function App() {
