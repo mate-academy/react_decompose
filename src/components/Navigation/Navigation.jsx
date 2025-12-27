@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-const Navigation = () => {
+const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
       About
@@ -11,7 +11,7 @@ const Navigation = () => {
     <a className="navigation__link" href="#contact">
       Contact
     </a>
-  </nav>;
-};
+  </nav>
+);
 
 export default Navigation;
