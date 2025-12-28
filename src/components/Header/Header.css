@@ -1,1 +1,25 @@
-/* Put header styles here */
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Título do site */
+.header__title {
+  font-weight: 600;
+}
+
+/* Navegação */
+.navigation {
+  display: flex;
+  gap: 16px;
+}
+
+/* Links da navegação */
+.navigation__link {
+  text-decoration: none;
+  opacity: 0.7;
+}
