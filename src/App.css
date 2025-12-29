@@ -1,8 +1,3 @@
-@import './components/Header/Header';
-@import './components/Welcome/Welcome';
-@import './components/Article/Article';
-@import './components/Navigation/Navigation';
-
 iframe {
   display: none;
 }
