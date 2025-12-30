@@ -2,7 +2,6 @@ import './App.css';
 
 import React from 'react';
 import Header from './components/Header/Header';
-import Navigation from './components/Navigation/Navigation';
 import Welcome from './components/Welcome/Welcome';
 import Article from './components/Article/Article';
 
@@ -11,7 +10,6 @@ function App() {
     <main className="app">
       <Welcome />
       <Header />
-      <Navigation />
       <Article />
     </main>
   );
