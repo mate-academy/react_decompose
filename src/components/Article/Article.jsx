@@ -1,8 +1,6 @@
-// import a css file containig article styles
-const Article = () => (
-  // Create an Article function returning the HTML of article block
+import './Article.css';
 
-  // Add a default export statement for Article component to use it in the other files
+const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
