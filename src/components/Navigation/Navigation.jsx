@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-export const Navigation = () => {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -14,6 +14,6 @@ export const Navigation = () => {
       </a>
     </nav>
   );
-};
+}
 
 export default Navigation;
