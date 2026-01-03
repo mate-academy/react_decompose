@@ -9,7 +9,6 @@ function App() {
   return (
     <main id="root" className="app">
       <Welcome />
-
       <Header />
       <Article />
     </main>
