@@ -8,7 +8,7 @@
   transition: opacity 0.2s ease-in-out;
 }
 
-.navigation__linkhover,
-.navigation__linkfocus {
+.navigation__link:hover,
+.navigation__link:focus {
   opacity: 1;
 }
