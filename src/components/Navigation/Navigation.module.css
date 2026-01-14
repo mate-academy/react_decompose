@@ -1,0 +1,9 @@
+.navigation {
+  display: flex;
+  gap: 16px;
+}
+
+.navigation__link {
+  opacity: 0.7;
+  text-decoration: none;
+}

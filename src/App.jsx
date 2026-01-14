@@ -1,8 +1,8 @@
 import './App.css';
 
-import Header from './components/Header/Header.jsx';
-import Welcome from './components/Welcome/Welcome.jsx';
-import Article from './components/Article/Article.jsx';
+import Header from './components/Header/Header';
+import Welcome from './components/Welcome/Welcome';
+import Article from './components/Article/Article';
 
 function App() {
   return (
