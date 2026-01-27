@@ -32,4 +32,14 @@
 .navigation__link:focus {
   opacity: 1;
 }
+
+
+@media (min-width: 500px) {
+   .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 /* Put header styles here */

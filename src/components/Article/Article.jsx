@@ -1,7 +1,7 @@
 import './Article.css';
 // import a css file containig article styles
 
-const Article = () => {
+const Article = () => (
   <article className="article">
     <h1 className="article__title">Headline</h1>
     <p className="article__paragraph">
@@ -57,8 +57,8 @@ const Article = () => {
       Aenean rutrum, libero iaculis interdum vulputate, dui eros vehicula nisi,
       at interdum enim lacus eu diam.
     </p>
-  </article>;
-};
+  </article>
+);
 // Create an Article function returning the HTML of article block
 
 export default Article;
