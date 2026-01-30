@@ -1,12 +1,55 @@
 # React Decompose
 
-Split the `App.js` into components based on CSS blocks. CSS code should be split too.
-- You already have `Article`, `Header` and `Welcome` folders inside `./src/components/` with required files.
-- You may also create a folder for the `Navigation` component and move navigation there.
-- Tests expect you to use `export default` for all the components.
+Projeto feito em React com foco em organizar a aplicação em componentes menores e reutilizáveis.
 
-## Instructions
-- Install Prettier Extention and use this [VSCode settings](https://mate-academy.github.io/fe-program/tools/vscode/settings.json) to enable format on save.
-- Implement a solution following the [React task guideline](https://github.com/mate-academy/react_task-guideline#react-tasks-guideline)
-- Open one more terminal and run tests with `npm test` to ensure your solutions is correct
-- Replace `<your_account>` with your Github username in the [DEMO LINK](https://Igor-hrm.github.io/react_decompose/) and add it to the PR description
+[DEMO LINK](https://Igor-hrm.github.io/react_decompose/)
+
+---
+
+## Sobre o projeto
+
+Esse projeto foi desenvolvido durante meus estudos em React.
+O objetivo principal foi pegar uma aplicação com tudo concentrado e **quebrar em componentes**, melhorando a organização e a leitura do código.
+
+Aqui trabalhei bastante a separação de responsabilidades e a estrutura do projeto.
+
+---
+
+## Tecnologias usadas
+
+- React
+- JavaScript
+- CSS
+- Vite
+
+---
+
+## O que foi feito
+
+- Divisão da interface em componentes
+- Organização de arquivos e pastas
+- Estilização separada por componente
+- Ajustes para deixar o código mais legível e fácil de manter
+- Deploy da aplicação
+
+---
+
+## Aprendizados
+
+Com esse projeto, pratiquei principalmente:
+
+- Componentização no React
+- Organização de projetos front-end
+- Leitura e refatoração de código
+- Uso de Git com branch de desenvolvimento (`develop`)
+
+---
+
+## Rodando o projeto localmente
+
+```bash
+git clone https://github.com/Igor-hrm/react_decompose.git
+cd react_decompose
+npm install
+npm run dev
+```
