@@ -1,4 +1,5 @@
 import './Header.css';
+
 import Navigation from './Navigation/Navigation';
 
 const Header = () => {
@@ -9,5 +10,6 @@ const Header = () => {
     </header>
   );
 };
+
 
 export default Header;
