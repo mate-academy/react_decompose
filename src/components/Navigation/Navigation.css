@@ -1,0 +1,14 @@
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}
