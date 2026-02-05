@@ -15,8 +15,8 @@
     color: #333;
 
     &:not(:first-child) {
-    margin-top: 0.7em;
-  }
+      margin-top: 0.7em;
+    }
   }
 }
 
@@ -25,5 +25,11 @@
     margin: 3.5em auto 0;
     padding: 2em;
     margin-bottom: 78.4px;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
   }
 }
