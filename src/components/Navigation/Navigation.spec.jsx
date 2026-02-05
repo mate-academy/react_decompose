@@ -21,6 +21,10 @@ describe('Navigation component', () => {
 
   it('should have correct styles', () => {
     cy.get('.navigation__link').should('have.css', 'opacity', '0.7');
-    cy.get('.navigation__link').should('have.css', 'text-decoration', 'none');
+    cy.get('.navigation__link').should(
+      'have.css',
+      'text-decoration-line',
+      'none',
+    );
   });
 });
