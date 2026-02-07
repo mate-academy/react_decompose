@@ -30,6 +30,14 @@
   transition: opacity 0.2s ease-in-out;
 }
 
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .navigation__link:hover,
 .navigation__link:focus {
   opacity: 1;
