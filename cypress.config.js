@@ -18,6 +18,7 @@ module.exports = defineConfig({
   },
   component: {
     specPattern: 'src/**/*.spec.{js,ts,jsx,tsx}',
+    supportFile: 'src/cypress/support/component.js',
     devServer: {
       framework: 'react',
       bundler: 'vite',
