@@ -1,3 +1,5 @@
+import './Navigation.css';
+
 const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
