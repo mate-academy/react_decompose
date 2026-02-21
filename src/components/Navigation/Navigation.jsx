@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import './Navigation.css';
 
 function Navigation() {
