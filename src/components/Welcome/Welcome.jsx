@@ -1,10 +1,6 @@
 // import a css file containig welcome styles
 import React from 'react';
-
-// Importing the CSS file
 import './Welcome.css';
-
-// Create a Welcome function returning the HTML of welcome block
 
 const Welcome = () => {
   return (
