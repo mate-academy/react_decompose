@@ -6,4 +6,4 @@ export const Header = () => {
   </header>;
 };
 
-// Add a default export statement for Header component to use it in the other files
+export default Header;
