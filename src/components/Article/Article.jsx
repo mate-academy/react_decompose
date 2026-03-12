@@ -1,5 +1,31 @@
-// import a css file containig article styles
+import './Article.css';
 
-// Create an Article function returning the HTML of article block
+function Article() {
+  return (
+    <article className="article">
+      <h1 className="article__title">Headline</h1>
 
-// Add a default export statement for Article component to use it in the other files
+      <p className="article__paragraph">
+        In elementum lorem eget est euismod ornare...
+      </p>
+
+      <p className="article__paragraph">
+        In ac nisi lacus. Fusce est dolor...
+      </p>
+
+      <p className="article__paragraph">
+        Donec arcu elit, euismod vel lobortis...
+      </p>
+
+      <p className="article__paragraph">
+        Cras egestas tempor nibh...
+      </p>
+
+      <p className="article__paragraph">
+        Pellentesque habitant morbi tristique...
+      </p>
+    </article>
+  );
+}
+
+export default Article;
