@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import Welcome from './components/Welcome/Welcome';
 // Move each BEM block to a separate component (file) and import them here
 
 function App() {
   return (
     <main className="app">
-      <section className="welcome">
+      {/* <section className="welcome">
         <span className="welcome__text">Sticky Header!</span>
-      </section>
+      </section> */}
+      <Welcome />
       <header className="header">
         <h1 className="header__title">Site Name</h1>
         <nav className="navigation">
