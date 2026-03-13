@@ -13,9 +13,9 @@ function Article() {
 
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
-        pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
-        nibh. Mauris molestie, urna accumsan ornare semper, augue nibh posuere
-        lorem, vitae feugiat sem magna eget massa.
+        pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
+        Mauris molestie, urna accumsan ornare semper, augue nibh posuere lorem,
+        vitae feugiat sem magna eget massa.
       </p>
 
       <p className="article__paragraph">
@@ -24,8 +24,8 @@ function Article() {
       </p>
 
       <p className="article__paragraph">
-        Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor.
-        Cras congue, massa nec sagittis mollis, dui felis ultrices magna.
+        Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
+        congue, massa nec sagittis mollis, dui felis ultrices magna.
       </p>
 
       <p className="article__paragraph">
