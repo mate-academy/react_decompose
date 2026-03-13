@@ -10,7 +10,7 @@ function App() {
         <span className="welcome__text">Sticky Header!</span>
       </section> */}
       <Welcome />
-      <header className="header">
+      {/* <header className="header">
         <h1 className="header__title">Site Name</h1>
         <nav className="navigation">
           <a className="navigation__link" href="#about">
@@ -23,7 +23,7 @@ function App() {
             Contact
           </a>
         </nav>
-      </header>
+      </header> */}
       <article className="article">
         <h1 className="article__title">Headline</h1>
         <p className="article__paragraph">
