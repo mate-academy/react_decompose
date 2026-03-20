@@ -1,3 +1,7 @@
+.navigation {
+  display: block;
+}
+
 .navigation__link {
   display: inline-block;
 
