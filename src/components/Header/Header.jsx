@@ -4,7 +4,7 @@ import './Header.css';
 import Nav from '../Nav/Nav';
 
 // Create a Header function returning the HTML of header block
-export const Header = () => (
+const Header = () => (
   <header className="header">
     <h1 className="header__title">Site Name</h1>
     <Nav />
