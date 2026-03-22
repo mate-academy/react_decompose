@@ -1,8 +1,4 @@
 import './App.css';
-import './components/Article/Article.css';
-import './components/Header/Header.css';
-import './components/Navigation/Navigation.css';
-import './components/Welcome/Welcome.css';
 // Move each BEM block to a separate component (fand import them here);
 
 function App() {
