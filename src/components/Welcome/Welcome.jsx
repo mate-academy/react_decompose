@@ -4,9 +4,9 @@ import './Welcome.css';
 // Create a Welcome function returning the HTML of welcome block
 const Welcome = () => {
   return (
-    <div className="welcome">
+    <section className="welcome">
       <span className="welcome__text">Sticky Header!</span>
-    </div>
+    </section>
   );
 };
 
