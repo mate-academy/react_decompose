@@ -1,1 +1,32 @@
+.header {
+  position: sticky;
+  font-size: 140%;
+  width: 100%;
+  opacity: 0.7;
+  padding: 1em;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s ease-in-out;
+  text-align: center;
+  display: flex;
+ 
+}
+
+@media (min-width: 500px) {
+  .header {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.header__title {
+  font-weight: 600;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+}
+
 /* Put header styles here */
