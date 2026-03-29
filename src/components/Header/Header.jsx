@@ -1,7 +1,8 @@
-// import a css file containig header styles
-import Navigation from '../Navigation/Navigation';
+import React from 'react';
+
 import './Header.css';
-// Create a Header function returning the HTML of header block
+import Navigation from '../Navigation/Navigation';
+
 function Header() {
   return (
     <header className="header">
@@ -12,5 +13,3 @@ function Header() {
 }
 
 export default Header;
-
-// Add a default export statement for Header component to use it in the other files
