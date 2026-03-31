@@ -4,7 +4,7 @@ import './Article.css';
 // Create an Article function returning the HTML of article block
 const Article = () => (
   <article className="article">
-    <h1 className="article__title">Headline</h1>
+    <h2 className="article__title">Headline</h2>
     <p className="article__paragraph">
       In elementum lorem eget est euismod ornare. Phasellus sit amet
       pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquot Mauris
