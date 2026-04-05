@@ -2,8 +2,16 @@ const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://localhost:5173/',
     specPattern: 'cypress/integration/**/*.spec.{js,ts,jsx,tsx}',
+  },
+  component: {
+    specPattern: 'src/components/**/*.spec.jsx',
+    supportFile: false,
+    devServer: {
+      framework: 'react',
+      bundler: 'vite',
+    },
   },
   video: true,
   viewportHeight: 1920,
@@ -15,12 +23,5 @@ module.exports = defineConfig({
     overwrite: false,
     html: false,
     json: true,
-  },
-  component: {
-    specPattern: 'src/**/*.spec.{js,ts,jsx,tsx}',
-    devServer: {
-      framework: 'react',
-      bundler: 'vite',
-    },
   },
 });

@@ -1,6 +1,7 @@
 1. [CODE STYLE] - Don't overuse empty lines between components.
 
 BAD EXAMPLE:
+
 ```
 <A />
 
@@ -13,6 +14,7 @@ BAD EXAMPLE:
 ```
 
 GOOD EXAMPLE:
+
 ```
 <A />
 <B />
@@ -21,4 +23,3 @@ GOOD EXAMPLE:
 
 2. [PROJECT STRUCTURE] - create separate folder per component, where you could put all files(styles, components, and so on)
 3. [GIT KNOWLEDGE] - check if you added ALL your files to git.
-

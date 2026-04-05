@@ -1,8 +1,23 @@
 import React from 'react';
 import './App.css';
-// Move each BEM block to a separate component (file) and import them here
+import Header from './components/Header/Header';
+import Navigation from './components/Navigation/Navigation';
+import Welcome from './components/Welcome/Welcome';
+import Article from './components/Article/Article';
 
-function App() {
+export default function App() {
+  return (
+    <main className="app">
+      <Welcome />
+      <Header>
+        <Navigation />
+      </Header>
+      <Article />
+    </main>
+  );
+}
+
+export function StaticAppDemo() {
   return (
     <main className="app">
       <section className="welcome">
@@ -27,16 +42,9 @@ function App() {
         <p className="article__paragraph">
           In elementum lorem eget est euismod ornare. Phasellus sit amet
           pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam
-          nibh. Mauris molestie, urna accumsan ornare semper, augue nibh posuere
-          lorem, vitae feugiat sem magna eget massa. Vivamus quis tincidunt
-          dolor. Fusce efficitur, orci non vestibulum consequat, lectus turpis
-          bibendum odio, in efficitur leo felis sed justo. Fusce commodo iaculis
-          orci, quis imperdiet urna. Sed mollis facilisis lacus non condimentum.
-          Nunc efficitur massa non neque elementum semper. Vestibulum lorem
-          arcu, tincidunt in quam et, feugiat venenatis augue. Donec sed
-          tincidunt tellus, a facilisis magna. Proin sit amet viverra nibh,
-          bibendum gravida felis. Vivamus ut nunc id mauris posuere
-          pellentesque. Praesent tincidunt id odio id feugiat.
+          nibh. Mauris molestie, urna accumsan ornare semper,bibendum gravida
+          felis. Vivamus ut nunc id mauris posuere pellentesque. Praesent
+          tincidunt id odio id feugiat.
         </p>
         <p className="article__paragraph">
           In ac nisi lacus. Fusce est dolor, tincidunt ut bibendum vitae,
@@ -84,5 +92,3 @@ function App() {
     </main>
   );
 }
-
-export default App;

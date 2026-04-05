@@ -1,0 +1,13 @@
+
+.navigation__link {
+  margin: 0 1rem;
+  font-weight: bold;
+  color: #007acc;
+  text-decoration: none;
+}
+
+.navigation__link:hover {
+  text-decoration: underline;
+}
+
+
