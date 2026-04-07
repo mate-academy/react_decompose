@@ -21,4 +21,3 @@ describe('Welcome component', () => {
     cy.get('.welcome__text').should('have.css', 'text-align', 'center');
   });
 });
-
