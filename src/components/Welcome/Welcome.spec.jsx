@@ -22,4 +22,3 @@ describe('Welcome component', () => {
   });
 });
 
-

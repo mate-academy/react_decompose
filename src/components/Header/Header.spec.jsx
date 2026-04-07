@@ -35,4 +35,3 @@ describe('Header component', () => {
     cy.get('.header').should('have.css', 'display', 'flex');
   });
 });
-
