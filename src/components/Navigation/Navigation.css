@@ -1,8 +1,8 @@
 .navigation__link {
+  opacity: 0.7;
   display: inline-block;
   outline: none;
   text-decoration: none;
-  opacity: 0.7;
   padding: 0 0.5em;
   color: black;
   transition: opacity 0.2s ease-in-out;

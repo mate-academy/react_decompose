@@ -1,7 +1,7 @@
 import './Navigation.css';
 
 function Navigation() {
-  return <></>;
+  return <nav className="navigation" />;
 }
 
 export default Navigation;

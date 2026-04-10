@@ -8,6 +8,7 @@ import Navigation from './components/Navigation/Navigation';
 function App() {
   return (
     <main className="app">
+      <Navigation />
       <Welcome />
       <Header />
       <Article />
