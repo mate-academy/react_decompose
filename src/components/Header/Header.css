@@ -1,1 +1,54 @@
-/* Put header styles here */
+.header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 1em;
+
+  font-size: 140%;
+  color: #fff;
+  text-align: center;
+
+  background: linear-gradient(90deg, #ff6347, #fc0); /* gradiente chamativo */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* sombra para destacar */
+
+  transition: all 0.3s ease-in-out;
+}
+
+/* Efeito ao rolar: diminui opacidade */
+.header.scrolled {
+  opacity: 0.9;
+  backdrop-filter: blur(4px);
+}
+
+.header__title {
+  display: inline;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover no título */
+.header__title:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 12px rgba(255,255,255,0.8);
+}
+
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+}

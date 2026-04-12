@@ -1,1 +1,58 @@
-/* Put welcome styles here */
+.welcome {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  color: #fff;
+
+  background: linear-gradient(135deg, coral, tomato);
+
+  animation: background-pulse 8s infinite alternate;
+}
+
+.welcome__text {
+  margin: 0;
+
+  font-size: clamp(2rem, 8vw, 5rem);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+
+  transition: transform 0.3s ease, color 0.3s ease;
+  animation: fadeInUp 1.2s ease-out;
+}
+
+/* Hover: aumenta e muda cor */
+.welcome__text:hover {
+  transform: scale(1.1);
+  color: #ffe066;
+}
+
+/* Animação de entrada */
+@keyframes fade-in-up {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Animação de fundo pulsando */
+@keyframes background-pulse {
+  0% {
+    background: linear-gradient(135deg, coral, tomato);
+  }
+  50% {
+    background: linear-gradient(135deg, tomato, orange);
+  }
+  100% {
+    background: linear-gradient(135deg, coral, tomato);
+  }
+}
