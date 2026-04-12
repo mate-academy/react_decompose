@@ -1,17 +1,21 @@
 .header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+
   width: 100%;
   padding: 1em;
+
   font-size: 140%;
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(90deg, #ff6347, #ffcc00); /* gradiente chamativo */
   color: #fff;
-  transition: all 0.3s ease-in-out;
   text-align: center;
+
+  background: linear-gradient(90deg, #ff6347, #fc0); /* gradiente chamativo */
   box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* sombra para destacar */
-  z-index: 1000;
+
+  transition: all 0.3s ease-in-out;
 }
 
 /* Efeito ao rolar: diminui opacidade */
@@ -21,13 +25,16 @@
 }
 
 .header__title {
-  font-weight: 700;
   display: inline;
+
   margin: 0;
   padding: 0;
+
   font-size: inherit;
-  letter-spacing: 1px;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 1px;
+
   transition: transform 0.3s ease, text-shadow 0.3s ease;
 }
 
@@ -39,9 +46,9 @@
 
 @media (min-width: 500px) {
   .header {
-    text-align: left;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    text-align: left;
   }
 }

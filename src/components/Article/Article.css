@@ -1,11 +1,14 @@
 .article {
+  max-width: 800px;
   margin: 5em auto 0;
   padding: 2em;
-  font-size: 1.2rem;
-  max-width: 800px;
-  background: linear-gradient(135deg, #ffe066, #2575fc);
   border-radius: 12px; /* bordas arredondadas */
+
+  font-size: 1.2rem;
+
+  background: linear-gradient(135deg, #ffe066, #2575fc);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* sombra mais suave e profunda */
+
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -17,8 +20,8 @@
 
 .article__paragraph {
   margin: 0;
+  font-family: Georgia, serif; /* tipografia mais elegante */
   line-height: 1.6; /* melhora a legibilidade */
-  font-family: "Georgia", serif; /* tipografia mais elegante */
 }
 
 .article__paragraph:not(:first-child) {

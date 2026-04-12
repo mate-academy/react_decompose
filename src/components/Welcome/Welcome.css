@@ -1,22 +1,29 @@
 .welcome {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(135deg, coral, tomato);
-  color: #fff;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  color: #fff;
+
+  background: linear-gradient(135deg, coral, tomato);
+
+  animation: background-pulse 8s infinite alternate;
 }
 
 .welcome__text {
   margin: 0;
+
   font-size: clamp(2rem, 8vw, 5rem);
-  text-align: center;
-  line-height: 1.2;
   font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
-  animation: fadeInUp 1.2s ease-out;
+
   transition: transform 0.3s ease, color 0.3s ease;
+  animation: fadeInUp 1.2s ease-out;
 }
 
 /* Hover: aumenta e muda cor */
@@ -26,19 +33,19 @@
 }
 
 /* Animação de entrada */
-@keyframes fadeInUp {
+@keyframes fade-in-up {
   from {
-    opacity: 0;
     transform: translateY(40px);
+    opacity: 0;
   }
   to {
-    opacity: 1;
     transform: translateY(0);
+    opacity: 1;
   }
 }
 
 /* Animação de fundo pulsando */
-@keyframes backgroundPulse {
+@keyframes background-pulse {
   0% {
     background: linear-gradient(135deg, coral, tomato);
   }
@@ -48,8 +55,4 @@
   100% {
     background: linear-gradient(135deg, coral, tomato);
   }
-}
-
-.welcome {
-  animation: backgroundPulse 8s infinite alternate;
 }
