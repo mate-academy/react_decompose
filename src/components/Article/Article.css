@@ -21,12 +21,12 @@
 @media (min-width: 500px) {
   .article {
     margin: 3.5em auto 0;
-    padding: 2em 2em 2em 3.36rem;
+    padding: 2em;
   }
 }
 
 @media (min-width: 800px) {
   .article {
-    margin: 3.5em auto 5.88rem;
+    margin: 3.5em auto;
   }
 }
