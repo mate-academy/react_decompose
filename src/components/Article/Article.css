@@ -1,1 +1,40 @@
-/* Put article styles here */
+.article {
+  margin: 5em auto 0;
+  padding: 2em;
+  font-size: 1.2rem;
+  max-width: 800px;
+  background: linear-gradient(135deg, #ffe066, #2575fc);
+  border-radius: 12px; /* bordas arredondadas */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* sombra mais suave e profunda */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito de destaque ao passar o mouse */
+.article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.article__paragraph {
+  margin: 0;
+  line-height: 1.6; /* melhora a legibilidade */
+  font-family: "Georgia", serif; /* tipografia mais elegante */
+}
+
+.article__paragraph:not(:first-child) {
+  margin-top: 1em;
+}
+
+/* Responsividade */
+@media (min-width: 500px) {
+  .article {
+    margin: 2.5em auto 0;
+    padding: 2.5em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}
