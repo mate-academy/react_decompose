@@ -1,1 +1,42 @@
 /* Put article styles here */
+.article {
+  max-width: 800px;
+  margin: 5em auto 0;
+  padding: 1.5em;
+  border-top: 4px solid coral;
+  border-radius: 8px;
+
+  font-size: 140%;
+
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  transition: transform 0.3s, ease, box-shadow 0.3s ease;
+}
+
+.article:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.article__paragraph {
+  margin: 0;
+  color: navy;
+}
+
+.article__paragraph:not(:first-child) {
+  margin-top: 0.7em;
+}
+
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}

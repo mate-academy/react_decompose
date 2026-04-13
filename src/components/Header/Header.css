@@ -1,1 +1,44 @@
-/* Put header styles here */
+/* Header styles */
+.header {
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 1em;
+
+  font-size: 140%;
+  text-align: center;
+
+  background: linear-gradient(to right, coral, navy);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.header:hover {
+  color: #FFD700;
+  background-color: linear-gradient(to right, #FF7F50, #1E90FF);
+}
+
+.header__title {
+  display: inline;
+
+  margin: 0;
+  padding: 0;
+
+  font-size: inherit;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
