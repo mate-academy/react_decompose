@@ -11,6 +11,10 @@
   font-size: 140%;
   text-align: center;
 
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -22,6 +26,11 @@
 
   font-size: inherit;
   font-weight: 600;
+  color: #333;
+}
+
+.header:hover {
+  background: #e9ecef;
 }
 
 @media (min-width: 500px) {
