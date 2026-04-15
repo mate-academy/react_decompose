@@ -1,7 +1,7 @@
 @media (min-width: 500px) {
   .header {
     text-align: left;
-    display: flex;
+    display: block;
     justify-content: space-between;
   }
 }
@@ -9,7 +9,7 @@
 .header {
   width: 100%;
   padding: 1em;
-  font-size: 140%;
+  font-size: 22.4px;
   position: sticky;
   top: 0;
   left: 0;
