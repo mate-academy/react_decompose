@@ -1,10 +1,10 @@
 import React from 'react';
 import { mount } from '@cypress/react18';
-import TestdArticle from './Article';
+import TestArticle from './Article';
 
 describe('Article component', () => {
   beforeEach(() => {
-    mount(<TestdArticle />);
+    mount(<TestArticle />);
   });
 
   it('should contain Headline', () => {

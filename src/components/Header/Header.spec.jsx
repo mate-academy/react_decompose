@@ -32,6 +32,7 @@ describe('Header component', () => {
   });
 
   it('should have styles added with media', () => {
+    cy.viewport(768, 600);
     cy.get('.header').should('have.css', 'display', 'flex');
   });
 });
