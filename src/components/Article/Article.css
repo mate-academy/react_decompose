@@ -1,1 +1,54 @@
 /* Put article styles here */
+
+/* .article {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 78.4px;
+  padding: 1rem;
+  padding-left: 44.8px;
+} */
+
+.article {
+  max-width: 800px;
+  margin: 5em auto 0;
+  padding: 1em;
+
+  font-size: 140%;
+
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
+}
+
+.article__paragraph {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: rgb(51, 51, 51);
+}
+
+/* .article__paragraph {
+  margin: 0;
+  color: #333;
+} */
+
+.article__paragraph:not(:first-child) {
+  margin-top: 0.7em;
+}
+
+.article__title {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}
