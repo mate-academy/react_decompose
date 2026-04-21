@@ -22,3 +22,9 @@
   font-size: inherit;
   font-weight: 600;
 }
+
+@media (min-width: 500px) {
+  .header {
+    display: block;
+  }
+}
