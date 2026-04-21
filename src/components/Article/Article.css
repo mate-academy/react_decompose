@@ -3,7 +3,7 @@
   margin: 5em auto 0;
   padding: 1em;
 
-  font-size: 140%;
+  font-size: 24px;
 
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
@@ -22,13 +22,13 @@
   .article {
     margin: 3.5em auto 0;
     padding: 2em;
-    font-size: 22.4px;
   }
 }
 
 @media (min-width: 800px) {
   .article {
     margin: 3.5em auto;
+    font-size: 140%;
   }
 }
 

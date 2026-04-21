@@ -4,6 +4,8 @@
   right: 0;
   left: 0;
 
+  display: block;
+
   width: 100%;
   padding: 1em;
 
@@ -25,6 +27,8 @@
 
 @media (min-width: 500px) {
   .header {
-    display: block;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
   }
 }
