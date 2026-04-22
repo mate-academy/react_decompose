@@ -7,6 +7,12 @@
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
 }
 
+.article__title {
+  margin-block: 0;
+  text-align: center;
+  font-weight: 700;
+}
+
 .article__paragraph {
   margin: 0;
   color: #333;
