@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@cypress/react18": "^2.0.1",
-    "@mate-academy/scripts": "^1.8.5",
+    "@mate-academy/scripts": "^1.9.12",
     "@mate-academy/stylelint-config": "*",
     "@vitejs/plugin-react": "^4.3.1",
     "cypress": "^13.13.0",
