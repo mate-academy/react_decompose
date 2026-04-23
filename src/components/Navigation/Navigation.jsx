@@ -5,13 +5,19 @@ function Navigation() {
     <nav className="navigation">
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="/" className="navigation__link">
+            Home
+          </a>
         </li>
         <li>
-          <a href="/about">About</a>
+          <a href="/about" className="navigation__link">
+            About
+          </a>
         </li>
         <li>
-          <a href="/contact">Contact</a>
+          <a href="/contact" className="navigation__link">
+            Contact
+          </a>
         </li>
       </ul>
     </nav>
