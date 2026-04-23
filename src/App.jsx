@@ -8,7 +8,7 @@ import ArticleComponent from './components/Article/Article';
 function App() {
   return (
     <main className="app">
-      <Welcome />
+      <WelcomeComponent />
       <HeaderComponent />
       <ArticleComponent />
     </main>
