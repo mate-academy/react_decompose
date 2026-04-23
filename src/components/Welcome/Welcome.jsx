@@ -1,13 +1,12 @@
-import './Welcome.css'
+import './Welcome.css';
 
 export function Welcome() {
   return (
     <section className="welcome">
-        <span className="welcome__text">Sticky Header!</span>
-      </section>
-  )
+      <span className="welcome__text">Sticky Header!</span>
+    </section>
+  );
 }
 
-
 // Add a default export statement for Welcome component to use it in the other files
-export default Welcome
+export default Welcome;

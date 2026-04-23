@@ -1,8 +1,7 @@
-import './Navigation.css'
+import './Navigation.css';
 
 export function Navigation() {
   return (
-
     <nav className="navigation">
       <a className="navigation__link" href="#about">
         About
@@ -14,6 +13,7 @@ export function Navigation() {
         Contact
       </a>
     </nav>
-  )
+  );
 }
-export default Navigation
+
+export default Navigation;
