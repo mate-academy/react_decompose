@@ -1,7 +1,7 @@
 import React from 'react';
 import './Article.css';
 
-export const Article = () => (
+const Article = () => (
   <article className="article">
     <h2 className="article__title">Headline</h2>
     <p className="article__paragraph">
