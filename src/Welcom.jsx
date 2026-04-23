@@ -1,5 +1,3 @@
-import './Welcome.css';
-
 function Welcome() {
   return (
     <section className="welcome">
