@@ -2,7 +2,7 @@
 
 .article {
   margin: 5em auto 3.5em;
-  padding: 2em;
+  padding: 1em;
   font-size: 140%;
   max-width: 800px;
   background: white;
@@ -18,7 +18,13 @@
   margin-top: 0.7em;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  .article {
+    padding: 2em;
+  }
+}
+
+@media (max-width: 767px) {
   .article {
     margin: 3em auto 0;
     padding: 1.2em;
@@ -26,6 +32,7 @@
     max-width: 100%;
   }
 }
+
 @media (max-width: 480px) {
   .article {
     margin: 1.5em auto 0;
