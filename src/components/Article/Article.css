@@ -1,8 +1,8 @@
 /* Put article styles here */
 
 .article {
-  margin: 5em auto 0;
-  padding: 1em;
+  margin: 5em auto 3.5em;
+  padding: 2em;
   font-size: 140%;
   max-width: 800px;
   background: white;
@@ -16,4 +16,25 @@
 
 .article__paragraph:not(:first-child) {
   margin-top: 0.7em;
+}
+
+@media (max-width: 768px) {
+  .article {
+    margin: 3em auto 0;
+    padding: 1.2em;
+    font-size: 120%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .article {
+    margin: 1.5em auto 0;
+    padding: 0.8em;
+    font-size: 100%;
+    max-width: 100%;
+  }
+
+  .article__paragraph:not(:first-child) {
+    margin-top: 0.5em;
+  }
 }
