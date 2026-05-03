@@ -6,7 +6,7 @@ import './Article.css';
 // Add a default export statement for Article component to use it in the other files
 const Article = () => {
   return (
-    <article className="article">
+    <article className="article article__title">
       <h2 className="article__title">Headline</h2>
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
