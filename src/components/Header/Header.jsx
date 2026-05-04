@@ -1,7 +1,7 @@
 // import a css file containig header styles
 import React from 'react';
 import './Header.css';
-import Navigation from '../Navigation/Navigation';  
+import Navigation from '../Navigation/Navigation';
 
 // Create a Header function returning the HTML of header block
 
