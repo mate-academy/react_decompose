@@ -5,7 +5,7 @@ import Navegation from '../Navegation/Navegation';
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__title">Nome do Site</h1>
+      <h1 className="header__title">Site Name</h1>
       <Navegation />
     </header>
   );
