@@ -1,22 +1,14 @@
-function App() {
+import React from 'react';
+import './Header.css';
+import Navegation from '../Navegation/Navegation';
+
+function Header() {
   return (
-    <main className="app">
-      <header className="header">
-        <h1 className="header__title">Site Name</h1>
-        <nav className="navigation">
-          <a className="navigation__link" href="#about">
-            About
-          </a>
-          <a className="navigation__link" href="#services">
-            Services
-          </a>
-          <a className="navigation__link" href="#contact">
-            Contact
-          </a>
-        </nav>
-      </header>
-    </main>
+    <header className="header">
+      <h1 className="header__title">Nome do Site</h1>
+      <Navegation />
+    </header>
   );
 }
 
-export default App;
+export default Header;
