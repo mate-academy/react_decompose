@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-
 import './Article.css';
 
 function Article() {
