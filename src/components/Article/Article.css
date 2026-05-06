@@ -1,6 +1,6 @@
 .article {
-  margin: 5em auto 0;
-  padding: 1em;
+  margin: 5em auto 3.5em;
+  padding: 1em 1em 1em 2em;
   font-size: 140%;
   max-width: 800px;
   background: white;
