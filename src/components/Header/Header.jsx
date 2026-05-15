@@ -1,5 +1,21 @@
-// import a css file containig header styles
+// import styles for Header component
+import './Header.css';
 
-// Create a Header function returning the HTML of header block
+// import Navigation component
+import Navigation from '../Navigation/Navigation';
 
-// Add a default export statement for Header component to use it in the other files
+// Create Header component
+function Header() {
+  return (
+    <header className="header">
+      {/* Website title */}
+      <h1 className="header__title">Site Name</h1>
+
+      {/* Navigation block */}
+      <Navigation />
+    </header>
+  );
+}
+
+// export Header component
+export default Header;
