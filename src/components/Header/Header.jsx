@@ -1,6 +1,8 @@
 // import a css file containig header styles
-import Navigation from './Navigation';
+
 import './Header.css';
+
+import Navigation from '../Navigation/Navigation';
 
 // Create a Header function returning the HTML of header block
 
