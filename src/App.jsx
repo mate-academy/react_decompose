@@ -12,6 +12,7 @@ function App() {
     <main className="app">
       <Header />
       <Welcome />
+      <Article />
     </main>
   );
 }
