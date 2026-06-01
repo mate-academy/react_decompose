@@ -4,6 +4,7 @@ import './App.css';
 import Welcome from './components/Welcome/Welcome';
 import Header from './components/Header/Header';
 import Article from './components/Article/Article';
+import Navigation from './components/Navigation/Navigation';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Welcome />
       <Header />
       <Article />
+      <Navigation />
     </main>
   );
 }
