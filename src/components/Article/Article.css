@@ -1,1 +1,41 @@
 /* Put article styles here */
+.article {
+  max-width: 800px;
+  margin: 5em auto 0; /* Change from 2rem auto */
+  padding: 1em; /* Change from 0 2rem and 44.8px */
+  font-size: 140%; /* Add this from original */
+  background: white; /* Add this from original */
+  box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px; /* Add this from original */
+}
+
+.article__title {
+  color: #333;
+
+  /* Remove margin-bottom if it was not in original App.css */
+}
+
+.article__paragraph {
+  margin: 0; /* Change from margin-bottom: 1rem; */
+  color: rgb(51, 51, 51);
+
+  /* Remove line-height if it was not in original App.css */
+}
+
+.article__paragraph:not(:first-child) {
+  /* Add this selector */
+  margin-top: 0.7em; /* Add this from original */
+}
+
+/* Add the media queries from App.css for article */
+@media (min-width: 500px) {
+  .article {
+    margin: 3.5em auto 0;
+    padding: 2em;
+  }
+}
+
+@media (min-width: 800px) {
+  .article {
+    margin: 3.5em auto;
+  }
+}
