@@ -1,1 +1,16 @@
-/* Put welcome styles here */
+.welcome{
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(255, 127, 80);
+  border-radius: 8px;
+  margin: 20px auto;
+}
+
+.welcome__title {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.welcome__text {
+  color: #fff;
+}
