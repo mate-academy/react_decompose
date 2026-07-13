@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 // Move each BEM block to a separate component (file) and import them here
+import Article from './components/Article/Article';
+import { Header } from './components/Header/Header';
+import Welcom from './components/Welcome/Welcome';
 
 function App() {
   return (
@@ -81,6 +84,9 @@ function App() {
           diam.
         </p>
       </article>
+      <Article />
+      <Header />
+      <Welcom />
     </main>
   );
 }
