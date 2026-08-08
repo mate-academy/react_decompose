@@ -1,11 +1,11 @@
 import './Header.css';
-import Navigation from '../Navigation/Navigation';
+import NavigationBlock from '../Navigation/Navigation';
 
 export function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
-      <Navigation />
+      <NavigationBlock />
     </header>
   );
 }
