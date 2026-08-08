@@ -28,3 +28,5 @@
     margin: 3.5em auto;
   }
 }
+
+@media (min-width: 768px) { .article { font-size: 44.8px; } }
