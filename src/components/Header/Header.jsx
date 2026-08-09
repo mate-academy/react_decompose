@@ -1,5 +1,11 @@
-// import a css file containig header styles
+import './Header.css';
 
-// Create a Header function returning the HTML of header block
+const Header = () => {
+  return (
+    <header>
+      {/* Header content */}
+    </header>
+  );
+};
 
-// Add a default export statement for Header component to use it in the other files
+export default Header;
