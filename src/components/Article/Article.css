@@ -29,4 +29,8 @@
   }
 }
 
-@media (min-width: 768px) { .article { font-size: 44.8px; } }
+@media (min-width: 768px) {
+  .article {
+    font-size: 44.8px;
+  }
+}
