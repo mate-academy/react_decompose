@@ -8,7 +8,7 @@ describe('Article component', () => {
   });
 
   it('should contain Headline', () => {
-    cy.get('h1').should('have.text', 'Headline');
+    cy.get('h2').should('have.text', 'Headline');
   });
 
   it('should contain 5 paragraphs', () => {
