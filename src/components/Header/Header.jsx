@@ -1,7 +1,7 @@
 import './Header.css';
 import Navigation from './Navigation/Navigation';
 
-function Header() {
+export default function Header() {
   return (
     <header className="header">
       <h1 className="header__title">Site Name</h1>
@@ -9,5 +9,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;

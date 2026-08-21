@@ -1,6 +1,6 @@
 import './Article.css';
 
-function Article() {
+export default function Article() {
   return (
     <article className="article">
       <h2 className="article__title">Headline</h2>
@@ -62,5 +62,3 @@ function Article() {
     </article>
   );
 }
-
-export default Article;

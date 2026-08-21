@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-function Navigation() {
+export default function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
@@ -15,5 +15,3 @@ function Navigation() {
     </nav>
   );
 }
-
-export default Navigation;
