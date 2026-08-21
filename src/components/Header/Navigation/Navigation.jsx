@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-export function Navigation() {
+function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">
