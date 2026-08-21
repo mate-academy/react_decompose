@@ -7,8 +7,8 @@ const Article = () => {
       <h2 className="article__title">Headline</h2>
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
-        pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam Mauris
-        Mauris molestie, urna accumsan ornare semper, augue nibh posuere vitae
+        pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
+        Mauris molestie, urna accumsan ornare semper, augue nibh posuere lorem,
         vitae feugiat sem magna eget massa. Vivamus quis tincidunt dolor. Fusce
         efficitur, orci non vestibulum consequat, lectus turpis bibendum odio,
         in efficitur leo felis sed justo. Fusce commodo iaculis orci, quis
@@ -29,12 +29,12 @@ const Article = () => {
       </p>
       <p className="article__paragraph">
         Donec arcu elit, euismod vel lobortis eu, fringilla sit amet dolor. Cras
-        Cras congue, massa nec sagittis mollis, dui felis ultrices magna,
-        tincidunt finibus lorem quam in sem. Morbi odio turpis, pulvinar sit
-        amet vulputate quis, ultricies eu libero. Donec ac maximus neque, nec
-        maximus nibh. Morbi rhoncus convallis urna, accumsan porta lorem
-        hendrerit in. Cras eget nisl dui. Morbi faucibus nisi eget ipsum
-        vulputate. Mauris nec tincidunt lectus. Aenean ac mi consequat dignissim
+        congue, massa nec sagittis mollis, dui felis ultrices magna, tincidunt
+        finibus lorem quam in sem. Morbi odio turpis, pulvinar sit amet
+        vulputate quis, ultricies eu libero. Donec ac maximus neque, nec maximus
+        nibh. Morbi rhoncus convallis urna, accumsan porta lorem hendrerit in.
+        Cras eget nisl dui. Morbi faucibus nisi eget ipsum semper vulputate.
+        Mauris nec tincidunt lectus. Aenean ac mi consequat velit dignissim
         consectetur. Fusce placerat ac ipsum ac eleifend. Aenean quis faucibus
         ex.
       </p>
@@ -43,7 +43,7 @@ const Article = () => {
         facilisi. In at elit id leo tristique condimentum. Donec at est nulla.
         Mauris egestas magna ut laoreet pretium. Sed ultrices suscipit
         vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Fusce id sapien eros. Vivamus viverra ultricies gravida. Nam urna
+        Fusce id sapien eros. Vivamus viverra ultricies gravida. Nam urna nibh,
         blandit a vulputate at, vehicula non nulla. Aenean ut nulla leo.
         Praesent in ullamcorper est.
       </p>
@@ -56,9 +56,9 @@ const Article = () => {
         dictum. Aliquam erat ligula, fringilla nec suscipit sed, porta vitae
         turpis. Vestibulum rhoncus placerat nulla vitae suscipit. Curabitur
         consectetur ex ut odio tristique vehicula. Ut ligula tortor, tincidunt
-        quis sodales vitae, ornare a turpis. Proin sit amet finibus enim. vitae
-        tempor. Aenean rutrum, libero iaculis interdum vulputate, dui eros
-        vehicula nisi, at interdum enim lacus eu diam.
+        quis sodales vitae, ornare a turpis. Proin sit amet finibus enim. Fusce
+        tempus a neque vitae tempor. Aenean rutrum, libero iaculis interdum
+        vulputate, dui eros vehicula nisi, at interdum enim lacus eu diam.
       </p>
     </article>
   );
