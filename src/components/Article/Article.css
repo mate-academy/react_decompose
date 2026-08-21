@@ -1,1 +1,18 @@
 /* Put article styles here */
+.article {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.article__title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.article__paragraph {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #555;
+}

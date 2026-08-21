@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  gap: 20px;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #333;
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.navigation__link:hover {
+  color: #007bff;
+}
