@@ -8,11 +8,17 @@
 .article__title {
   font-size: 2.5rem;
   margin-bottom: 30px;
-  color: #333;
+  color: rgb(51, 51, 51);
+}
+
+@media (max-width: 768px) {
+  .article__title {
+    font-size: 44.8px;
+  }
 }
 
 .article__paragraph {
   line-height: 1.8;
   margin-bottom: 20px;
-  color: #555;
+  color: rgb(51, 51, 51);
 }
