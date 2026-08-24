@@ -1,6 +1,6 @@
 import './Navigation.css';
 
-export default function NavigationComponent() {
+export default function Navigation() {
   return (
     <nav className="navigation">
       <a className="navigation__link" href="#about">

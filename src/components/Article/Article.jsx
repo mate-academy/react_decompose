@@ -3,7 +3,7 @@
 // Add a default export statement for Article component to use it in the other files
 import './Article.css';
 
-export default function ArticleSection() {
+export default function Article() {
   return (
     <article className="article">
       <h2 className="article__title">Headline</h2>
