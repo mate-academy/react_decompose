@@ -17,7 +17,7 @@
 }
 
 .article__title {
-  font-size: 22.4px;
+  font-size: 22px;
   margin: 0;
   font-weight: 700;
 }
@@ -31,7 +31,7 @@
 
 @media (min-width: 768px) {
   .article__title {
-    font-size: 44.8px;
+    font-size: 44px;
   }
 }
 
