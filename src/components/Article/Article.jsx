@@ -1,8 +1,6 @@
-// import a css file containig article styles
 import './Article.css';
 import React from 'react';
 
-// Create an Article function returning the HTML of article block
 function Article() {
   return (
     <article className="article">
@@ -66,5 +64,4 @@ function Article() {
   );
 }
 
-// Add a default export statement for Article component to use it in the other files
 export default Article;
