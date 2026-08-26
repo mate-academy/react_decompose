@@ -2,6 +2,7 @@
 import './Welcome.css';
 import React from 'react';
 // Create a Welcome function returning the HTML of welcome block
+
 function Welcome() {
   return (
     <section className="welcome">

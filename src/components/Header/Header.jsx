@@ -2,6 +2,7 @@
 import './Header.css';
 import React from 'react';
 import Navigation from '../Navigation/Navigation';
+
 // Create a Header function returning the HTML of header block
 function Header() {
   return (
