@@ -1,7 +1,3 @@
-
-import './Header.css';
-import React from 'react';
-// Create a Header function returning the HTML of header block
 function Header() {
   return (
     <header className="header">

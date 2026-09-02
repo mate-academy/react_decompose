@@ -1,6 +1,3 @@
-import './Welcome.css';
-import React from 'react';
-
 function Welcome() {
   return (
     <section className="welcome">
