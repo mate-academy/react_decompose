@@ -1,1 +1,11 @@
-/* Put welcome styles here */
+.welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: coral;
+}
+
+.welcome__text {
+  text-align: center;
+}
