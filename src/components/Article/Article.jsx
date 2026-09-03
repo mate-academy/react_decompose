@@ -62,6 +62,6 @@ function Article() {
       </p>
     </article>
   );
-};
+}
 
 export default Article;
