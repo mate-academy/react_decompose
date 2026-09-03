@@ -1,8 +1,7 @@
 function Article() {
   return (
     <article className="article">
-      <h2 className="article__title">Headline</h2>Expand commentComment on lines
-      R1 to R8Resolved
+      <h2 className="article__title">Headline</h2>
       <p className="article__paragraph">
         In elementum lorem eget est euismod ornare. Phasellus sit amet
         pellentesque mauris. Aliquam quis malesuada ex. Nullam eu aliquam nibh.
