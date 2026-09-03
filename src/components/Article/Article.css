@@ -1,11 +1,10 @@
 .article {
   margin: 5em auto 0;
   padding: 1em;
-  font-size: 44.8px;
   max-width: 800px;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.05) 0 3px 15px;
-  }
+}
 
 .article__paragraph {
   margin: 0;
@@ -17,13 +16,15 @@
 }
 
 @media (min-width: 500px) {
-    .article {
+  .article {
     margin: 3.5em auto 0;
     padding: 2em;
   }
 }
+
 @media (min-width: 800px) {
   .article {
-  margin: 3.5em auto;
- }
+    margin: 3.5em auto;
+    font-size: 44.8px;
+  }
 }
