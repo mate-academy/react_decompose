@@ -24,13 +24,14 @@
     margin: 3.5em auto 0;
     padding: 2em;
   }
+}
 
-  @media (min-width: 768px) {
-    .article {
-      margin-bottom: 78.4px;
-    }
+@media (min-width: 768px) {
+  .article {
+    margin-bottom: 78.4px;
   }
 }
+
 
 
 
