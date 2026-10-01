@@ -1,0 +1,14 @@
+.navigation__link {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.navigation__link:hover {
+  opacity: 1;
+}
+
+.navigation__link:not(:last-child) {
+  margin-right: 1em;
+}
