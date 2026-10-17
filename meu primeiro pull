@@ -1,0 +1,10 @@
+### 📝 O que este Pull Request faz?
+- [Escreva aqui uma lista curta das principais mudanças que você fez. Ex: Cria a nova tela de cadastro, ajusta o botão de salvar, corrige o erro de validação do e-mail].
+
+### 🛠️ Por que essa mudança é necessária?
+- [Explique o motivo. Ex: Para permitir que novos usuários se registrem no sistema de forma mais simples].
+
+### 🧪 Como testar as alterações?
+1. Abra o projeto no VS Code.
+2. Certifique-se de estar na branch `minha-nova-feature`.
+3. [Explique o passo a passo para testar. Ex: Abra o arquivo index.html no navegador, preencha o formulário e veja se os dados aparecem no console].
