@@ -1,1 +1,8 @@
-/* Put header styles here */
+.header {
+  display: flex;
+  position: sticky;
+}
+
+.header__title {
+  font-weight: 600;
+}
