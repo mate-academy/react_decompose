@@ -1,6 +1,6 @@
 // import a css file containig article styles
 import React from 'react';
-import './Artical.css';
+import './Article.css';
 
 const Article = () => {
   return (
