@@ -22,9 +22,7 @@
 @media (min-width: 500px) {
   .header {
     text-align: left;
-    display: block;
+    display: flex;
     justify-content: space-between;
-
-    /* display: flex; */
   }
 }
