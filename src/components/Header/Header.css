@@ -32,3 +32,10 @@
 .navigation__link:focus {
   opacity: 1;
 }
+@media (min-width: 500px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
